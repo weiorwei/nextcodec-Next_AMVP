@@ -1,0 +1,7 @@
+amvp_mode,label,input_dir,scope,sequences,qps,expected_tasks,selected_enc_logs,selected_dec_logs,all_enc_logs_in_dir,all_dec_logs_in_dir,main_bitstreams_in_dir,oracle_sidecars_in_dir,missing_enc,missing_dec,incomplete_enc,incomplete_dec,dec_without_ok_in_tail,status
+-3,mode -3,/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_-3,common Class B/C/D,13,5,590,590,590,590,590,590,590,0,0,0,0,0,PASS
+-2,mode -2,/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_-2,common Class B/C/D,13,5,590,590,590,765,590,765,765,0,0,0,0,0,PASS
+-1,mode -1,/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_-1,common Class B/C/D,13,5,590,590,590,765,765,765,765,0,0,0,0,0,PASS
+0,mode 0,/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode0,common Class B/C/D,13,5,590,590,590,590,590,590,0,0,0,0,0,0,PASS
+1,mode 1,/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode1,common Class B/C/D,13,5,590,590,590,590,590,590,0,0,0,0,0,0,PASS
+2,mode 2,/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_2,common Class B/C/D,13,5,590,590,590,590,590,590,0,0,0,0,0,0,PASS

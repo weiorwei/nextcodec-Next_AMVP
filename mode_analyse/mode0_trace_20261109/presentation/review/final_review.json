@@ -1,0 +1,77 @@
+{
+  "review_date": "2026-11-09",
+  "status": "PASS",
+  "slides": 12,
+  "visual_review": [
+    "contact_01.jpg (slides1–6)",
+    "contact_02.jpg (slides7–12)"
+  ],
+  "powerpoint_text_and_notes_review": "PASS",
+  "source_csv_data_recomputation": "PASS",
+  "shape_out_of_slide_count": 0,
+  "visible_clipping_or_overlap": "NONE",
+  "content_blockers": [],
+  "critical_definitions": {
+    "F21_zero_motion_vs_explicit_zero_source": "PASS",
+    "F23_vs_history_mask": "PASS",
+    "pool16_with_anchor_p0_separate": "PASS",
+    "full_vs_sample_metrics": "PASS",
+    "query_vs_cu": "PASS (speaker notes)",
+    "baseline_oracle79pct_vs_actual_index_share": "PASS",
+    "oracle_vs_CABAC_BD_rate": "PASS",
+    "unmodeled_F01_08_F15_16": "PASS",
+    "F24_F30_constant_only_current_data": "PASS",
+    "history_age_available_first4_not_latest_full_lut": "PASS"
+  },
+  "independent_recomputed_values": {
+    "slide6_F09_positive_score_mean_gain": -0.733526376917739,
+    "slide6_F09_positive_score_positive_pct": 13.92223464958101,
+    "slide6_F09_positive_score_negative_pct": 22.81971114211134,
+    "slide6_F10_positive_score_mean_gain": -1.0575597229226845,
+    "slide6_F10_positive_score_positive_pct": 10.163299927693917,
+    "slide6_F10_positive_score_negative_pct": 26.15522771671833,
+    "slide8_history_same_availability_pct": 72.94514767932489,
+    "slide8_history_other_availability_pct": 5.729113924050633,
+    "slide8_history_both_availability_pct": 0.7713080168776372
+  },
+  "suggested_fix": "RESOLVED: five text boxes expanded; slide10 axis/ticks moved upward to clear footer.",
+  "limits": [
+    "Preview images are scene renders, not a separate Microsoft PowerPoint/LibreOffice rendering.",
+    "No claim of office-client font substitution testing."
+  ],
+  "reviewed_pptx_sha256": "cbfb1bf0f4176f5a9ce39f88698ea2bfd3af2962986a74710e1e3a005465f043",
+  "minor_layout_suggestions_resolved": [
+    {
+      "slide": 3,
+      "text": "当前尚未做留序列特征消融，因此不制作“32维重要性排名”。",
+      "estimated_height": 0.2768333333,
+      "box_height": 0.27
+    },
+    {
+      "slide": 4,
+      "text": "79.61% 原0/1已达到池内最小码长",
+      "estimated_height": 0.3483333333,
+      "box_height": 0.34
+    },
+    {
+      "slide": 4,
+      "text": "20.39% 可改善",
+      "estimated_height": 0.3208333333,
+      "box_height": 0.32
+    },
+    {
+      "slide": 7,
+      "text": "删除来源后的Oracle平均损失",
+      "estimated_height": 0.3666666667,
+      "box_height": 0.35
+    },
+    {
+      "slide": 7,
+      "text": "单位：估计 bit / query；不是在线选择规则的收益。",
+      "estimated_height": 0.2713333333,
+      "box_height": 0.27
+    }
+  ],
+  "required_text_height_violations": 0,
+  "final_preview_review": "PASS; final contact_02 re-inspected, no clipping or overlap; footer scope labels present."
+}

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "mode_analyse/mode0_trace_20261109/run_analysis.py": {
+      "sha256": "90b8e41775d0000817d13f228e86cafeae739f74a0eb350b2e8f27951b09fa2e",
+      "bytes": 5002
+    },
+    "decisionTree/feature_analysis/sample_trace.py": {
+      "sha256": "3ef9dd778d150acb73c9f8ea3dca1e9a689f2d2a06a85b0ada148b595107f0f7",
+      "bytes": 13960
+    },
+    "decisionTree/feature_analysis/analyze.py": {
+      "sha256": "3462eb404283fcf982ec6d36e015be836c25abf2705578a71552b9c65a99285c",
+      "bytes": 53179
+    },
+    "mode_analyse/mode0_trace_20261109/samples/sampling_manifest.json": {
+      "sha256": "a66bd6e5e8c6c70ec1c8bde03d3e179c8d8778c2601ba0fcc28eec43865d42c8",
+      "bytes": 482743
+    }
+  },
+  "note": "Source logs checked by before/after size and mtime in sampling manifest; full source hashes were not calculated."
+}

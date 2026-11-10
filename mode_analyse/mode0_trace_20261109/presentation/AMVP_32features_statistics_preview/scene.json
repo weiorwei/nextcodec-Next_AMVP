@@ -1,0 +1,5175 @@
+[
+  {
+    "title": "无模板 AMVP：32维特征统计与候选选择",
+    "scope": "全量普通FINAL：2,369,326 query；固定最终MV的EG+原索引码长代理。 完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。",
+    "source": "report.md；full_headers/summary.json；tables/policies_summary.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "无模板 AMVP：32维特征统计与候选选择",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "mode0 · Class B/C/D 13序列 · RA · QP 22 / 27 / 32 / 37 / 42 · 最终CU统计",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  全量＋抽样口径",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "01",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：report.md；full_headers/summary.json；tables/policies_summary.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.08,
+          11.8,
+          0.75
+        ],
+        "text": "候选有潜力，简单排序尚无净收益",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.82,
+          3.36,
+          3.75,
+          0.64
+        ],
+        "text": "20.39%",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.82,
+          4.18,
+          3.75,
+          0.4
+        ],
+        "text": "查询存在更优第二候选",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.82,
+          4.73,
+          3.75,
+          0.75
+        ],
+        "text": "固定原第一候选p0\n全量普通FINAL",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.5866666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.94,
+          3.36,
+          3.7,
+          0.64
+        ],
+        "text": "0.6386",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.94,
+          4.18,
+          3.7,
+          0.4
+        ],
+        "text": "估计 bit / query",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.94,
+          4.73,
+          3.7,
+          0.75
+        ],
+        "text": "扩展池Oracle平均潜力\n不是实际CABAC或BD-rate",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.5866666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.02,
+          3.36,
+          3.55,
+          0.64
+        ],
+        "text": "0 / 6",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.02,
+          4.18,
+          3.55,
+          0.4
+        ],
+        "text": "简单规则获得正净收益",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.02,
+          4.73,
+          3.55,
+          0.75
+        ],
+        "text": "六种核心规则\n13个序列逐序列均为负",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.5866666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "研究目标：不使用边界模板，保持两个正式MVP，找到可靠的第二槽位替换策略。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "全量＋抽样口径"
+  },
+  {
+    "title": "评价方法：固定最终MV，只比较候选对的码长",
+    "scope": "全量普通FINAL：2,369,326 query；固定最终MV的EG+原索引码长代理。 完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。",
+    "source": "full_headers/summary.json；samples/sampling_manifest.json；analysis/summary.json",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "评价方法：固定最终MV，只比较候选对的码长",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "特征在搜索前冻结；最终MV只用于离线标签，不作为在线模型输入。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  全量＋抽样口径",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "02",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：full_headers/summary.json；samples/sampling_manifest.json；analysis/summary.json",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.77,
+          2.02,
+          11.81,
+          1.84
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.0,
+          2.18,
+          11.3,
+          0.4
+        ],
+        "text": "Jb = min{ EG(v − p0) + idx0,  EG(v − b1) + idx1 }",
+        "size": 19.5,
+        "bold": false,
+        "required_height": 0.35750000000000004
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.0,
+          2.7,
+          11.3,
+          0.4
+        ],
+        "text": "Jc = min{ EG(v − p0) + idx0,  EG(v − c ) + idx1 }",
+        "size": 19.5,
+        "bold": false,
+        "required_height": 0.35750000000000004
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.0,
+          3.22,
+          11.3,
+          0.4
+        ],
+        "text": "gain(c) = Jb − Jc     正：节省；负：增加估计码长",
+        "size": 19.5,
+        "bold": true,
+        "required_height": 0.35750000000000004
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          4.16,
+          2.65,
+          0.59
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          4.275,
+          2.3899999999999997,
+          0.41
+        ],
+        "text": "统计层",
+        "size": 16.8,
+        "bold": true,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4299999999999997,
+          4.16,
+          2.45,
+          0.59
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.5599999999999996,
+          4.275,
+          2.1900000000000004,
+          0.41
+        ],
+        "text": "普通FINAL查询",
+        "size": 16.8,
+        "bold": true,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.88,
+          4.16,
+          6.7,
+          0.59
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.01,
+          4.275,
+          6.44,
+          0.41
+        ],
+        "text": "核验内容",
+        "size": 16.8,
+        "bold": true,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          4.75,
+          2.65,
+          0.59
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          4.865,
+          2.3899999999999997,
+          0.41
+        ],
+        "text": "全量",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4299999999999997,
+          4.75,
+          2.45,
+          0.59
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.5599999999999996,
+          4.865,
+          2.1900000000000004,
+          0.41
+        ],
+        "text": "2,369,326",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.88,
+          4.75,
+          6.7,
+          0.59
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.01,
+          4.865,
+          6.44,
+          0.41
+        ],
+        "text": "结构、全部候选EG标签与Oracle",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          5.34,
+          2.65,
+          0.59
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          5.455,
+          2.3899999999999997,
+          0.41
+        ],
+        "text": "1/20严格样本",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4299999999999997,
+          5.34,
+          2.45,
+          0.59
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.5599999999999996,
+          5.455,
+          2.1900000000000004,
+          0.41
+        ],
+        "text": "118,500",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.88,
+          5.34,
+          6.7,
+          0.59
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.01,
+          5.455,
+          6.44,
+          0.41
+        ],
+        "text": "32维、来源、去重池、量化与规则",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.96,
+          6.0,
+          11.39,
+          0.3
+        ],
+        "text": "输入共590份日志、352.8万条最终query；SMVD / 强制L1零等约束记录排除。",
+        "size": 15.6,
+        "bold": false,
+        "required_height": 0.286
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "统计池：固定p0；b1＋替换备选最多16项。它不是此前mode−1/−2的固定八候选池。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "全量＋抽样口径"
+  },
+  {
+    "title": "32维特征总览：运动关系、支持证据与上下文",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。 候选分箱排除原b1，每query新增候选总权重为1。",
+    "source": "../mode0_feature_statistics_plan.md；analysis/feature_summary.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "32维特征总览：运动关系、支持证据与上下文",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "全部只描述运动信息与已知上下文，不增加像素模板匹配。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "03",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：../mode0_feature_statistics_plan.md；analysis/feature_summary.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          1.99,
+          1.4,
+          0.475
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          2.105,
+          1.14,
+          0.295
+        ],
+        "text": "编号",
+        "size": 15.5,
+        "bold": true,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          1.99,
+          2.42,
+          0.475
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          2.105,
+          2.16,
+          0.295
+        ],
+        "text": "特征类别",
+        "size": 15.5,
+        "bold": true,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          1.99,
+          8.09,
+          0.475
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          2.105,
+          7.83,
+          0.295
+        ],
+        "text": "含义",
+        "size": 15.5,
+        "bold": true,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          2.465,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          2.58,
+          1.14,
+          0.295
+        ],
+        "text": "F01–08",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          2.465,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          2.58,
+          2.16,
+          0.295
+        ],
+        "text": "运动差",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          2.465,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          2.58,
+          7.83,
+          0.295
+        ],
+        "text": "c相对p0、b1、空间/历史中值的x/y差",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          2.94,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          3.055,
+          1.14,
+          0.295
+        ],
+        "text": "F09–10",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          2.94,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          3.055,
+          2.16,
+          0.295
+        ],
+        "text": "覆盖增益",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          2.94,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          3.055,
+          7.83,
+          0.295
+        ],
+        "text": "替换b1后，对空间/历史运动的码长覆盖改善",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          3.415,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          3.5300000000000002,
+          1.14,
+          0.295
+        ],
+        "text": "F11–14",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          3.415,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          3.5300000000000002,
+          2.16,
+          0.295
+        ],
+        "text": "独立支持数",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          3.415,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          3.5300000000000002,
+          7.83,
+          0.295
+        ],
+        "text": "c及p0的空间邻CU数、历史记录支持数",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          3.8899999999999997,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          4.005,
+          1.14,
+          0.295
+        ],
+        "text": "F15–16",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          3.8899999999999997,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          4.005,
+          2.16,
+          0.295
+        ],
+        "text": "运动离散度",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          3.8899999999999997,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          4.005,
+          7.83,
+          0.295
+        ],
+        "text": "空间/历史运动到中值的L1距离下中位数",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          4.365,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          4.48,
+          1.14,
+          0.295
+        ],
+        "text": "F17–21",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          4.365,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          4.48,
+          2.16,
+          0.295
+        ],
+        "text": "来源与零运动",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          4.365,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          4.48,
+          7.83,
+          0.295
+        ],
+        "text": "左、上、时域、历史来源；是否为零MV",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          4.84,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          4.955,
+          1.14,
+          0.295
+        ],
+        "text": "F22–23",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          4.84,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          4.955,
+          2.16,
+          0.295
+        ],
+        "text": "历史年龄与list",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          4.84,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          4.955,
+          7.83,
+          0.295
+        ],
+        "text": "最近精确历史来源年龄；仅另一list来源",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          5.3149999999999995,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          5.43,
+          1.14,
+          0.295
+        ],
+        "text": "F24–30",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          5.3149999999999995,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          5.43,
+          2.16,
+          0.295
+        ],
+        "text": "CU与参考上下文",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          5.3149999999999995,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          5.43,
+          7.83,
+          0.295
+        ],
+        "text": "长期参考；尺寸；AMVR；POC差；list；B帧",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.72,
+          5.79,
+          1.4,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          5.905,
+          1.14,
+          0.295
+        ],
+        "text": "F31–32",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.12,
+          5.79,
+          2.42,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.25,
+          5.905,
+          2.16,
+          0.295
+        ],
+        "text": "证据可用性",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.54,
+          5.79,
+          8.09,
+          0.475
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.67,
+          5.905,
+          7.83,
+          0.295
+        ],
+        "text": "有效独立空间CU数、历史记录数",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.87,
+          6.41,
+          11.45,
+          0.31
+        ],
+        "text": "当前尚未做留序列特征消融，因此不制作“32维重要性排名”。",
+        "size": 15.1,
+        "bold": false,
+        "required_height": 0.2768333333333334
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "潜力基线：原两候选在约八成查询中已足够好",
+    "scope": "全量普通FINAL：2,369,326 query；固定最终MV的EG+原索引码长代理。",
+    "source": "full_headers/summary.json；full_headers/histograms.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "潜力基线：原两候选在约八成查询中已足够好",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "全量精确结果；“已达最优”允许与扩展池其他候选并列。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  全量普通FINAL",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "04",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：full_headers/summary.json；full_headers/histograms.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.85,
+          2.5,
+          9.23437602085994,
+          0.78
+        ],
+        "fill": "DDE5EB"
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.08437602085994,
+          2.5,
+          2.365623979140059,
+          0.78
+        ],
+        "fill": "244E6A"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.12,
+          2.7,
+          8.2,
+          0.38
+        ],
+        "text": "79.61%  原0/1已达到池内最小码长",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.18437602085994,
+          2.72,
+          2.165623979140059,
+          0.36
+        ],
+        "text": "20.39% 可改善",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.95,
+          3.96,
+          3.58,
+          0.64
+        ],
+        "text": "8.2792",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.95,
+          4.78,
+          3.58,
+          0.4
+        ],
+        "text": "原候选对码长",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.95,
+          5.33,
+          3.58,
+          0.75
+        ],
+        "text": "bit / query",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.01,
+          3.96,
+          3.5,
+          0.64
+        ],
+        "text": "7.6406",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.01,
+          4.78,
+          3.5,
+          0.4
+        ],
+        "text": "扩展池Oracle码长",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.01,
+          5.33,
+          3.5,
+          0.75
+        ],
+        "text": "bit / query",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.04,
+          3.96,
+          3.4,
+          0.64
+        ],
+        "text": "3.131",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.04,
+          4.78,
+          3.4,
+          0.4
+        ],
+        "text": "有机会时平均可省",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.04,
+          5.33,
+          3.4,
+          0.75
+        ],
+        "text": "bit / 获益query",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "选择策略必须保护原候选：少量错误替换，就可能抵消扩展池带来的收益。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "全量普通FINAL"
+  },
+  {
+    "title": "支持数 F11–14：有区分信号，但不能直接排序",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。 候选分箱排除原b1，每query新增候选总权重为1。",
+    "source": "analysis/feature_gain_bins.csv；tables/policies_summary.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "支持数 F11–14：有区分信号，但不能直接排序",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "左表为候选级正收益比例；右侧为实际选一个第二候选后的净收益。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "05",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：analysis/feature_gain_bins.csv；tables/policies_summary.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.87,
+          2.02,
+          6.65,
+          0.38
+        ],
+        "text": "候选具有正收益的比例",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.84,
+          2.63,
+          1.65,
+          0.67
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.97,
+          2.745,
+          1.39,
+          0.49000000000000005
+        ],
+        "text": "支持数",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.4899999999999998,
+          2.63,
+          2.43,
+          0.67
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.6199999999999997,
+          2.745,
+          2.17,
+          0.49000000000000005
+        ],
+        "text": "空间F11",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.92,
+          2.63,
+          2.44,
+          0.67
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.05,
+          2.745,
+          2.1799999999999997,
+          0.49000000000000005
+        ],
+        "text": "历史F12",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.84,
+          3.3,
+          1.65,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.97,
+          3.415,
+          1.39,
+          0.49000000000000005
+        ],
+        "text": "0",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.4899999999999998,
+          3.3,
+          2.43,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.6199999999999997,
+          3.415,
+          2.17,
+          0.49000000000000005
+        ],
+        "text": "5.85%",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.92,
+          3.3,
+          2.44,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.05,
+          3.415,
+          2.1799999999999997,
+          0.49000000000000005
+        ],
+        "text": "5.59%",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.84,
+          3.9699999999999998,
+          1.65,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.97,
+          4.085,
+          1.39,
+          0.49000000000000005
+        ],
+        "text": "1",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.4899999999999998,
+          3.9699999999999998,
+          2.43,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.6199999999999997,
+          4.085,
+          2.17,
+          0.49000000000000005
+        ],
+        "text": "13.04%",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.92,
+          3.9699999999999998,
+          2.44,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.05,
+          4.085,
+          2.1799999999999997,
+          0.49000000000000005
+        ],
+        "text": "9.43%",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.84,
+          4.640000000000001,
+          1.65,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.97,
+          4.755000000000001,
+          1.39,
+          0.49000000000000005
+        ],
+        "text": "2–4",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.4899999999999998,
+          4.640000000000001,
+          2.43,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.6199999999999997,
+          4.755000000000001,
+          2.17,
+          0.49000000000000005
+        ],
+        "text": "16.60%",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.92,
+          4.640000000000001,
+          2.44,
+          0.67
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.05,
+          4.755000000000001,
+          2.1799999999999997,
+          0.49000000000000005
+        ],
+        "text": "13.30%",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.95,
+          5.51,
+          6.25,
+          0.72
+        ],
+        "text": "分层比例提高，但这些分组的\n平均净收益仍然为负。",
+        "size": 18.5,
+        "bold": false,
+        "required_height": 0.6783333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.02,
+          2.16,
+          4.29,
+          0.4
+        ],
+        "text": "按空间支持最多选择",
+        "size": 18.8,
+        "bold": true,
+        "required_height": 0.3446666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.02,
+          2.77,
+          4.29,
+          0.58
+        ],
+        "text": "-0.1804",
+        "size": 30,
+        "bold": true,
+        "required_height": 0.55
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.03,
+          3.41,
+          4.25,
+          0.34
+        ],
+        "text": "估计 bit / query",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.02,
+          4.14,
+          4.29,
+          0.4
+        ],
+        "text": "按历史支持最多选择",
+        "size": 18.8,
+        "bold": true,
+        "required_height": 0.3446666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.02,
+          4.75,
+          4.29,
+          0.58
+        ],
+        "text": "-0.5966",
+        "size": 30,
+        "bold": true,
+        "required_height": 0.55
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.03,
+          5.39,
+          4.25,
+          0.34
+        ],
+        "text": "估计 bit / query",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "值得保留为联合特征；不能由“支持更多”直接推出“应该替换原第二候选”。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "覆盖增益 F09–10：邻域覆盖更好，当前MV未必更好",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。 候选分箱排除原b1，每query新增候选总权重为1。",
+    "source": "analysis/feature_gain_bins.csv；tables/policies_summary.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "覆盖增益 F09–10：邻域覆盖更好，当前MV未必更好",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "分数对邻域运动计算；标签对当前CU最终MV计算，两者对象不同。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "06",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：analysis/feature_gain_bins.csv；tables/policies_summary.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          2.02,
+          6.73,
+          0.4
+        ],
+        "text": "只看“覆盖分数 > 0”的候选",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.83,
+          2.7,
+          1.55,
+          0.72
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.96,
+          2.8150000000000004,
+          1.29,
+          0.54
+        ],
+        "text": "特征",
+        "size": 16,
+        "bold": true,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.38,
+          2.7,
+          1.72,
+          0.72
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.51,
+          2.8150000000000004,
+          1.46,
+          0.54
+        ],
+        "text": "获益比例",
+        "size": 16,
+        "bold": true,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.1,
+          2.7,
+          1.72,
+          0.72
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.2299999999999995,
+          2.8150000000000004,
+          1.46,
+          0.54
+        ],
+        "text": "退化比例",
+        "size": 16,
+        "bold": true,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.819999999999999,
+          2.7,
+          2.01,
+          0.72
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.949999999999999,
+          2.8150000000000004,
+          1.7499999999999998,
+          0.54
+        ],
+        "text": "平均gain",
+        "size": 16,
+        "bold": true,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.83,
+          3.42,
+          1.55,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.96,
+          3.535,
+          1.29,
+          0.54
+        ],
+        "text": "空间F09",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.38,
+          3.42,
+          1.72,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.51,
+          3.535,
+          1.46,
+          0.54
+        ],
+        "text": "13.92%",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.1,
+          3.42,
+          1.72,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.2299999999999995,
+          3.535,
+          1.46,
+          0.54
+        ],
+        "text": "22.82%",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.819999999999999,
+          3.42,
+          2.01,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.949999999999999,
+          3.535,
+          1.7499999999999998,
+          0.54
+        ],
+        "text": "-0.7335",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.83,
+          4.140000000000001,
+          1.55,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.96,
+          4.255000000000001,
+          1.29,
+          0.54
+        ],
+        "text": "历史F10",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.38,
+          4.140000000000001,
+          1.72,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.51,
+          4.255000000000001,
+          1.46,
+          0.54
+        ],
+        "text": "10.16%",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.1,
+          4.140000000000001,
+          1.72,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.2299999999999995,
+          4.255000000000001,
+          1.46,
+          0.54
+        ],
+        "text": "26.16%",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.819999999999999,
+          4.140000000000001,
+          2.01,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.949999999999999,
+          4.255000000000001,
+          1.7499999999999998,
+          0.54
+        ],
+        "text": "-1.0576",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.94,
+          5.24,
+          6.65,
+          0.85
+        ],
+        "text": "覆盖分数为正，仍不能保证\n替换后的当前MV码长更短。",
+        "size": 20,
+        "bold": false,
+        "required_height": 0.7333333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.36,
+          2.05,
+          4.02,
+          0.43
+        ],
+        "text": "直接取最大分数的规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.39,
+          2.9,
+          2.22,
+          0.36
+        ],
+        "text": "max F09",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.61,
+          2.88,
+          1.75,
+          0.4
+        ],
+        "text": "-0.0935",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.39,
+          3.8,
+          2.22,
+          0.36
+        ],
+        "text": "max F10",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.61,
+          3.78,
+          1.75,
+          0.4
+        ],
+        "text": "-0.6419",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.39,
+          4.7,
+          2.22,
+          0.36
+        ],
+        "text": "max (F09+F10)",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.61,
+          4.68,
+          1.75,
+          0.4
+        ],
+        "text": "-0.3983",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.39,
+          5.73,
+          4.0,
+          0.28
+        ],
+        "text": "单位：估计 bit / query",
+        "size": 15,
+        "bold": false,
+        "required_height": 0.275
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "现有数据不支持直接按F09/F10排序；边界加权属于尚待验证的新假设。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "来源特征 F17–21：历史提供最多的独有补充潜力",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。",
+    "source": "analysis/source_incremental.csv；diagnostics/source_subset_opportunity.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "来源特征 F17–21：历史提供最多的独有补充潜力",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "移除某来源独有的新增MV，再计算Oracle会损失多少；原b1始终保留。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "07",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：analysis/source_incremental.csv；diagnostics/source_subset_opportunity.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.87,
+          2.04,
+          7.65,
+          0.4
+        ],
+        "text": "删除来源后的Oracle平均损失",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          2.87,
+          1.75,
+          0.33
+        ],
+        "text": "历史独有",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.78,
+          2.88,
+          4.02878842676311,
+          0.28
+        ],
+        "fill": "244E6A"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.02,
+          2.85,
+          1.2,
+          0.37
+        ],
+        "text": "0.3134",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          3.5700000000000003,
+          1.75,
+          0.33
+        ],
+        "text": "空间独有",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.78,
+          3.58,
+          1.0049186256781195,
+          0.28
+        ],
+        "fill": "AABAC6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.02,
+          3.5500000000000003,
+          1.2,
+          0.37
+        ],
+        "text": "0.0782",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          4.27,
+          1.75,
+          0.33
+        ],
+        "text": "时域独有",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.78,
+          4.279999999999999,
+          0.5218806509945751,
+          0.28
+        ],
+        "fill": "AABAC6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.02,
+          4.25,
+          1.2,
+          0.37
+        ],
+        "text": "0.0406",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          4.97,
+          1.75,
+          0.33
+        ],
+        "text": "显式零独有",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.78,
+          4.9799999999999995,
+          0.9801808318264015,
+          0.28
+        ],
+        "fill": "AABAC6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.02,
+          4.95,
+          1.2,
+          0.37
+        ],
+        "text": "0.0762",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.96,
+          5.99,
+          7.15,
+          0.31
+        ],
+        "text": "单位：估计 bit / query；不是在线选择规则的收益。",
+        "size": 14.8,
+        "bold": false,
+        "required_height": 0.27133333333333337
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.05,
+          2.34,
+          3.35,
+          0.64
+        ],
+        "text": "67.48%",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.05,
+          3.1599999999999997,
+          3.35,
+          0.4
+        ],
+        "text": "历史子集的潜力覆盖",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.05,
+          3.71,
+          3.35,
+          0.75
+        ],
+        "text": "知道最终MV后的Oracle\n不能作为在线命中率",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.5866666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.08,
+          5.06,
+          3.37,
+          0.8
+        ],
+        "text": "保留历史来源，\n继续研究如何选择。",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.7333333333333334
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "“历史里存在好候选”已得到支持；“优先选历史就会更好”没有得到支持。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "历史列表与年龄 F22–23：有条件信息，没有直接赢家",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。 候选分箱排除原b1，每query新增候选总权重为1。",
+    "source": "diagnostics/history_candidate_weighted.csv；diagnostics/policies.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "历史列表与年龄 F22–23：有条件信息，没有直接赢家",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "历史list类别为额外诊断；F23涵盖空间＋历史的仅另一list来源，二者不同。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "08",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：diagnostics/history_candidate_weighted.csv；diagnostics/policies.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.8,
+          2.4,
+          2.0,
+          0.7
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          2.515,
+          1.74,
+          0.52
+        ],
+        "text": "历史类别",
+        "size": 15.7,
+        "bold": true,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.8,
+          2.4,
+          1.77,
+          0.7
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.9299999999999997,
+          2.515,
+          1.51,
+          0.52
+        ],
+        "text": "query可用率",
+        "size": 15.7,
+        "bold": true,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.57,
+          2.4,
+          1.72,
+          0.7
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.7,
+          2.515,
+          1.46,
+          0.52
+        ],
+        "text": "候选获益率",
+        "size": 15.7,
+        "bold": true,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.29,
+          2.4,
+          1.68,
+          0.7
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.42,
+          2.515,
+          1.42,
+          0.52
+        ],
+        "text": "平均gain",
+        "size": 15.7,
+        "bold": true,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.8,
+          3.0999999999999996,
+          2.0,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          3.215,
+          1.74,
+          0.52
+        ],
+        "text": "仅目标list",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.8,
+          3.0999999999999996,
+          1.77,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.9299999999999997,
+          3.215,
+          1.51,
+          0.52
+        ],
+        "text": "72.95%",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.57,
+          3.0999999999999996,
+          1.72,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.7,
+          3.215,
+          1.46,
+          0.52
+        ],
+        "text": "10.69%",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.29,
+          3.0999999999999996,
+          1.68,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.42,
+          3.215,
+          1.42,
+          0.52
+        ],
+        "text": "-1.049",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.8,
+          3.8,
+          2.0,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          3.915,
+          1.74,
+          0.52
+        ],
+        "text": "仅另一list",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.8,
+          3.8,
+          1.77,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.9299999999999997,
+          3.915,
+          1.51,
+          0.52
+        ],
+        "text": "5.73%",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.57,
+          3.8,
+          1.72,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.7,
+          3.915,
+          1.46,
+          0.52
+        ],
+        "text": "10.79%",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.29,
+          3.8,
+          1.68,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.42,
+          3.915,
+          1.42,
+          0.52
+        ],
+        "text": "-0.950",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.8,
+          4.5,
+          2.0,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.93,
+          4.615,
+          1.74,
+          0.52
+        ],
+        "text": "双list支持",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.8,
+          4.5,
+          1.77,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.9299999999999997,
+          4.615,
+          1.51,
+          0.52
+        ],
+        "text": "0.77%",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.57,
+          4.5,
+          1.72,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.7,
+          4.615,
+          1.46,
+          0.52
+        ],
+        "text": "13.60%",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.29,
+          4.5,
+          1.68,
+          0.7
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.42,
+          4.615,
+          1.42,
+          0.52
+        ],
+        "text": "-0.698",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.95,
+          5.48,
+          6.78,
+          0.73
+        ],
+        "text": "另一list同样匹配目标参考POC。\n双list仅914条query；各组平均gain仍为负。",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.6123333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.7,
+          2.18,
+          3.8,
+          0.43
+        ],
+        "text": "选可用历史中最新的一项",
+        "size": 18,
+        "bold": true,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.72,
+          2.96,
+          3.62,
+          0.62
+        ],
+        "text": "-0.7214",
+        "size": 31,
+        "bold": true,
+        "required_height": 0.5683333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.74,
+          3.72,
+          3.65,
+          0.31
+        ],
+        "text": "估计 bit / query",
+        "size": 16,
+        "bold": false,
+        "required_height": 0.29333333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.72,
+          4.44,
+          3.77,
+          1.23
+        ],
+        "text": "替换率  67.80%\n获益率  7.69%\n退化率  17.98%",
+        "size": 18.5,
+        "bold": false,
+        "required_height": 1.0791666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "历史list与年龄适合作为联合上下文；单独使用都不足以可靠决定第二候选。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "运动差与上下文：保留联合信息，避免虚构单维增益",
+    "scope": "全量普通FINAL：2,369,326 query；固定最终MV的EG+原索引码长代理。 完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。 候选分箱排除原b1，每query新增候选总权重为1。",
+    "source": "analysis/feature_summary.csv；tables/oracle_full_by_imv.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "运动差与上下文：保留联合信息，避免虚构单维增益",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "F01–08、F15–16有分布变化，但尚未做独立消融；AMVR有明显分组差异。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  全量＋抽样口径",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "09",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：analysis/feature_summary.csv；tables/oracle_full_by_imv.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          2.03,
+          5.63,
+          0.38
+        ],
+        "text": "F01–08 / F15–16",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.88,
+          2.58,
+          5.64,
+          0.85
+        ],
+        "text": "运动差、离散度\n有分布信息，待联合建模与消融验证。",
+        "size": 17.1,
+        "bold": false,
+        "required_height": 0.6270000000000001
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          3.72,
+          5.63,
+          0.38
+        ],
+        "text": "F24 / F30",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.88,
+          4.2700000000000005,
+          5.64,
+          0.85
+        ],
+        "text": "本批候选：长期参考恒0、B帧标记恒1。\n当前无法衡量区分能力。",
+        "size": 17.1,
+        "bold": false,
+        "required_height": 0.6270000000000001
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          5.37,
+          5.63,
+          0.38
+        ],
+        "text": "F31 / F32",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.88,
+          5.92,
+          5.64,
+          0.85
+        ],
+        "text": "保留有效空间/历史证据量，表达缺失。",
+        "size": 17.1,
+        "bold": false,
+        "required_height": 0.31350000000000006
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.0,
+          2.1,
+          5.36,
+          0.38
+        ],
+        "text": "不同AMVR的Oracle潜力（全量）",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.99,
+          2.84,
+          1.86,
+          0.63
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.12,
+          2.955,
+          1.6,
+          0.45
+        ],
+        "text": "精度",
+        "size": 16.7,
+        "bold": true,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.85,
+          2.84,
+          1.85,
+          0.63
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.98,
+          2.955,
+          1.59,
+          0.45
+        ],
+        "text": "可改善率",
+        "size": 16.7,
+        "bold": true,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.7,
+          2.84,
+          1.78,
+          0.63
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.83,
+          2.955,
+          1.52,
+          0.45
+        ],
+        "text": "潜力/bit",
+        "size": 16.7,
+        "bold": true,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.99,
+          3.4699999999999998,
+          1.86,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.12,
+          3.585,
+          1.6,
+          0.45
+        ],
+        "text": "1/4像素",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.85,
+          3.4699999999999998,
+          1.85,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.98,
+          3.585,
+          1.59,
+          0.45
+        ],
+        "text": "16.88%",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.7,
+          3.4699999999999998,
+          1.78,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.83,
+          3.585,
+          1.52,
+          0.45
+        ],
+        "text": "0.5249",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.99,
+          4.1,
+          1.86,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.12,
+          4.215,
+          1.6,
+          0.45
+        ],
+        "text": "1像素",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.85,
+          4.1,
+          1.85,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.98,
+          4.215,
+          1.59,
+          0.45
+        ],
+        "text": "23.72%",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.7,
+          4.1,
+          1.78,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.83,
+          4.215,
+          1.52,
+          0.45
+        ],
+        "text": "0.7381",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.99,
+          4.73,
+          1.86,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.12,
+          4.845000000000001,
+          1.6,
+          0.45
+        ],
+        "text": "4像素",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.85,
+          4.73,
+          1.85,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.98,
+          4.845000000000001,
+          1.59,
+          0.45
+        ],
+        "text": "23.02%",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.7,
+          4.73,
+          1.78,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.83,
+          4.845000000000001,
+          1.52,
+          0.45
+        ],
+        "text": "0.7039",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.99,
+          5.359999999999999,
+          1.86,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.12,
+          5.475,
+          1.6,
+          0.45
+        ],
+        "text": "1/2像素",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.85,
+          5.359999999999999,
+          1.85,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.98,
+          5.475,
+          1.59,
+          0.45
+        ],
+        "text": "23.89%",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.7,
+          5.359999999999999,
+          1.78,
+          0.63
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.83,
+          5.475,
+          1.52,
+          0.45
+        ],
+        "text": "0.7877",
+        "size": 16.7,
+        "bold": false,
+        "required_height": 0.3061666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.09,
+          6.17,
+          5.12,
+          0.34
+        ],
+        "text": "精度是条件特征；不是独立增益结论。",
+        "size": 15.7,
+        "bold": false,
+        "required_height": 0.28783333333333333
+      }
+    ],
+    "scope_label": "全量＋抽样口径"
+  },
+  {
+    "title": "六种简单选择规则：13个序列全部为负",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。",
+    "source": "tables/policies_summary.csv；diagnostics/policy_by_sequence.csv",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "六种简单选择规则：13个序列全部为负",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "每条query真正选出一个第二候选；净节省 = 基准码长 − 所选候选对码长。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "10",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：tables/policies_summary.csv；diagnostics/policy_by_sequence.csv",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "line",
+        "points": [
+          11.4,
+          2.24,
+          11.4,
+          5.82
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.77,
+          5.91,
+          0.58,
+          0.27
+        ],
+        "text": "-0.8",
+        "size": 12.5,
+        "bold": false,
+        "required_height": 0.22916666666666666
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.355,
+          5.91,
+          0.58,
+          0.27
+        ],
+        "text": "-0.6",
+        "size": 12.5,
+        "bold": false,
+        "required_height": 0.22916666666666666
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.94,
+          5.91,
+          0.58,
+          0.27
+        ],
+        "text": "-0.4",
+        "size": 12.5,
+        "bold": false,
+        "required_height": 0.22916666666666666
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.525,
+          5.91,
+          0.58,
+          0.27
+        ],
+        "text": "-0.2",
+        "size": 12.5,
+        "bold": false,
+        "required_height": 0.22916666666666666
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.110000000000001,
+          5.91,
+          0.58,
+          0.27
+        ],
+        "text": "0.0",
+        "size": 12.5,
+        "bold": false,
+        "required_height": 0.22916666666666666
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          2.41,
+          4.05,
+          0.36
+        ],
+        "text": "最大空间覆盖 F09",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.65926329113924,
+          2.435,
+          0.7407367088607595,
+          0.3
+        ],
+        "fill": "244E6A"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.64,
+          2.395,
+          0.93,
+          0.37
+        ],
+        "text": "-0.0935",
+        "size": 17.7,
+        "bold": true,
+        "required_height": 0.3245
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          2.98,
+          4.05,
+          0.36
+        ],
+        "text": "最多空间支持 F11",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.97015611814346,
+          3.005,
+          1.4298438818565402,
+          0.3
+        ],
+        "fill": "92A6B6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.64,
+          2.965,
+          0.93,
+          0.37
+        ],
+        "text": "-0.1804",
+        "size": 17.7,
+        "bold": true,
+        "required_height": 0.3245
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          3.55,
+          4.05,
+          0.36
+        ],
+        "text": "最大联合覆盖 F09+F10",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.243108016877637,
+          3.5749999999999997,
+          3.1568919831223634,
+          0.3
+        ],
+        "fill": "92A6B6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.64,
+          3.5349999999999997,
+          0.93,
+          0.37
+        ],
+        "text": "-0.3983",
+        "size": 17.7,
+        "bold": true,
+        "required_height": 0.3245
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          4.12,
+          4.05,
+          0.36
+        ],
+        "text": "最多历史支持 F12",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.672152320675106,
+          4.145,
+          4.727847679324895,
+          0.3
+        ],
+        "fill": "92A6B6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.64,
+          4.1049999999999995,
+          0.93,
+          0.37
+        ],
+        "text": "-0.5966",
+        "size": 17.7,
+        "bold": true,
+        "required_height": 0.3245
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          4.6899999999999995,
+          4.05,
+          0.36
+        ],
+        "text": "最大历史覆盖 F10",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.313286919831224,
+          4.714999999999999,
+          5.086713080168776,
+          0.3
+        ],
+        "fill": "92A6B6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.64,
+          4.674999999999999,
+          0.93,
+          0.37
+        ],
+        "text": "-0.6419",
+        "size": 17.7,
+        "bold": true,
+        "required_height": 0.3245
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          5.26,
+          4.05,
+          0.36
+        ],
+        "text": "可用历史中年龄最小",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.683032067510548,
+          5.284999999999999,
+          5.716967932489452,
+          0.3
+        ],
+        "fill": "92A6B6"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.64,
+          5.244999999999999,
+          0.93,
+          0.37
+        ],
+        "text": "-0.7214",
+        "size": 17.7,
+        "bold": true,
+        "required_height": 0.3245
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "单位：估计 bit / query。当前没有一条简单规则实现正净收益。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "为什么收益被抵消：错误替换的损失更大",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。",
+    "source": "tables/policies_summary.csv；full_headers/summary.json",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "为什么收益被抵消：错误替换的损失更大",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "同时看获益次数、退化次数与节省/损失总量，不能只看“选中好候选”的比例。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "11",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：tables/policies_summary.csv；full_headers/summary.json",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.77,
+          2.29,
+          2.5,
+          0.75
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.9,
+          2.4050000000000002,
+          2.24,
+          0.5700000000000001
+        ],
+        "text": "规则",
+        "size": 17,
+        "bold": true,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.27,
+          2.29,
+          3.0,
+          0.75
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.4,
+          2.4050000000000002,
+          2.74,
+          0.5700000000000001
+        ],
+        "text": "获益 / 退化query",
+        "size": 17,
+        "bold": true,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.27,
+          2.29,
+          2.16,
+          0.75
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.3999999999999995,
+          2.4050000000000002,
+          1.9000000000000001,
+          0.5700000000000001
+        ],
+        "text": "节省总bit",
+        "size": 17,
+        "bold": true,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.43,
+          2.29,
+          2.16,
+          0.75
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.56,
+          2.4050000000000002,
+          1.9000000000000001,
+          0.5700000000000001
+        ],
+        "text": "损失总bit",
+        "size": 17,
+        "bold": true,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.59,
+          2.29,
+          2.01,
+          0.75
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.72,
+          2.4050000000000002,
+          1.7499999999999998,
+          0.5700000000000001
+        ],
+        "text": "损失/节省",
+        "size": 17,
+        "bold": true,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.77,
+          3.04,
+          2.5,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.9,
+          3.1550000000000002,
+          2.24,
+          0.5700000000000001
+        ],
+        "text": "最大空间覆盖",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.27,
+          3.04,
+          3.0,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.4,
+          3.1550000000000002,
+          2.74,
+          0.5700000000000001
+        ],
+        "text": "1.60% / 2.90%",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.27,
+          3.04,
+          2.16,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.3999999999999995,
+          3.1550000000000002,
+          1.9000000000000001,
+          0.5700000000000001
+        ],
+        "text": "5,536",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.43,
+          3.04,
+          2.16,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.56,
+          3.1550000000000002,
+          1.9000000000000001,
+          0.5700000000000001
+        ],
+        "text": "16,612",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.59,
+          3.04,
+          2.01,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.72,
+          3.1550000000000002,
+          1.7499999999999998,
+          0.5700000000000001
+        ],
+        "text": "3.00×",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.77,
+          3.79,
+          2.5,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.9,
+          3.9050000000000002,
+          2.24,
+          0.5700000000000001
+        ],
+        "text": "年龄最小历史",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.27,
+          3.79,
+          3.0,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.4,
+          3.9050000000000002,
+          2.74,
+          0.5700000000000001
+        ],
+        "text": "7.69% / 17.98%",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.27,
+          3.79,
+          2.16,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.3999999999999995,
+          3.9050000000000002,
+          1.9000000000000001,
+          0.5700000000000001
+        ],
+        "text": "26,704",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.43,
+          3.79,
+          2.16,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.56,
+          3.9050000000000002,
+          1.9000000000000001,
+          0.5700000000000001
+        ],
+        "text": "112,188",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          10.59,
+          3.79,
+          2.01,
+          0.75
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.72,
+          3.9050000000000002,
+          1.7499999999999998,
+          0.5700000000000001
+        ],
+        "text": "4.20×",
+        "size": 17,
+        "bold": false,
+        "required_height": 0.3116666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.96,
+          5.1,
+          11.38,
+          0.85
+        ],
+        "text": "约八成query原候选已足够好：\n替换策略需要降低误替换频率，也需要限制每次误替换的损失。",
+        "size": 22,
+        "bold": true,
+        "required_height": 0.8066666666666668
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "先研究“何时值得替换”，再研究“应该替换成哪个候选”。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  },
+  {
+    "title": "下一步：保留基准，联合预测候选对的净收益",
+    "scope": "完整查询1/20哈希样本：118,500普通FINAL；每query保留全部候选。",
+    "source": "report.md；presentation/content_data_notes.md",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          0.39,
+          12.0,
+          0.63
+        ],
+        "text": "下一步：保留基准，联合预测候选对的净收益",
+        "size": 28,
+        "bold": true,
+        "required_height": 0.5133333333333333
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          1.13,
+          11.98,
+          0.46
+        ],
+        "text": "这批结果用于筛选研究方向；尚未训练新模型或部署新mode。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.67,
+          7.1,
+          11.35,
+          0.22
+        ],
+        "text": "AMVP · 32维特征统计  |  2026-11-09  |  1/20普通FINAL样本",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.05,
+          7.08,
+          0.6,
+          0.25
+        ],
+        "text": "12",
+        "size": 11.5,
+        "bold": false,
+        "required_height": 0.21083333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.69,
+          6.8,
+          11.95,
+          0.18
+        ],
+        "text": "数据：report.md；presentation/content_data_notes.md",
+        "size": 9.2,
+        "bold": false,
+        "required_height": 0.14055555555555554
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          2.06,
+          0.67,
+          0.48
+        ],
+        "text": "01",
+        "size": 24,
+        "bold": true,
+        "required_height": 0.44
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.7,
+          2.06,
+          10.71,
+          0.43
+        ],
+        "text": "保留原候选与回退",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.72,
+          2.64,
+          10.65,
+          0.54
+        ],
+        "text": "固定p0；允许保留b1。以候选对估计码长收益作为标签。",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          3.39,
+          0.67,
+          0.48
+        ],
+        "text": "02",
+        "size": 24,
+        "bold": true,
+        "required_height": 0.44
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.7,
+          3.39,
+          10.71,
+          0.43
+        ],
+        "text": "联合特征，按完整序列留出",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.72,
+          3.97,
+          10.65,
+          0.54
+        ],
+        "text": "运动差＋支持差＋历史list/年龄＋精度/参考上下文。",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.86,
+          4.72,
+          0.67,
+          0.48
+        ],
+        "text": "03",
+        "size": 24,
+        "bold": true,
+        "required_height": 0.44
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.7,
+          4.72,
+          10.71,
+          0.43
+        ],
+        "text": "先验证离线净收益，再测试闭环BD-rate",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.72,
+          5.3,
+          10.65,
+          0.54
+        ],
+        "text": "同时报告退化幅度；阈值在验证集选定，随后冻结。",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "当前结论：历史候选值得保留；可靠的无模板选择策略仍需要进一步验证。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ],
+    "scope_label": "1/20普通FINAL样本"
+  }
+]

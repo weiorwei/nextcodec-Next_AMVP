@@ -1,0 +1,701 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "cacheVariables": {
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/install"
+      },
+      "warnings": {
+        "unusedCli": false
+      }
+    },
+    {
+      "name": "default-windows",
+      "inherits": "default",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "default-linux",
+      "inherits": [
+        "default"
+      ],
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "default-osx",
+      "inherits": "default",
+      "hidden": true,
+      "cmakeExecutable": "/Applications/CMake.app/Contents/bin/cmake",
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Darwin"
+      }
+    },
+    {
+      "name": "default-ninja",
+      "hidden": true,
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": {
+          "type": "BOOL",
+          "value": "ON"
+        }
+      }
+    },
+    {
+      "name": "single-cfg-d",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "single-cfg-r",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "single-cfg-rd",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
+    },
+    {
+      "name": "single-cfg-ds",
+      "inherits": "single-cfg-d",
+      "hidden": true,
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": {
+          "type": "BOOL",
+          "value": "ON"
+        }
+      }
+    },
+    {
+      "name": "single-cfg-rs",
+      "inherits": "single-cfg-r",
+      "hidden": true,
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": {
+          "type": "BOOL",
+          "value": "ON"
+        }
+      }
+    },
+    {
+      "name": "single-cfg-rds",
+      "inherits": "single-cfg-rd",
+      "hidden": true,
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": {
+          "type": "BOOL",
+          "value": "ON"
+        }
+      }
+    },
+    {
+      "name": "multi-cfg",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_CONFIGURATION_TYPES": "Debug;Release"
+      }
+    },
+    {
+      "name": "multi-cfg-shared",
+      "inherits": "multi-cfg",
+      "hidden": true,
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": {
+          "type": "BOOL",
+          "value": "ON"
+        }
+      }
+    },
+    {
+      "name": "multi-cfg-rd",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_CONFIGURATION_TYPES": "Debug;Release;RelWithDebInfo"
+      }
+    },
+    {
+      "name": "multi-cfg-rds",
+      "inherits": "multi-cfg-rd",
+      "hidden": true,
+      "cacheVariables": {
+        "BUILD_SHARED_LIBS": {
+          "type": "BOOL",
+          "value": "ON"
+        }
+      }
+    },
+    {
+      "name": "osx-arch-arm",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_OSX_ARCHITECTURES": "arm64"
+      }
+    },
+    {
+      "name": "osx-arch-x86",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_OSX_ARCHITECTURES": "x86_64"
+      }
+    },
+    {
+      "name": "osx-arch-universal",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_OSX_ARCHITECTURES": "x86_64;arm64"
+      }
+    },
+    {
+      "name": "msvc-19.x-base",
+      "hidden": true,
+      "cmakeExecutable": "C:/Program Files/CMake/bin/cmake.exe",
+      "architecture": {
+        "value": "x64",
+        "strategy": "set"
+      }
+    },
+    {
+      "name": "msvc-19.x",
+      "inherits": [
+        "default-windows",
+        "multi-cfg-rd",
+        "msvc-19.x-base"
+      ],
+      "displayName": "Visual Studio - static,relwithdebinfo"
+    },
+    {
+      "name": "msvc-19.3x-base",
+      "hidden": true,
+      "cmakeExecutable": "C:/Program Files/CMake/bin/cmake.exe",
+      "generator": "Visual Studio 17 2022",
+      "architecture": {
+        "value": "x64",
+        "strategy": "set"
+      },
+      "toolset": {
+        "value": "v143",
+        "strategy": "set"
+      }
+    },
+    {
+      "name": "msvc-19.3x",
+      "inherits": [
+        "default-windows",
+        "multi-cfg-rd",
+        "msvc-19.3x-base"
+      ],
+      "displayName": "Visual Studio 2022 - static,relwithdebinfo"
+    },
+    {
+      "name": "msvc-19.2x-base",
+      "hidden": true,
+      "cmakeExecutable": "C:/Program Files/CMake/bin/cmake.exe",
+      "generator": "Visual Studio 16 2019",
+      "architecture": {
+        "value": "x64",
+        "strategy": "set"
+      },
+      "toolset": {
+        "value": "v142,host=x64",
+        "strategy": "set"
+      }
+    },
+    {
+      "name": "msvc-19.2x",
+      "inherits": [
+        "default-windows",
+        "multi-cfg-rd",
+        "msvc-19.2x-base"
+      ],
+      "displayName": "Visual Studio 2019 - static,relwithdebinfo"
+    },
+    {
+      "name": "msvc-19.1x-base",
+      "hidden": true,
+      "cmakeExecutable": "C:/Program Files/CMake/bin/cmake.exe",
+      "generator": "Visual Studio 15 2017",
+      "architecture": {
+        "value": "x64",
+        "strategy": "set"
+      },
+      "toolset": {
+        "value": "v141,host=x64",
+        "strategy": "set"
+      }
+    },
+    {
+      "name": "msvc-19.1x",
+      "inherits": [
+        "default-windows",
+        "multi-cfg-rd",
+        "msvc-19.1x-base"
+      ],
+      "displayName": "Visual Studio 2017 - static,relwithdebinfo"
+    },
+    {
+      "name": "vscode-d",
+      "inherits": [
+        "default-linux",
+        "single-cfg-d",
+        "default-ninja"
+      ],
+      "displayName": "VSCode/gcc - Debug"
+    },
+    {
+      "name": "vscode-r",
+      "inherits": [
+        "default-linux",
+        "single-cfg-r",
+        "default-ninja"
+      ],
+      "displayName": "VSCode/gcc - Release"
+    },
+    {
+      "name": "vscode-rd",
+      "inherits": [
+        "default-linux",
+        "single-cfg-rd",
+        "default-ninja"
+      ],
+      "displayName": "VSCode/gcc - RelWithDebInfo"
+    },
+    {
+      "name": "vscode-osx-d",
+      "inherits": [
+        "default-osx",
+        "single-cfg-d",
+        "default-ninja"
+      ],
+      "displayName": "VSCode - Debug"
+    },
+    {
+      "name": "vscode-osx-r",
+      "inherits": [
+        "default-osx",
+        "single-cfg-r",
+        "default-ninja"
+      ],
+      "displayName": "VSCode - Release"
+    },
+    {
+      "name": "vscode-osx-rd",
+      "inherits": [
+        "default-osx",
+        "single-cfg-rd",
+        "default-ninja"
+      ],
+      "displayName": "VSCode - RelWithDebInfo"
+    },
+    {
+      "name": "xcode-base",
+      "hidden": true,
+      "generator": "Xcode",
+      "inherits": "default-osx"
+    },
+    {
+      "name": "xcode-arch-universal",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_OSX_ARCHITECTURES": "$(ARCHS_STANDARD)"
+      }
+    },
+    {
+      "name": "xcode",
+      "inherits": [
+        "xcode-base",
+        "multi-cfg-rd"
+      ],
+      "displayName": "Xcode - static,relwithdebinfo"
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "default-windows",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "default-linux",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "default-osx",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Darwin"
+      }
+    },
+    {
+      "name": "msbuild-jobs",
+      "hidden": true,
+      "nativeToolOptions": [
+        "/maxcpucount",
+        "/nr:false"
+      ]
+    },
+    {
+      "name": "msvc-base",
+      "hidden": true,
+      "inherits": [
+        "default-windows",
+        "msbuild-jobs"
+      ]
+    },
+    {
+      "name": "cmake-build-jobs",
+      "hidden": true,
+      "environment": {
+        "CMAKE_BUILD_PARALLEL_LEVEL": "$env{CMAKE_BUILD_PARALLEL_LEVEL_PRESETS}"
+      }
+    },
+    {
+      "name": "vscode-linux",
+      "hidden": true,
+      "inherits": [
+        "default-linux",
+        "cmake-build-jobs"
+      ]
+    },
+    {
+      "name": "vscode-osx",
+      "hidden": true,
+      "inherits": [
+        "default-osx",
+        "cmake-build-jobs"
+      ]
+    },
+    {
+      "name": "msvc-19.x-d",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.x-r",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.x-rd",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "msvc-19.3x-d",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.3x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.3x-r",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.3x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.3x-rd",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.3x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "msvc-19.2x-d",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.2x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.2x-r",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.2x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.2x-rd",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.2x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "msvc-19.1x-d",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.1x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.1x-r",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.1x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.1x-rd",
+      "inherits": "msvc-base",
+      "configurePreset": "msvc-19.1x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "vscode-d",
+      "inherits": "vscode-linux",
+      "configurePreset": "vscode-d"
+    },
+    {
+      "name": "vscode-r",
+      "inherits": "vscode-linux",
+      "configurePreset": "vscode-r"
+    },
+    {
+      "name": "vscode-rd",
+      "inherits": "vscode-linux",
+      "configurePreset": "vscode-rd"
+    },
+    {
+      "name": "vscode-osx-d",
+      "inherits": "vscode-osx",
+      "configurePreset": "vscode-osx-d"
+    },
+    {
+      "name": "vscode-osx-r",
+      "inherits": "vscode-osx",
+      "configurePreset": "vscode-osx-r"
+    },
+    {
+      "name": "vscode-osx-rd",
+      "inherits": "vscode-osx",
+      "configurePreset": "vscode-osx-rd"
+    },
+    {
+      "name": "xcode-base",
+      "hidden": true,
+      "inherits": [
+        "default-osx",
+        "cmake-build-jobs"
+      ]
+    },
+    {
+      "name": "xcode-d",
+      "inherits": "xcode-base",
+      "configurePreset": "xcode",
+      "configuration": "Debug"
+    },
+    {
+      "name": "xcode-r",
+      "inherits": "xcode-base",
+      "configurePreset": "xcode",
+      "configuration": "Release"
+    },
+    {
+      "name": "xcode-rd",
+      "inherits": "xcode-base",
+      "configurePreset": "xcode",
+      "configuration": "RelWithDebInfo"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "default",
+      "hidden": true,
+      "output": {
+        "outputOnFailure": true
+      }
+    },
+    {
+      "name": "default-windows",
+      "inherits": "default",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Windows"
+      }
+    },
+    {
+      "name": "default-linux",
+      "inherits": "default",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Linux"
+      }
+    },
+    {
+      "name": "default-osx",
+      "inherits": "default",
+      "hidden": true,
+      "condition": {
+        "type": "equals",
+        "lhs": "${hostSystemName}",
+        "rhs": "Darwin"
+      }
+    }
+    ,
+    {
+      "name": "msvc-19.x-d",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.x-r",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.x-rd",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "msvc-19.3x-d",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.3x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.3x-r",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.3x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.3x-rd",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.3x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "msvc-19.2x-d",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.2x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.2x-r",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.2x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.2x-rd",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.2x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "msvc-19.1x-d",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.1x",
+      "configuration": "Debug"
+    },
+    {
+      "name": "msvc-19.1x-r",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.1x",
+      "configuration": "Release"
+    },
+    {
+      "name": "msvc-19.1x-rd",
+      "inherits": "default-windows",
+      "configurePreset": "msvc-19.1x",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "vscode-d",
+      "inherits": "default-linux",
+      "configurePreset": "vscode-d",
+      "configuration": "Debug"
+    },
+    {
+      "name": "vscode-r",
+      "inherits": "default-linux",
+      "configurePreset": "vscode-r",
+      "configuration": "Release"
+    },
+    {
+      "name": "vscode-rd",
+      "inherits": "default-linux",
+      "configurePreset": "vscode-rd",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "vscode-osx-d",
+      "inherits": "default-osx",
+      "configurePreset": "vscode-osx-d",
+      "configuration": "Debug"
+    },
+    {
+      "name": "vscode-osx-r",
+      "inherits": "default-osx",
+      "configurePreset": "vscode-osx-r",
+      "configuration": "Release"
+    },
+    {
+      "name": "vscode-osx-rd",
+      "inherits": "default-osx",
+      "configurePreset": "vscode-osx-rd",
+      "configuration": "RelWithDebInfo"
+    },
+    {
+      "name": "xcode-d",
+      "inherits": "default-osx",
+      "configurePreset": "xcode",
+      "configuration": "Debug"
+    },
+    {
+      "name": "xcode-r",
+      "inherits": "default-osx",
+      "configurePreset": "xcode",
+      "configuration": "Release"
+    },
+    {
+      "name": "xcode-rd",
+      "inherits": "default-osx",
+      "configurePreset": "xcode",
+      "configuration": "RelWithDebInfo"
+    }
+  ]
+
+}

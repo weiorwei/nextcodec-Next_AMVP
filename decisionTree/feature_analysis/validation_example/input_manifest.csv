@@ -1,0 +1,2 @@
+path,bytes,sequence,qp,segment,started,completed,rejected,accepted,partial
+/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1_enc.log,89971009,SyntheticPiecewiseRA,-1,-1,39816,39816,0,39816,False

@@ -1,0 +1,7152 @@
+[
+  {
+    "title": "AMVP 六种 TMR 模式",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "AMVP 六种 TMR 模式",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "候选扩展、八选二与运动搜索的整体流程",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "01",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.76,
+          2.06,
+          11.85,
+          0.85
+        ],
+        "text": "从临时 8 候选，到正式 2 个 MVP",
+        "size": 35,
+        "bold": true,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          3.21,
+          11.6,
+          0.65
+        ],
+        "text": "mode 3  /  4  /  3.1  /  4.1  /  5.1  /  6.1",
+        "size": 25,
+        "bold": false,
+        "required_height": 0.4583333333333333
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.8,
+          4.26,
+          12.2,
+          4.26
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          4.63,
+          11.4,
+          0.7
+        ],
+        "text": "两条主线：如何选两个 MVP，以及何时让它们参与 ME。",
+        "size": 21,
+        "bold": false,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          5.61,
+          11.4,
+          0.72
+        ],
+        "text": "基于当前代码 · 独立模式流程页 · 可编辑图示与逐页讲解备注",
+        "size": 16.5,
+        "bold": false,
+        "required_height": 0.3025
+      }
+    ]
+  },
+  {
+    "title": "六个模式：三种选择器 × 两个时点",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "六个模式：三种选择器 × 两个时点",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "先记住这个对应关系，再逐个展开流程。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "02",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.12,
+          1.7,
+          0.76
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.2350000000000003,
+          1.44,
+          0.5800000000000001
+        ],
+        "text": "时点",
+        "size": 17.8,
+        "bold": true,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.35,
+          2.12,
+          3.42,
+          0.76
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.48,
+          2.2350000000000003,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "ARMC + Lite",
+        "size": 17.8,
+        "bold": true,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.77,
+          2.12,
+          3.42,
+          0.76
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.8999999999999995,
+          2.2350000000000003,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "无 ARMC + Lite",
+        "size": 17.8,
+        "bold": true,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.19,
+          2.12,
+          3.47,
+          0.76
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.32,
+          2.2350000000000003,
+          3.21,
+          0.5800000000000001
+        ],
+        "text": "无 ARMC + Full",
+        "size": 17.8,
+        "bold": true,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.88,
+          1.7,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.995,
+          1.44,
+          0.5800000000000001
+        ],
+        "text": "ME 后",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.35,
+          2.88,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.48,
+          2.995,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "mode 3",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.77,
+          2.88,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.8999999999999995,
+          2.995,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "mode 3.1",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.19,
+          2.88,
+          3.47,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.32,
+          2.995,
+          3.21,
+          0.5800000000000001
+        ],
+        "text": "mode 5.1",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.64,
+          1.7,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.7550000000000003,
+          1.44,
+          0.5800000000000001
+        ],
+        "text": "ME 前",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.35,
+          3.64,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.48,
+          3.7550000000000003,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "mode 4",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.77,
+          3.64,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.8999999999999995,
+          3.7550000000000003,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "mode 4.1",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.19,
+          3.64,
+          3.47,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.32,
+          3.7550000000000003,
+          3.21,
+          0.5800000000000001
+        ],
+        "text": "mode 6.1",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          4.4,
+          1.7,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.515000000000001,
+          1.44,
+          0.5800000000000001
+        ],
+        "text": "锚点",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.35,
+          4.4,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.48,
+          4.515000000000001,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "固定模板第一名",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.77,
+          4.4,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.8999999999999995,
+          4.515000000000001,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "固定原池 slot0",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.19,
+          4.4,
+          3.47,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.32,
+          4.515000000000001,
+          3.21,
+          0.5800000000000001
+        ],
+        "text": "不固定第一项",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          5.16,
+          1.7,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          5.275,
+          1.44,
+          0.5800000000000001
+        ],
+        "text": "权重",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.35,
+          5.16,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.48,
+          5.275,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "64,32,16,8,…",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.77,
+          5.16,
+          3.42,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.8999999999999995,
+          5.275,
+          3.16,
+          0.5800000000000001
+        ],
+        "text": "64,32,16,8,…",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.19,
+          5.16,
+          3.47,
+          0.76
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.32,
+          5.275,
+          3.21,
+          0.5800000000000001
+        ],
+        "text": "8,7,6,5,…",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "共同约束：临时池为八槽，最终只传正式两候选索引 0 / 1；六模式都没有 sidecar。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "共同入口：八槽临时候选池如何构造",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "共同入口：八槽临时候选池如何构造",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "八槽不等于八个唯一有效运动；原标准 0/1 始终先放入。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "03",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.73,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 0",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.7000000000000001,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "标准 MVP0",
+        "size": 14.3,
+        "bold": true,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.16,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.24,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 1",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          2.21,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "标准 MVP1",
+        "size": 14.3,
+        "bold": true,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.67,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.75,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 2",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.7199999999999998,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "补充候选",
+        "size": 14.3,
+        "bold": false,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          5.180000000000001,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.260000000000001,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 3",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          5.23,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "补充候选",
+        "size": 14.3,
+        "bold": false,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.69,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.7700000000000005,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 4",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.74,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "补充候选",
+        "size": 14.3,
+        "bold": false,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.2,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.28,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 5",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.25,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "补充候选",
+        "size": 14.3,
+        "bold": false,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.71,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.790000000000001,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 6",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.760000000000002,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "补充候选",
+        "size": 14.3,
+        "bold": false,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          11.22,
+          2.1,
+          1.39,
+          1.0
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.3,
+          2.23,
+          1.23,
+          0.25
+        ],
+        "text": "slot 7",
+        "size": 13.5,
+        "bold": false,
+        "required_height": 0.2475
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          11.270000000000001,
+          2.67,
+          1.29,
+          0.34
+        ],
+        "text": "补充候选",
+        "size": 14.3,
+        "bold": false,
+        "required_height": 0.26216666666666666
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          3.61,
+          3.65,
+          0.4
+        ],
+        "text": "空域",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          4.14,
+          3.65,
+          1.04
+        ],
+        "text": "A0 / A1 / B0 / B1 / B2\n依可用性与参考匹配检查",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.88,
+          3.61,
+          3.65,
+          0.4
+        ],
+        "text": "时域",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.88,
+          4.14,
+          3.65,
+          1.04
+        ],
+        "text": "C0 / C1\n保留 TMVP 原有可用性条件",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.96,
+          3.61,
+          3.65,
+          0.4
+        ],
+        "text": "历史",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.96,
+          4.14,
+          3.65,
+          1.04
+        ],
+        "text": "完整当前 HMVP LUT\n按参考 POC 匹配检查",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          5.46,
+          11.7,
+          0.56
+        ],
+        "text": "按空域 → 时域 → 历史追加不同 MV；满八槽停止，不足补零。",
+        "size": 19,
+        "bold": false,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "全来源都被探测 ≠ 全来源都能进八池。没有来源配额；重复零在 TMR 中只保留一票。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "不要混淆三种代价：它们比较的对象不同",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "不要混淆三种代价：它们比较的对象不同",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "名字含 Template 的 xGetTemplateCost，也不等于 ARMC 边界模板。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "04",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.11,
+          3.8,
+          3.64
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8500000000000001,
+          2.34,
+          3.4,
+          0.5
+        ],
+        "text": "ARMC 排名",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8500000000000001,
+          3.24,
+          3.4,
+          1.03
+        ],
+        "text": "已重建上 / 左边界\nvs. 候选参考边界",
+        "size": 20,
+        "bold": false,
+        "required_height": 0.7333333333333334
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.8500000000000001,
+          4.52,
+          4.23,
+          4.52
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8500000000000001,
+          4.83,
+          3.4,
+          0.77
+        ],
+        "text": "边界 SAD；排序用\n仅 mode3 / mode4",
+        "size": 16.5,
+        "bold": false,
+        "required_height": 0.605
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.75,
+          2.11,
+          3.8,
+          3.64
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.95,
+          2.34,
+          3.4,
+          0.5
+        ],
+        "text": "普通起点预评估",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.95,
+          3.24,
+          3.4,
+          1.03
+        ],
+        "text": "整个原始 CU\nvs. 整个预测 CU",
+        "size": 20,
+        "bold": false,
+        "required_height": 0.7333333333333334
+      },
+      {
+        "kind": "line",
+        "points": [
+          4.95,
+          4.52,
+          8.33,
+          4.52
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.95,
+          4.83,
+          3.4,
+          0.77
+        ],
+        "text": "整块 SAD + idx 率代价\n六个模式都保留",
+        "size": 16.5,
+        "bold": false,
+        "required_height": 0.605
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.85,
+          2.11,
+          3.8,
+          3.64
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.049999999999999,
+          2.34,
+          3.4,
+          0.5
+        ],
+        "text": "TMR 八选二",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.049999999999999,
+          3.24,
+          3.4,
+          1.03
+        ],
+        "text": "候选运动假设 c[k]\nvs. 两个候选中心",
+        "size": 20,
+        "bold": false,
+        "required_height": 0.7333333333333334
+      },
+      {
+        "kind": "line",
+        "points": [
+          9.049999999999999,
+          4.52,
+          12.43,
+          4.52
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          9.049999999999999,
+          4.83,
+          3.4,
+          0.77
+        ],
+        "text": "估计差分码长覆盖\n不使用本次最终 MV",
+        "size": 16.5,
+        "bold": false,
+        "required_height": 0.605
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "小数模式无 ARMC 边界模板；原始整块起点预评估与普通 ME 不变。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "TMR-Lite：固定第一项，再选互补伙伴",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "TMR-Lite：固定第一项，再选互补伙伴",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "mode3 / 4 与 mode3.1 / 4.1 的覆盖目标相同，区别是排名先验。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "05",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.07,
+          12.01,
+          1.15
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.89,
+          2.23,
+          11.5,
+          0.34
+        ],
+        "text": "E(k,i) = EGbits(c[k].x − c[i].x) + EGbits(c[k].y − c[i].y)",
+        "size": 20,
+        "bold": false,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.89,
+          2.71,
+          11.5,
+          0.34
+        ],
+        "text": "score(0,j) = Σk  w[k] × min(E(k,0), E(k,j))  →  取最小",
+        "size": 20,
+        "bold": true,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.79,
+          3.73,
+          5.85,
+          0.4
+        ],
+        "text": "固定谁？",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.79,
+          4.26,
+          5.85,
+          1.04
+        ],
+        "text": "mode 3 / 4：ARMC 模板第一名。\nmode 3.1 / 4.1：原八池 slot0。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.92,
+          3.73,
+          5.58,
+          0.4
+        ],
+        "text": "怎么选第二项？",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.92,
+          4.26,
+          5.58,
+          1.04
+        ],
+        "text": "权重 64,32,16,8,4,2,1,1。\n最多7个伙伴；同分保留较早伙伴。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          5.72,
+          11.65,
+          0.42
+        ],
+        "text": "先稳定去重，再按 AMVR 码字精度比较；权重按唯一顺序赋值。",
+        "size": 18,
+        "bold": false,
+        "required_height": 0.33
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "第二项不必是原第二名：选择能降低加权表示成本的伙伴，而不是只追求两 MV 最远。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "TMR-Full：联合选两个中心，不锁定第 0 项",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "TMR-Full：联合选两个中心，不锁定第 0 项",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "mode5.1 / 6.1：原八池顺序作先验，不读取 ARMC 模板。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "06",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.07,
+          12.01,
+          1.03
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.92,
+          2.38,
+          11.44,
+          0.39
+        ],
+        "text": "score(i,j) = Σk  w[k] × min(E(k,i), E(k,j))    0 ≤ i < j < U",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.79,
+          3.66,
+          5.8,
+          0.4
+        ],
+        "text": "搜索范围",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.79,
+          4.19,
+          5.8,
+          1.04
+        ],
+        "text": "枚举全部无序候选对。\n八个唯一 MV 时最多28对。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9,
+          3.66,
+          5.6,
+          0.4
+        ],
+        "text": "排序先验与输出",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9,
+          4.19,
+          5.6,
+          1.04
+        ],
+        "text": "权重 8,7,6,5,4,3,2,1。\n选中的较早项 → MVP0；另一项 → MVP1。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          5.63,
+          11.65,
+          0.49
+        ],
+        "text": "原 slot0 可以被舍弃；仍然只输出两个正式 MVP，不生成新 MV。",
+        "size": 19,
+        "bold": false,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "Full 相对 Lite 同时放开锚点并更改权重；不可把它们的差异当作单变量消融。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "mode 3：ME 后TMR-Lite",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "mode 3：ME 后TMR-Lite",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "ARMC 模板排名  ·  固定锚点、选互补伙伴  ·  正式列表仍只有两项",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "07",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "01  标准列表",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "原始 MVP0 / MVP1\n正式两候选",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "02  起点预评估",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "标准两项中选一\n整块 SAD + idx 代价",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "03  普通主 ME",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "沿用原搜索流程\n得到本次 MV",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "04  临时扩展",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "空域 / 时域 / 历史\n固定八槽池",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "05  ARMC 排名",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "重建边界模板 SAD\n稳定升序",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "06  TMR-Lite",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定模板首项\n选互补第二项",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "07  最终 MVP 复选",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定本次 MV\n两项中比估计码长",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "08  正常编码",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "mvp_idx = 0 / 1\nMVD = MV − MVP",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.465,
+          2.58,
+          3.685,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.545,
+          2.58,
+          6.765,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.625,
+          2.58,
+          9.845,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          11.275,
+          3.23,
+          11.275,
+          3.6350000000000002
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.845,
+          4.29,
+          9.625,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.765,
+          4.29,
+          6.545,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.685,
+          4.29,
+          3.465,
+          4.29
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.13,
+          5.78,
+          0.4
+        ],
+        "text": "候选对规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.66,
+          5.78,
+          1.04
+        ],
+        "text": "权重 64,32,16,8,4,2,1,1；至多7对。\n固定模板第一名，第二项不必是原第二名。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.13,
+          5.63,
+          0.4
+        ],
+        "text": "该模式想验证什么",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.66,
+          5.63,
+          1.04
+        ],
+        "text": "测试相同本次 MV 的 predictor 表示是否更便宜。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "本次 MV 已确定后换 predictor；此步骤不再搜索。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          6.83,
+          11.95,
+          0.17
+        ],
+        "text": "主线：普通平移 AMVP 的主要初始单向 ME；快速/专门路径另述。",
+        "size": 10,
+        "bold": false,
+        "required_height": 0.1527777777777778
+      }
+    ]
+  },
+  {
+    "title": "mode 4：ME 前TMR-Lite",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "mode 4：ME 前TMR-Lite",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "ARMC 模板排名  ·  固定锚点、选互补伙伴  ·  正式列表仍只有两项",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "08",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "01  标准列表",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "原始 MVP0 / MVP1\n正式两候选",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "02  临时扩展",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "空域 / 时域 / 历史\n固定八槽池",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "03  ARMC 排名",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "重建边界模板 SAD\n稳定升序",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "04  TMR-Lite",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "固定模板首项\n选互补第二项",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "05  起点预评估",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "新正式两项中选一\n整块 SAD + idx 代价",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "06  普通主 ME",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "沿用原搜索流程\n得到本次 MV",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "07  最终 MVP 复选",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定本次 MV\n两项中比估计码长",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "08  正常编码",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "mvp_idx = 0 / 1\nMVD = MV − MVP",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.465,
+          2.58,
+          3.685,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.545,
+          2.58,
+          6.765,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.625,
+          2.58,
+          9.845,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          11.275,
+          3.23,
+          11.275,
+          3.6350000000000002
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.845,
+          4.29,
+          9.625,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.765,
+          4.29,
+          6.545,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.685,
+          4.29,
+          3.465,
+          4.29
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.13,
+          5.78,
+          0.4
+        ],
+        "text": "候选对规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.66,
+          5.78,
+          1.04
+        ],
+        "text": "权重 64,32,16,8,4,2,1,1；至多7对。\n固定模板第一名，第二项不必是原第二名。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.13,
+          5.63,
+          0.4
+        ],
+        "text": "该模式想验证什么",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.66,
+          5.63,
+          1.04
+        ],
+        "text": "测试选对是否还能改善普通 ME 起点与搜索结果。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "影响 active predictor 与搜索率成本，也可能改变最终 MV。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          6.83,
+          11.95,
+          0.17
+        ],
+        "text": "主线：普通平移 AMVP 的主要初始单向 ME；快速/专门路径另述。",
+        "size": 10,
+        "bold": false,
+        "required_height": 0.1527777777777778
+      }
+    ]
+  },
+  {
+    "title": "mode 3.1：ME 后去 ARMC TMR-Lite",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "mode 3.1：ME 后去 ARMC TMR-Lite",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "扩展池原始顺序  ·  固定锚点、选互补伙伴  ·  正式列表仍只有两项",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "09",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "01  标准列表",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "原始 MVP0 / MVP1\n正式两候选",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "02  起点预评估",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "标准两项中选一\n整块 SAD + idx 代价",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "03  普通主 ME",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "沿用原搜索流程\n得到本次 MV",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "04  临时扩展",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "空域 / 时域 / 历史\n固定八槽池",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "05  原池顺序",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "跳过 ARMC\n原顺序作为先验",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "06  TMR-Lite",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定原 slot0\n选互补第二项",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "07  最终 MVP 复选",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定本次 MV\n两项中比估计码长",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "08  正常编码",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "mvp_idx = 0 / 1\nMVD = MV − MVP",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.465,
+          2.58,
+          3.685,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.545,
+          2.58,
+          6.765,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.625,
+          2.58,
+          9.845,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          11.275,
+          3.23,
+          11.275,
+          3.6350000000000002
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.845,
+          4.29,
+          9.625,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.765,
+          4.29,
+          6.545,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.685,
+          4.29,
+          3.465,
+          4.29
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.13,
+          5.78,
+          0.4
+        ],
+        "text": "候选对规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.66,
+          5.78,
+          1.04
+        ],
+        "text": "权重 64,32,16,8,4,2,1,1；至多7对。\n固定原扩展池 slot0，第二项不必是原第二名。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.13,
+          5.63,
+          0.4
+        ],
+        "text": "该模式想验证什么",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.66,
+          5.63,
+          1.04
+        ],
+        "text": "在不增加 ARMC 边界模板访问的条件下，测试相同本\n次 MV 的 predictor 表示是否更便宜。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "本次 MV 已确定后换 predictor；此步骤不再搜索。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          6.83,
+          11.95,
+          0.17
+        ],
+        "text": "主线：普通平移 AMVP 的主要初始单向 ME；快速/专门路径另述。",
+        "size": 10,
+        "bold": false,
+        "required_height": 0.1527777777777778
+      }
+    ]
+  },
+  {
+    "title": "mode 4.1：ME 前去 ARMC TMR-Lite",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "mode 4.1：ME 前去 ARMC TMR-Lite",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "扩展池原始顺序  ·  固定锚点、选互补伙伴  ·  正式列表仍只有两项",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "10",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "01  标准列表",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "原始 MVP0 / MVP1\n正式两候选",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "02  临时扩展",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "空域 / 时域 / 历史\n固定八槽池",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "03  原池顺序",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "跳过 ARMC\n原顺序作为先验",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "04  TMR-Lite",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "固定原 slot0\n选互补第二项",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "05  起点预评估",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "新正式两项中选一\n整块 SAD + idx 代价",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "06  普通主 ME",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "沿用原搜索流程\n得到本次 MV",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "07  最终 MVP 复选",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定本次 MV\n两项中比估计码长",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "08  正常编码",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "mvp_idx = 0 / 1\nMVD = MV − MVP",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.465,
+          2.58,
+          3.685,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.545,
+          2.58,
+          6.765,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.625,
+          2.58,
+          9.845,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          11.275,
+          3.23,
+          11.275,
+          3.6350000000000002
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.845,
+          4.29,
+          9.625,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.765,
+          4.29,
+          6.545,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.685,
+          4.29,
+          3.465,
+          4.29
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.13,
+          5.78,
+          0.4
+        ],
+        "text": "候选对规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.66,
+          5.78,
+          1.04
+        ],
+        "text": "权重 64,32,16,8,4,2,1,1；至多7对。\n固定原扩展池 slot0，第二项不必是原第二名。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.13,
+          5.63,
+          0.4
+        ],
+        "text": "该模式想验证什么",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.66,
+          5.63,
+          1.04
+        ],
+        "text": "在不增加 ARMC 边界模板访问的条件下，测试选对是\n否还能改善普通 ME 起点与搜索结果。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "影响 active predictor 与搜索率成本，也可能改变最终 MV。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          6.83,
+          11.95,
+          0.17
+        ],
+        "text": "主线：普通平移 AMVP 的主要初始单向 ME；快速/专门路径另述。",
+        "size": 10,
+        "bold": false,
+        "required_height": 0.1527777777777778
+      }
+    ]
+  },
+  {
+    "title": "mode 5.1：ME 后去 ARMC TMR-Full",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "mode 5.1：ME 后去 ARMC TMR-Full",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "扩展池原始顺序  ·  联合选对  ·  正式列表仍只有两项",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "11",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "01  标准列表",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "原始 MVP0 / MVP1\n正式两候选",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "02  起点预评估",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "标准两项中选一\n整块 SAD + idx 代价",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "03  普通主 ME",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "沿用原搜索流程\n得到本次 MV",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "04  临时扩展",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "空域 / 时域 / 历史\n固定八槽池",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "05  原池顺序",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "跳过 ARMC\n原顺序作为先验",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "06  TMR-Full",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "联合枚举两项\n不固定 slot0",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "07  最终 MVP 复选",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定本次 MV\n两项中比估计码长",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "08  正常编码",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "mvp_idx = 0 / 1\nMVD = MV − MVP",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.465,
+          2.58,
+          3.685,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.545,
+          2.58,
+          6.765,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.625,
+          2.58,
+          9.845,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          11.275,
+          3.23,
+          11.275,
+          3.6350000000000002
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.845,
+          4.29,
+          9.625,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.765,
+          4.29,
+          6.545,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.685,
+          4.29,
+          3.465,
+          4.29
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.13,
+          5.78,
+          0.4
+        ],
+        "text": "候选对规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.66,
+          5.78,
+          1.04
+        ],
+        "text": "权重 8,7,6,5,4,3,2,1；至多28对。\n第一项也可以被舍弃。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.13,
+          5.63,
+          0.4
+        ],
+        "text": "该模式想验证什么",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.66,
+          5.63,
+          1.04
+        ],
+        "text": "在不增加 ARMC 边界模板访问的条件下，测试相同本\n次 MV 的 predictor 表示是否更便宜。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "本次 MV 已确定后换 predictor；此步骤不再搜索。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          6.83,
+          11.95,
+          0.17
+        ],
+        "text": "主线：普通平移 AMVP 的主要初始单向 ME；快速/专门路径另述。",
+        "size": 10,
+        "bold": false,
+        "required_height": 0.1527777777777778
+      }
+    ]
+  },
+  {
+    "title": "mode 6.1：ME 前去 ARMC TMR-Full",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "mode 6.1：ME 前去 ARMC TMR-Full",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "扩展池原始顺序  ·  联合选对  ·  正式列表仍只有两项",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "12",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "01  标准列表",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "原始 MVP0 / MVP1\n正式两候选",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "02  临时扩展",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "空域 / 时域 / 历史\n固定八槽池",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "03  原池顺序",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "跳过 ARMC\n原顺序作为先验",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          1.97,
+          2.77,
+          1.22
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.11,
+          2.51,
+          0.4
+        ],
+        "text": "04  TMR-Full",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          2.6,
+          2.51,
+          0.55
+        ],
+        "text": "联合枚举两项\n不固定 slot0",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.89,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "05  起点预评估",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.020000000000001,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "新正式两项中选一\n整块 SAD + idx 代价",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.81,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "06  普通主 ME",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.9399999999999995,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "沿用原搜索流程\n得到本次 MV",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.73,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "07  最终 MVP 复选",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.86,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "固定本次 MV\n两项中比估计码长",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.68,
+          2.77,
+          1.22
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.8200000000000003,
+          2.51,
+          0.4
+        ],
+        "text": "08  正常编码",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.3100000000000005,
+          2.51,
+          0.55
+        ],
+        "text": "mvp_idx = 0 / 1\nMVD = MV − MVP",
+        "size": 16.0,
+        "bold": false,
+        "required_height": 0.5333333333333333
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.465,
+          2.58,
+          3.685,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.545,
+          2.58,
+          6.765,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.625,
+          2.58,
+          9.845,
+          2.58
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          11.275,
+          3.23,
+          11.275,
+          3.6350000000000002
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.845,
+          4.29,
+          9.625,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.765,
+          4.29,
+          6.545,
+          4.29
+        ]
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.685,
+          4.29,
+          3.465,
+          4.29
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.13,
+          5.78,
+          0.4
+        ],
+        "text": "候选对规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          5.66,
+          5.78,
+          1.04
+        ],
+        "text": "权重 8,7,6,5,4,3,2,1；至多28对。\n第一项也可以被舍弃。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.13,
+          5.63,
+          0.4
+        ],
+        "text": "该模式想验证什么",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.85,
+          5.66,
+          5.63,
+          1.04
+        ],
+        "text": "在不增加 ARMC 边界模板访问的条件下，测试选对是\n否还能改善普通 ME 起点与搜索结果。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "影响 active predictor 与搜索率成本，也可能改变最终 MV。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.72,
+          6.83,
+          11.95,
+          0.17
+        ],
+        "text": "主线：普通平移 AMVP 的主要初始单向 ME；快速/专门路径另述。",
+        "size": 10,
+        "bold": false,
+        "required_height": 0.1527777777777778
+      }
+    ]
+  },
+  {
+    "title": "前置与后置：改变的是选择器参与 ME 的时点",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "前置与后置：改变的是选择器参与 ME 的时点",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "配对比较：3 ↔ 4、3.1 ↔ 4.1、5.1 ↔ 6.1。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "13",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          2.08,
+          11.7,
+          0.43
+        ],
+        "text": "ME 后：3 / 3.1 / 5.1",
+        "size": 22,
+        "bold": true,
+        "required_height": 0.4033333333333334
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.8,
+          2.73,
+          2.7,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.92,
+          2.92,
+          2.46,
+          0.35
+        ],
+        "text": "标准两项预评估",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.5599999999999996,
+          3.09,
+          3.76,
+          3.09
+        ]
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.84,
+          2.73,
+          2.7,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.96,
+          2.92,
+          2.46,
+          0.35
+        ],
+        "text": "普通 ME",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.6,
+          3.09,
+          6.8,
+          3.09
+        ]
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.88,
+          2.73,
+          2.7,
+          0.72
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.0,
+          2.92,
+          2.46,
+          0.35
+        ],
+        "text": "八选二",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.64,
+          3.09,
+          9.84,
+          3.09
+        ]
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.920000000000002,
+          2.73,
+          2.7,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.040000000000001,
+          2.92,
+          2.46,
+          0.35
+        ],
+        "text": "固定 MV 复选",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          4.01,
+          11.7,
+          0.43
+        ],
+        "text": "ME 前：4 / 4.1 / 6.1",
+        "size": 22,
+        "bold": true,
+        "required_height": 0.4033333333333334
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.8,
+          4.66,
+          2.7,
+          0.72
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.92,
+          4.85,
+          2.46,
+          0.35
+        ],
+        "text": "八选二",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          3.5599999999999996,
+          5.02,
+          3.76,
+          5.02
+        ]
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.84,
+          4.66,
+          2.7,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.96,
+          4.85,
+          2.46,
+          0.35
+        ],
+        "text": "新两项预评估",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          6.6,
+          5.02,
+          6.8,
+          5.02
+        ]
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          6.88,
+          4.66,
+          2.7,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          7.0,
+          4.85,
+          2.46,
+          0.35
+        ],
+        "text": "普通 ME",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "arrow",
+        "points": [
+          9.64,
+          5.02,
+          9.84,
+          5.02
+        ]
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          9.920000000000002,
+          4.66,
+          2.7,
+          0.72
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          10.040000000000001,
+          4.85,
+          2.46,
+          0.35
+        ],
+        "text": "同一两项复选",
+        "size": 17.8,
+        "bold": false,
+        "required_height": 0.32633333333333336
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "后置只保证这次复选不再改 MV；不能据此保证整段编码 MV 与 mode0 一致。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "跳过 ARMC：改变排名先验，不是删除 TMR",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "跳过 ARMC：改变排名先验，不是删除 TMR",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "去 ARMC 对照：3 ↔ 3.1、4 ↔ 4.1。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "14",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.03,
+          2.75,
+          0.65
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.145,
+          2.49,
+          0.47000000000000003
+        ],
+        "text": "环节",
+        "size": 17.4,
+        "bold": true,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4,
+          2.03,
+          4.63,
+          0.65
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.53,
+          2.145,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "mode 3 / 4",
+        "size": 17.4,
+        "bold": true,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.03,
+          2.03,
+          4.63,
+          0.65
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.16,
+          2.145,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "mode 3.1 / 4.1",
+        "size": 17.4,
+        "bold": true,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          2.6799999999999997,
+          2.75,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          2.795,
+          2.49,
+          0.47000000000000003
+        ],
+        "text": "排名来源",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4,
+          2.6799999999999997,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.53,
+          2.795,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "ARMC 重建边界 SAD",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.03,
+          2.6799999999999997,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.16,
+          2.795,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "原扩展池推导顺序",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.33,
+          2.75,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          3.4450000000000003,
+          2.49,
+          0.47000000000000003
+        ],
+        "text": "固定首项",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4,
+          3.33,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.53,
+          3.4450000000000003,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "模板第一名",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.03,
+          3.33,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.16,
+          3.4450000000000003,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "原扩展池 slot0",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          3.98,
+          2.75,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.095,
+          2.49,
+          0.47000000000000003
+        ],
+        "text": "Lite 覆盖目标",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4,
+          3.98,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.53,
+          4.095,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "同一公式、同一权重",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.03,
+          3.98,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.16,
+          4.095,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "同一公式、同一权重",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          4.63,
+          2.75,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          4.745,
+          2.49,
+          0.47000000000000003
+        ],
+        "text": "新增像素访问",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4,
+          4.63,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.53,
+          4.745,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "边界读取、参考模板预测",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.03,
+          4.63,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.16,
+          4.745,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "选择器不读像素",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          5.279999999999999,
+          2.75,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.78,
+          5.395,
+          2.49,
+          0.47000000000000003
+        ],
+        "text": "模板缺失 / RPR",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          3.4,
+          5.279999999999999,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.53,
+          5.395,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "保持原池，跳过 TMR",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.03,
+          5.279999999999999,
+          4.63,
+          0.65
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.16,
+          5.395,
+          4.37,
+          0.47000000000000003
+        ],
+        "text": "仍运行运动覆盖选择",
+        "size": 17.4,
+        "bold": false,
+        "required_height": 0.319
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "“原序作先验”不是已经证明原序最优；它正是待通过完整编码验证的假设。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "最终编码与解码：始终只有两个正式 MVP",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "最终编码与解码：始终只有两个正式 MVP",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "六模式都不使用 Oracle；不需要场外 sidecar。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "15",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          2.17,
+          5.75,
+          0.4
+        ],
+        "text": "编码端：已知本次 MV",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          2.7,
+          5.75,
+          1.04
+        ],
+        "text": "只在正式 MVP0 / MVP1 中比较：\nBits_est(MV − MVP_i) + Bits_est(idx_i)\n选较小项，编码正常 idx 0/1 与 MVD。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.9624999999999999
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.98,
+          2.17,
+          5.49,
+          0.4
+        ],
+        "text": "解码端：不执行 ME",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          6.98,
+          2.7,
+          5.49,
+          1.04
+        ],
+        "text": "重建八池 → 复现同一选择器 → 得到两项。\n读取 mvp_idx 与 MVD，恢复：\nMV = MVP[mvp_idx] + MVD",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.9624999999999999
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.79,
+          4.69,
+          11.72,
+          1.05
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          1.0,
+          4.95,
+          11.29,
+          0.6
+        ],
+        "text": "两端一致配置：--amvpmode=3.1（或其余模式）\n--AmvpTrace=0/1 只控制打印，不决定算法是否开启。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.6416666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "TMR 比候选与候选；最终复选比真实 MV 与两个正式 MVP。两者不是同一个比较。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "实现边界：回退、精度与原有专门路径",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "实现边界：回退、精度与原有专门路径",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "下面这些细节应与理想化流程图一起讲，避免过度简化。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "16",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          2.12,
+          11.7,
+          0.4
+        ],
+        "text": "回退规则",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          2.6500000000000004,
+          11.7,
+          1.04
+        ],
+        "text": "mode3 / 4：无模板或参考缩放时保持原池。\n小数模式：不因模板 / RPR 条件回退。\n全部：唯一内部 MV < 2 时保留输入顺序。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.9624999999999999
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          4.05,
+          11.7,
+          0.4
+        ],
+        "text": "流程适用范围",
+        "size": 19,
+        "bold": true,
+        "required_height": 0.3483333333333334
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.8,
+          4.58,
+          11.7,
+          1.04
+        ],
+        "text": "HashME 是独立分支；缓存和双向迭代可复用结果。\n原整数 AMVR 局部 9×2 细化保留，不是两次完整 ME。\nMerge / Affine / IBC 不由本 TMR 选择器改写。",
+        "size": 17.5,
+        "bold": false,
+        "required_height": 0.9624999999999999
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "无 ARMC 选择器只取消新增边界模板访问；整块预评估、普通 ME 仍然使用图像。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "讲解示例：为什么 Lite 不一定选原第 1 项",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "讲解示例：为什么 Lite 不一定选原第 1 项",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "教学示意；不是测试数据。坐标单位为当前 AMVR 的码字单位。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "17",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.82,
+          2.02,
+          11.75,
+          0.5
+        ],
+        "text": "候选：c0=(0,0), c1=(1,0), c2=(8,0), c3=(9,0)",
+        "size": 20,
+        "bold": false,
+        "required_height": 0.3666666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          2.79,
+          2.15,
+          0.48
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          2.9050000000000002,
+          1.89,
+          0.3
+        ],
+        "text": "假设",
+        "size": 16.4,
+        "bold": true,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.9299999999999997,
+          2.79,
+          1.68,
+          0.48
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.0599999999999996,
+          2.9050000000000002,
+          1.42,
+          0.3
+        ],
+        "text": "权重",
+        "size": 16.4,
+        "bold": true,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.609999999999999,
+          2.79,
+          3.96,
+          0.48
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.739999999999999,
+          2.9050000000000002,
+          3.7,
+          0.3
+        ],
+        "text": "中心 (c0,c1)",
+        "size": 16.4,
+        "bold": true,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.57,
+          2.79,
+          3.97,
+          0.48
+        ],
+        "fill": "F7F9FB"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.700000000000001,
+          2.9050000000000002,
+          3.71,
+          0.3
+        ],
+        "text": "中心 (c0,c2)",
+        "size": 16.4,
+        "bold": true,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          3.27,
+          2.15,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          3.3850000000000002,
+          1.89,
+          0.3
+        ],
+        "text": "c0",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.9299999999999997,
+          3.27,
+          1.68,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.0599999999999996,
+          3.3850000000000002,
+          1.42,
+          0.3
+        ],
+        "text": "64",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.609999999999999,
+          3.27,
+          3.96,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.739999999999999,
+          3.3850000000000002,
+          3.7,
+          0.3
+        ],
+        "text": "2",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.57,
+          3.27,
+          3.97,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.700000000000001,
+          3.3850000000000002,
+          3.71,
+          0.3
+        ],
+        "text": "2",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          3.75,
+          2.15,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          3.865,
+          1.89,
+          0.3
+        ],
+        "text": "c1",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.9299999999999997,
+          3.75,
+          1.68,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.0599999999999996,
+          3.865,
+          1.42,
+          0.3
+        ],
+        "text": "32",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.609999999999999,
+          3.75,
+          3.96,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.739999999999999,
+          3.865,
+          3.7,
+          0.3
+        ],
+        "text": "2",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.57,
+          3.75,
+          3.97,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.700000000000001,
+          3.865,
+          3.71,
+          0.3
+        ],
+        "text": "4",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          4.23,
+          2.15,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          4.345000000000001,
+          1.89,
+          0.3
+        ],
+        "text": "c2",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.9299999999999997,
+          4.23,
+          1.68,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.0599999999999996,
+          4.345000000000001,
+          1.42,
+          0.3
+        ],
+        "text": "16",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.609999999999999,
+          4.23,
+          3.96,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.739999999999999,
+          4.345000000000001,
+          3.7,
+          0.3
+        ],
+        "text": "8",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.57,
+          4.23,
+          3.97,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.700000000000001,
+          4.345000000000001,
+          3.71,
+          0.3
+        ],
+        "text": "2",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          4.71,
+          2.15,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          4.825,
+          1.89,
+          0.3
+        ],
+        "text": "c3",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.9299999999999997,
+          4.71,
+          1.68,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.0599999999999996,
+          4.825,
+          1.42,
+          0.3
+        ],
+        "text": "8",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.609999999999999,
+          4.71,
+          3.96,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.739999999999999,
+          4.825,
+          3.7,
+          0.3
+        ],
+        "text": "10",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.57,
+          4.71,
+          3.97,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.700000000000001,
+          4.825,
+          3.71,
+          0.3
+        ],
+        "text": "4",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.78,
+          5.1899999999999995,
+          2.15,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.91,
+          5.305,
+          1.89,
+          0.3
+        ],
+        "text": "加权 score",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          2.9299999999999997,
+          5.1899999999999995,
+          1.68,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          3.0599999999999996,
+          5.305,
+          1.42,
+          0.3
+        ],
+        "text": "—",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          4.609999999999999,
+          5.1899999999999995,
+          3.96,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.739999999999999,
+          5.305,
+          3.7,
+          0.3
+        ],
+        "text": "400",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          8.57,
+          5.1899999999999995,
+          3.97,
+          0.48
+        ],
+        "fill": "FFFFFF"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          8.700000000000001,
+          5.305,
+          3.71,
+          0.3
+        ],
+        "text": "320  ← 更小",
+        "size": 16.4,
+        "bold": false,
+        "required_height": 0.30066666666666664
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.89,
+          5.94,
+          11.6,
+          0.3
+        ],
+        "text": "c1 多付一点表示成本，换来对 c2 / c3 运动区域更便宜的覆盖。",
+        "size": 16.8,
+        "bold": false,
+        "required_height": 0.30800000000000005
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "EG(0)=1，因此二维零差分的估计代价为2；这是码长代理，不是实际 CABAC bins。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "如何用这些模式回答研究问题",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "如何用这些模式回答研究问题",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "比较流程变量，不能把代理 score 的改善直接当作 BD-rate 改善。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "18",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.83,
+          2.1,
+          11.61,
+          0.44
+        ],
+        "text": "01  ARMC 排名是否必要？",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          2.67,
+          11.51,
+          0.62
+        ],
+        "text": "3 ↔ 3.1；4 ↔ 4.1。比较模板排名与原池排名先验。",
+        "size": 18.5,
+        "bold": false,
+        "required_height": 0.33916666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.83,
+          3.48,
+          11.61,
+          0.44
+        ],
+        "text": "02  八选二是否应提前到 ME 前？",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          4.05,
+          11.51,
+          0.62
+        ],
+        "text": "3 ↔ 4；3.1 ↔ 4.1；5.1 ↔ 6.1。观察起点与搜索结果。",
+        "size": 18.5,
+        "bold": false,
+        "required_height": 0.33916666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.83,
+          4.87,
+          11.61,
+          0.44
+        ],
+        "text": "03  是否需要放开第一项锚点？",
+        "size": 21,
+        "bold": true,
+        "required_height": 0.385
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          5.44,
+          11.51,
+          0.62
+        ],
+        "text": "3.1 ↔ 5.1；4.1 ↔ 6.1。同时改变权重与锚点，谨慎归因。",
+        "size": 18.5,
+        "bold": false,
+        "required_height": 0.33916666666666667
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "固定构建与编码条件；先验证重建一致，再报告多 QP BD-rate 与 Trace 关闭后的耗时。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  },
+  {
+    "title": "总结与源码入口",
+    "objects": [
+      {
+        "kind": "text",
+        "bounds": [
+          0.62,
+          0.4,
+          12.06,
+          0.62
+        ],
+        "text": "总结与源码入口",
+        "size": 29,
+        "bold": true,
+        "required_height": 0.5316666666666667
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          1.11,
+          12.0,
+          0.51
+        ],
+        "text": "讲解时先说明选对规则，再说明它参与 ME 的时点。",
+        "size": 15.5,
+        "bold": false,
+        "required_height": 0.2841666666666667
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          1.73,
+          12.67,
+          1.73
+        ]
+      },
+      {
+        "kind": "line",
+        "points": [
+          0.65,
+          7.01,
+          12.67,
+          7.01
+        ]
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.65,
+          7.09,
+          11.1,
+          0.23
+        ],
+        "text": "AMVP · 六模式流程  |  2026-10-10",
+        "size": 10.5,
+        "bold": false,
+        "required_height": 0.1925
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          12.01,
+          7.06,
+          0.66,
+          0.29
+        ],
+        "text": "19",
+        "size": 12,
+        "bold": false,
+        "required_height": 0.22
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.82,
+          2.1,
+          11.72,
+          0.43
+        ],
+        "text": "3 / 4：模板排名 Lite    ·    3.1 / 4.1：原序 Lite    ·    5.1 / 6.1：原序 Full",
+        "size": 19.5,
+        "bold": true,
+        "required_height": 0.35750000000000004
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          3.03,
+          3.0,
+          0.41
+        ],
+        "text": "八池构造 / 双端分派",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.08,
+          3.03,
+          8.35,
+          0.75
+        ],
+        "text": "UnitTools.cpp\nfillMvpCand / buildExpandedAmvpCandidatesFromSnapshot",
+        "size": 15.0,
+        "bold": false,
+        "required_height": 0.55
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          4.01,
+          3.0,
+          0.41
+        ],
+        "text": "ARMC / TMR 覆盖",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.08,
+          4.01,
+          8.35,
+          0.75
+        ],
+        "text": "InterPrediction.cpp / AmvpTmrSelector.h\nreorderAmvpCandidates / AmvpTmrSelector::reorder",
+        "size": 15.0,
+        "bold": false,
+        "required_height": 0.55
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.85,
+          4.99,
+          3.0,
+          0.41
+        ],
+        "text": "编码时序 / 解码恢复",
+        "size": 17.5,
+        "bold": true,
+        "required_height": 0.32083333333333336
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          4.08,
+          4.99,
+          8.35,
+          0.75
+        ],
+        "text": "InterSearch.cpp / DecCu.cpp\nxEstimateMvPredAMVP / xCheckBestMVP / MV 恢复",
+        "size": 15.0,
+        "bold": false,
+        "required_height": 0.55
+      },
+      {
+        "kind": "rect",
+        "bounds": [
+          0.65,
+          6.32,
+          12.01,
+          0.48
+        ],
+        "fill": "EDF3F7"
+      },
+      {
+        "kind": "text",
+        "bounds": [
+          0.84,
+          6.390000000000001,
+          11.63,
+          0.35
+        ],
+        "text": "八项只提供临时运动假设；最终仍是两 MVP、正常 idx 0/1 与 MVD，无 sidecar。",
+        "size": 16.2,
+        "bold": false,
+        "required_height": 0.297
+      }
+    ]
+  }
+]

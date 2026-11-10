@@ -1,0 +1,13 @@
+{
+  "files": 590,
+  "bytes": 38711172068,
+  "queries_started": 3528046,
+  "ends": 3528046,
+  "candidate_rows": 15830872,
+  "raw_rows": 25431189,
+  "skip_rows": 0,
+  "schemas": 590,
+  "audit_events": 0,
+  "changed_files": 0,
+  "elapsed_seconds": 38.8101
+}

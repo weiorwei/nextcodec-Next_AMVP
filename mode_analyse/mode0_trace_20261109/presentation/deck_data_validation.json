@@ -1,0 +1,17 @@
+{
+  "checks": "PASS",
+  "full_ordinary": 2369326,
+  "sample_ordinary": 118500,
+  "feature_count": 32,
+  "constants": [
+    24,
+    30
+  ],
+  "core_rules_all13_negative": true,
+  "coverage_sign_aggregates_reconcile": true,
+  "sha256": {
+    "deck_data.json": "153d962a1111093540a797621405c9e413c69755f26f93ada491704d1a566414",
+    "extract_deck_data.py": "dcafa033ebfb3928f97f794f58c1f8204b3c8462bc392d7ae84ba9fb30b39d8e",
+    "content_data_notes.md": "c1e2e5691ea4902aeaa8bf4a461b15339763b0e26655da0dab294c036b05a7f4"
+  }
+}

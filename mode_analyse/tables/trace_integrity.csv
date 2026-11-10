@@ -1,0 +1,7 @@
+amvp_mode,mvd_records,signalled,inferred,mvd_malformed_records,mv_identity_errors,candidate_sets_total,candidate_analyzed,candidate_missing_snapshot,candidate_snapshot_coverage_pct,candidate_total_matches_mvd,candidate_population_sums_to_total,formal_mode_snapshot_complete,oracle_sidecar_records,oracle_malformed_records,oracle_footer_count_errors,oracle_records_match_mvd,status
+-3,5568026,5136167,431859,0,0,5568026,1634152,3502015,31.816566712102624,True,True,True,5568026,0,0,True,PASS
+-2,4847191,4282196,564995,0,0,4847191,2349549,1932647,54.867852849332444,True,True,True,4847191,0,0,True,PASS
+-1,4340618,3769915,570703,0,0,4340618,2459179,1310736,65.23168294245362,True,True,True,4340618,0,0,True,PASS
+0,3528046,2932537,595509,0,0,3528046,2932537,0,100.0,True,True,True,,,,not_applicable_no_sidecar,PASS
+1,3466210,2882124,584086,0,0,3466210,2882124,0,100.0,True,True,True,,,,not_applicable_no_sidecar,PASS
+2,3589584,2998590,590994,0,0,3589584,2998590,0,100.0,True,True,True,,,,not_applicable_no_sidecar,PASS

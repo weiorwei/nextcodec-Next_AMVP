@@ -1,0 +1,8 @@
+reason,count
+accepted,1968450
+cluster_records,3220234
+excluded_actual_not_pair_rate_best,508
+excluded_constrained_or_missing,1032147
+excluded_fallback_fewer_than_two_unique,191897
+excluded_formal_pair_replay_mismatch,25962
+excluded_unknown_pool_or_formal,1270

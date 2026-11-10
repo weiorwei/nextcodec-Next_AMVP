@@ -1,0 +1,512 @@
+{
+  "date": "2026-10-27",
+  "status": "PASS",
+  "source": "source/Lib/EncoderLib/InterSearch.cpp",
+  "root_cause": "Rejected integer-affine AMVR gradient trial left a stale predictor for local-refinement bit estimation; returned MVP index restored a different predictor.",
+  "reproduction": {
+    "command": [
+      "/tmp/affine_abort_rbsg_o2j/EncoderAppStatic.before",
+      "-c",
+      "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/encoder_randomaccess_nextRt500.cfg",
+      "--amvpmode=0",
+      "--SEIDecodedPictureHash=1",
+      "--AmvpTrace=0",
+      "-c",
+      "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/per-sequence/BasketballPass.cfg",
+      "-i",
+      "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+      "-fs",
+      "448",
+      "-f",
+      "52",
+      "-ip",
+      "64",
+      "-q",
+      "42",
+      "-o",
+      "/dev/null",
+      "--PrintHexPSNR=1",
+      "--AffineAmvpMode=4.2",
+      "-b",
+      "/tmp/affine_abort_rbsg_o2j/repro_4.2.bin"
+    ],
+    "old_encoder_sha256": "7c9130a55d23e1d28946994921da1356df281dab5f6b746894df63e91bd767e0",
+    "stderr": "terminate called after throwing an instance of 'Exception'\n  what():  \nERROR: In function \"xCheckBestAffineMVP\" in /ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/source/Lib/EncoderLib/InterSearch.cpp:6422: Affine post-ME MVD bit replacement would underflow\n",
+    "diagnostic_stderr": "terminate called after throwing an instance of 'Exception'\n  what():  \nERROR: In function \"xCheckBestAffineMVP\" in /ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/source/Lib/EncoderLib/InterSearch.cpp:6422: Affine post-ME MVD bit replacement would underflow: bits=19, oldMvBits=27, imv=2, bcw=2, list=0, ref=0, idx=0, poc=6, x=192, y=64, w=64, h=64\n",
+    "diagnostic_binary_sha256": "0880594b26c0b818c1ccd5eac99d23289e9317fa76f60a6ba2a18569c26468c4",
+    "gdb_log": "/tmp/affine_abort_rbsg_o2j/gdb_4.2.log",
+    "poc": 6,
+    "cu": [
+      192,
+      64,
+      64,
+      64
+    ],
+    "imv": 2,
+    "bcw": 2,
+    "bits": 19,
+    "old_predictor_bits": 27,
+    "exit": -6
+  },
+  "old_3_2_same_case": {
+    "encoded_frames": 52,
+    "decoded_md5_ok_frames": 52,
+    "decoder_log": "/tmp/affine_abort_rbsg_o2j/repro_3.2_dec.log",
+    "encoder_exit": 0,
+    "decoder_exit": 0
+  },
+  "off_regression": {
+    "status": "PASS",
+    "affine_mode": "0",
+    "new_encoder_sha256": "10d6637a8ee107152702e847e112e22eb66e8963e4ce9170d0319d24f27ca404",
+    "baseline_encoder_sha256": "7c9130a55d23e1d28946994921da1356df281dab5f6b746894df63e91bd767e0",
+    "decoder_sha256": "5d41f37975fc359042383030283fcf82d3cb7429690afea9537cbbdb1b8cf21d",
+    "cases": [
+      {
+        "mode": "0",
+        "baseline_command": {
+          "command": [
+            "/tmp/affine_abort_rbsg_o2j/off_regression/EncoderAppStatic.before",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "27",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=0",
+            "--amvpmode=0",
+            "-b",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_0.bin",
+            "-o",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_0.yuv"
+          ],
+          "log": "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_0.log",
+          "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_0.err",
+          "exit": 0
+        },
+        "regression": {
+          "translation_mode": "0",
+          "affine_mode": "0",
+          "bitstream_equal": true,
+          "reconstruction_equal": true,
+          "decoded_hash_frames": 3,
+          "commands": [
+            {
+              "command": [
+                "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+                "-c",
+                "cfg/encoder_lowdelay_P_nextRt500.cfg",
+                "-i",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/piecewise_affine_192x128_8f.yuv",
+                "--SourceWidth=192",
+                "--SourceHeight=128",
+                "--FrameRate=30",
+                "--InputBitDepth=8",
+                "-f",
+                "3",
+                "-q",
+                "27",
+                "--TemporalFilter=0",
+                "--GOPBasedRPR=0",
+                "--SEIDecodedPictureHash=1",
+                "--AmvpTrace=0",
+                "--amvpmode=0",
+                "-b",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0.bin",
+                "-o",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0.yuv",
+                "--AffineAmvpMode=0"
+              ],
+              "log": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0.log",
+              "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0.err",
+              "exit": 0
+            },
+            {
+              "command": [
+                "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+                "--AffineAmvpMode=0",
+                "--amvpmode=0",
+                "--UpscaledOutput=2",
+                "-b",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0.bin",
+                "-o",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0_dec.yuv"
+              ],
+              "log": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0_dec.log",
+              "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_0_dec.err",
+              "exit": 0
+            }
+          ]
+        }
+      },
+      {
+        "mode": "3.1",
+        "baseline_command": {
+          "command": [
+            "/tmp/affine_abort_rbsg_o2j/off_regression/EncoderAppStatic.before",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "27",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=0",
+            "--amvpmode=3.1",
+            "-b",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_3.1.bin",
+            "-o",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_3.1.yuv"
+          ],
+          "log": "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_3.1.log",
+          "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_3.1.err",
+          "exit": 0
+        },
+        "regression": {
+          "translation_mode": "3.1",
+          "affine_mode": "0",
+          "bitstream_equal": true,
+          "reconstruction_equal": true,
+          "decoded_hash_frames": 3,
+          "commands": [
+            {
+              "command": [
+                "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+                "-c",
+                "cfg/encoder_lowdelay_P_nextRt500.cfg",
+                "-i",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/piecewise_affine_192x128_8f.yuv",
+                "--SourceWidth=192",
+                "--SourceHeight=128",
+                "--FrameRate=30",
+                "--InputBitDepth=8",
+                "-f",
+                "3",
+                "-q",
+                "27",
+                "--TemporalFilter=0",
+                "--GOPBasedRPR=0",
+                "--SEIDecodedPictureHash=1",
+                "--AmvpTrace=0",
+                "--amvpmode=3.1",
+                "-b",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1.bin",
+                "-o",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1.yuv",
+                "--AffineAmvpMode=0"
+              ],
+              "log": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1.log",
+              "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1.err",
+              "exit": 0
+            },
+            {
+              "command": [
+                "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+                "--AffineAmvpMode=0",
+                "--amvpmode=3.1",
+                "--UpscaledOutput=2",
+                "-b",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1.bin",
+                "-o",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1_dec.yuv"
+              ],
+              "log": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1_dec.log",
+              "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_3.1_dec.err",
+              "exit": 0
+            }
+          ]
+        }
+      },
+      {
+        "mode": "4.1",
+        "baseline_command": {
+          "command": [
+            "/tmp/affine_abort_rbsg_o2j/off_regression/EncoderAppStatic.before",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "27",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=0",
+            "--amvpmode=4.1",
+            "-b",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_4.1.bin",
+            "-o",
+            "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_4.1.yuv"
+          ],
+          "log": "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_4.1.log",
+          "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/before_trans_4.1.err",
+          "exit": 0
+        },
+        "regression": {
+          "translation_mode": "4.1",
+          "affine_mode": "0",
+          "bitstream_equal": true,
+          "reconstruction_equal": true,
+          "decoded_hash_frames": 3,
+          "commands": [
+            {
+              "command": [
+                "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+                "-c",
+                "cfg/encoder_lowdelay_P_nextRt500.cfg",
+                "-i",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/piecewise_affine_192x128_8f.yuv",
+                "--SourceWidth=192",
+                "--SourceHeight=128",
+                "--FrameRate=30",
+                "--InputBitDepth=8",
+                "-f",
+                "3",
+                "-q",
+                "27",
+                "--TemporalFilter=0",
+                "--GOPBasedRPR=0",
+                "--SEIDecodedPictureHash=1",
+                "--AmvpTrace=0",
+                "--amvpmode=4.1",
+                "-b",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1.bin",
+                "-o",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1.yuv",
+                "--AffineAmvpMode=0"
+              ],
+              "log": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1.log",
+              "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1.err",
+              "exit": 0
+            },
+            {
+              "command": [
+                "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+                "--AffineAmvpMode=0",
+                "--amvpmode=4.1",
+                "--UpscaledOutput=2",
+                "-b",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1.bin",
+                "-o",
+                "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1_dec.yuv"
+              ],
+              "log": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1_dec.log",
+              "stderr": "/tmp/affine_abort_rbsg_o2j/off_regression/after_trans_4.1_dec.err",
+              "exit": 0
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "fixed_full_regression": {
+    "purpose": "Affine ME abort regression and reconstruction agreement; no BD-rate claim",
+    "settings": {
+      "frame_skip": 448,
+      "frames": 52,
+      "intra_period": 64,
+      "qp": 42
+    },
+    "inputs": {
+      "encoder": {
+        "path": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+        "sha256": "10d6637a8ee107152702e847e112e22eb66e8963e4ce9170d0319d24f27ca404"
+      },
+      "decoder": {
+        "path": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+        "sha256": "5d41f37975fc359042383030283fcf82d3cb7429690afea9537cbbdb1b8cf21d"
+      },
+      "config": {
+        "path": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/encoder_randomaccess_nextRt500.cfg",
+        "sha256": "405400d758d6b5c5022beb9638f6510b663cb7bccc80949861c0684eb8adf5f4"
+      },
+      "sequence_config": {
+        "path": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/per-sequence/BasketballPass.cfg",
+        "sha256": "ed617993566583cecc7462e72f4bc2c3d3866bbbd8431e3b7da577ebe5d8c182"
+      },
+      "input": {
+        "path": "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+        "sha256": "629671d615902dcca0632c3bbdbd7be6f1c339f80b30834dc325904e0da628ba"
+      }
+    },
+    "baseline": [],
+    "current": [
+      {
+        "name": "current_affine_3.2_translation_0",
+        "affine_mode": "3.2",
+        "translation_mode": "0",
+        "status": "PASS",
+        "expected_frames": 52,
+        "commands": [
+          {
+            "command": [
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+              "-c",
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/encoder_randomaccess_nextRt500.cfg",
+              "--amvpmode=0",
+              "--AffineAmvpMode=3.2",
+              "--SEIDecodedPictureHash=1",
+              "--AmvpTrace=0",
+              "-c",
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/per-sequence/BasketballPass.cfg",
+              "-i",
+              "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+              "-fs",
+              "448",
+              "-f",
+              "52",
+              "-ip",
+              "64",
+              "-q",
+              "42",
+              "-b",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0.bin",
+              "-o",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0_enc.yuv",
+              "--PrintHexPSNR=1"
+            ],
+            "log": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0_enc.log",
+            "stderr": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0_enc.err",
+            "exit": 0,
+            "seconds": 440.836
+          },
+          {
+            "command": [
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+              "--amvpmode=0",
+              "--AffineAmvpMode=3.2",
+              "--UpscaledOutput=2",
+              "-b",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0.bin",
+              "-o",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0_dec.yuv"
+            ],
+            "log": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0_dec.log",
+            "stderr": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_3.2_translation_0_dec.err",
+            "exit": 0,
+            "seconds": 0.916
+          }
+        ],
+        "encoded_frames": 52,
+        "decoded_frames": 52,
+        "md5_ok_frames": 52,
+        "reconstruction_bytes_equal": true,
+        "artifacts": {
+          "current_affine_3.2_translation_0.bin": {
+            "bytes": 12252,
+            "sha256": "9e7c56c4ff93a5f2b9259f0e783112771c7f6e3ea902248145bcf31a7c15a17f"
+          },
+          "current_affine_3.2_translation_0_enc.yuv": {
+            "bytes": 15575040,
+            "sha256": "21056509c04a75e4cfa3e0589d3e78b978d8ebae6f6265ac0a42853b3ba98f8c"
+          },
+          "current_affine_3.2_translation_0_dec.yuv": {
+            "bytes": 15575040,
+            "sha256": "21056509c04a75e4cfa3e0589d3e78b978d8ebae6f6265ac0a42853b3ba98f8c"
+          }
+        }
+      },
+      {
+        "name": "current_affine_4.2_translation_0",
+        "affine_mode": "4.2",
+        "translation_mode": "0",
+        "status": "PASS",
+        "expected_frames": 52,
+        "commands": [
+          {
+            "command": [
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+              "-c",
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/encoder_randomaccess_nextRt500.cfg",
+              "--amvpmode=0",
+              "--AffineAmvpMode=4.2",
+              "--SEIDecodedPictureHash=1",
+              "--AmvpTrace=0",
+              "-c",
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next/cfg/per-sequence/BasketballPass.cfg",
+              "-i",
+              "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+              "-fs",
+              "448",
+              "-f",
+              "52",
+              "-ip",
+              "64",
+              "-q",
+              "42",
+              "-b",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0.bin",
+              "-o",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0_enc.yuv",
+              "--PrintHexPSNR=1"
+            ],
+            "log": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0_enc.log",
+            "stderr": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0_enc.err",
+            "exit": 0,
+            "seconds": 439.68
+          },
+          {
+            "command": [
+              "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+              "--amvpmode=0",
+              "--AffineAmvpMode=4.2",
+              "--UpscaledOutput=2",
+              "-b",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0.bin",
+              "-o",
+              "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0_dec.yuv"
+            ],
+            "log": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0_dec.log",
+            "stderr": "/tmp/affine_abort_rbsg_o2j/fixed/current_affine_4.2_translation_0_dec.err",
+            "exit": 0,
+            "seconds": 0.916
+          }
+        ],
+        "encoded_frames": 52,
+        "decoded_frames": 52,
+        "md5_ok_frames": 52,
+        "reconstruction_bytes_equal": true,
+        "artifacts": {
+          "current_affine_4.2_translation_0.bin": {
+            "bytes": 12218,
+            "sha256": "d87bd82f42675b2abfac12eef19fe8317830b32cd5f3853c57be9daf6767aed9"
+          },
+          "current_affine_4.2_translation_0_enc.yuv": {
+            "bytes": 15575040,
+            "sha256": "8b85e636f9cc6d3325736cd447cb6994794cfc92de00db6335c2679aa53dc73c"
+          },
+          "current_affine_4.2_translation_0_dec.yuv": {
+            "bytes": 15575040,
+            "sha256": "8b85e636f9cc6d3325736cd447cb6994794cfc92de00db6335c2679aa53dc73c"
+          }
+        }
+      }
+    ],
+    "status": "PASS"
+  },
+  "fixed_source_sha256": "aef8a2548a829c2f8c674b1fcf1c535f1a6bd9adb72139c77b49ef64c238b53a",
+  "scope": "Two exact 52-frame BasketballPass cases plus three 3-frame OFF regressions; no full BD-rate or all-dataset claim"
+}

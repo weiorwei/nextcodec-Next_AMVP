@@ -1,0 +1,33 @@
+{
+  "model_sha256": "95161dd9da1bd4e7735ac846f051ec26568eb13fd7ce328cbf3a4a76fed33d27",
+  "records": 1968450,
+  "record_binary_sha256": "f68775acdb413edb66b01d0e3b5796610b4589ef62134efba27e3b57c7665d7d",
+  "numpy_version": "1.26.4",
+  "sources": {
+    "decisionTree/extract.cpp": "e99bcdb8667a785479a476ed93e656e43f78a09de1179e16ffe87a51211ff48e",
+    "decisionTree/dataset.py": "7389f29d1511f7b89e0005fd81ee807cb60b21f02e3e26f126db69cde92155d1",
+    "decisionTree/train.py": "4eaf6e0e919e061fd2506d26a0ebad7329fd78f52663df212939da2d4438f59f",
+    "decisionTree/run_training.sh": "dea87f20547929b6600cfeb6b4266082a9cfc21653349ed0f2e90a41d63cd565",
+    "source/Lib/CommonLib/AmvpDecisionTree.h": "a9c8b7f90323aaa4cb3cb26de5e75230d39dabb0c1eb9a57444ca0dc5a4994c7",
+    "source/Lib/CommonLib/Mv.h": "67c72c678f1feeb6ea4c83d96b298d871a8123c1997c8da096af791ea35d1f60",
+    "source/Lib/CommonLib/Mv.cpp": "a64471d44a49bbfd10d79d6fb7422de6c471ff33af95cf03b74b1a9abb0b6e81"
+  },
+  "dataset_schema": {
+    "record_bytes": 76,
+    "endianness": "little",
+    "features": [
+      "imv",
+      "log2_cu_width",
+      "log2_cu_height",
+      "derived_unique",
+      "spatial_unique",
+      "temporal_unique",
+      "history_unique",
+      "spatial_diameter_l1_internal",
+      "spatial_temporal_nearest_l1_internal",
+      "max_spatial_cu_support",
+      "has_newest_history",
+      "abs_ref_poc_delta"
+    ]
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "schema_version": 1,
+  "algorithm": "cost_sensitive_integer_profile_tree",
+  "features": [
+    "imv",
+    "log2_cu_width",
+    "log2_cu_height",
+    "derived_unique",
+    "spatial_unique",
+    "temporal_unique",
+    "history_unique",
+    "spatial_diameter_l1_internal",
+    "spatial_temporal_nearest_l1_internal",
+    "max_spatial_cu_support",
+    "has_newest_history",
+    "abs_ref_poc_delta"
+  ],
+  "profiles": [
+    "P0_uniform",
+    "P1_independent_spatial_support",
+    "P2_cross_source_support",
+    "P3_newest_history",
+    "P4_temporal_preference"
+  ],
+  "nodes": [
+    {
+      "feature": 9,
+      "threshold": 3,
+      "left": 1,
+      "right": 8,
+      "profile": -1,
+      "training_records": 1968450,
+      "weighted_profile_regret_sum": [
+        11.042718207852134,
+        11.491891646428998,
+        12.850437148300543,
+        13.647614593480112,
+        15.913456140773539
+      ]
+    },
+    {
+      "feature": 2,
+      "threshold": 6,
+      "left": 2,
+      "right": 5,
+      "profile": -1,
+      "training_records": 1960425,
+      "weighted_profile_regret_sum": [
+        11.022083987496115,
+        11.471999439489455,
+        12.830568748148899,
+        13.620374007856412,
+        15.879605973410701
+      ]
+    },
+    {
+      "feature": 6,
+      "threshold": 0,
+      "left": 3,
+      "right": 4,
+      "profile": -1,
+      "training_records": 1942551,
+      "weighted_profile_regret_sum": [
+        10.96901379166964,
+        11.417818635303137,
+        12.77769432725368,
+        13.558505574112099,
+        15.816938401582066
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 2,
+      "training_records": 105085,
+      "weighted_profile_regret_sum": [
+        0.05588445251269465,
+        0.0572932139544645,
+        0.05582096740115315,
+        0.05588445251269465,
+        0.22184326258201262
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 0,
+      "training_records": 1837466,
+      "weighted_profile_regret_sum": [
+        10.9131293391569,
+        11.36052542134858,
+        12.721873359851939,
+        13.502621121598716,
+        15.595095138999026
+      ]
+    },
+    {
+      "feature": 3,
+      "threshold": 6,
+      "left": 6,
+      "right": 7,
+      "profile": -1,
+      "training_records": 17874,
+      "weighted_profile_regret_sum": [
+        0.05307019582608139,
+        0.054180804185820594,
+        0.05287442089413987,
+        0.061868433742798316,
+        0.06266757182808445
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 2,
+      "training_records": 13955,
+      "weighted_profile_regret_sum": [
+        0.0333502609733701,
+        0.033498750634113665,
+        0.031462505781083824,
+        0.03729574034494195,
+        0.039525734783744396
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 0,
+      "training_records": 3919,
+      "weighted_profile_regret_sum": [
+        0.01971993485271238,
+        0.020682053551708022,
+        0.02141191511305709,
+        0.024572693397856813,
+        0.02314183704434034
+      ]
+    },
+    {
+      "feature": 3,
+      "threshold": 4,
+      "left": 9,
+      "right": 12,
+      "profile": -1,
+      "training_records": 8025,
+      "weighted_profile_regret_sum": [
+        0.020634220355964718,
+        0.019892206939470563,
+        0.019868400151423753,
+        0.027240585623348777,
+        0.03385016736267805
+      ]
+    },
+    {
+      "feature": 8,
+      "threshold": 0,
+      "left": 10,
+      "right": 11,
+      "profile": -1,
+      "training_records": 5772,
+      "weighted_profile_regret_sum": [
+        0.009265306965963059,
+        0.008844646825037468,
+        0.00838045030824044,
+        0.012046157539888682,
+        0.016381547648552968
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 4,
+      "training_records": 3410,
+      "weighted_profile_regret_sum": [
+        0.004571635400978501,
+        0.0043171858430070984,
+        0.004143478858534283,
+        0.006410650848414121,
+        0.00411237787055341
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 2,
+      "training_records": 2362,
+      "weighted_profile_regret_sum": [
+        0.004693671564984535,
+        0.0045274609820303595,
+        0.004236971449706153,
+        0.005635506691474484,
+        0.012269169777999503
+      ]
+    },
+    {
+      "feature": -1,
+      "threshold": 0,
+      "left": -1,
+      "right": -1,
+      "profile": 1,
+      "training_records": 2253,
+      "weighted_profile_regret_sum": [
+        0.01136891339000144,
+        0.01104756011443287,
+        0.01148794984318312,
+        0.015194428083459959,
+        0.017468619714124868
+      ]
+    }
+  ],
+  "training": {
+    "max_depth": 3,
+    "min_leaf_records": 2000,
+    "sequence_balancing": "each complete sequence has equal total weight",
+    "sequences": [
+      "BasketballDrive",
+      "BQTerrace",
+      "Cactus",
+      "MarketPlace",
+      "RitualDance",
+      "BasketballDrill",
+      "BQMall",
+      "PartyScene",
+      "RaceHorsesC",
+      "BasketballPass",
+      "BQSquare",
+      "BlowingBubbles",
+      "RaceHorses"
+    ],
+    "records": 1968450,
+    "aggregated_rows": 1439130,
+    "qp": [
+      22,
+      27,
+      32,
+      37
+    ],
+    "validation": "leave_one_complete_sequence_out",
+    "deployment_evaluation": "all deployment training records; not independent testing",
+    "record_binary_sha256": "f68775acdb413edb66b01d0e3b5796610b4589ef62134efba27e3b57c7665d7d",
+    "objective": "estimated MVD bits minus eligible derived-pool Oracle bits"
+  },
+  "sha256": "95161dd9da1bd4e7735ac846f051ec26568eb13fd7ce328cbf3a4a76fed33d27"
+}

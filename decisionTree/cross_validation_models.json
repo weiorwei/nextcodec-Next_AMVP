@@ -1,0 +1,2302 @@
+[
+  {
+    "held_out_sequence": "BasketballDrive",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 6,
+        "profile": -1,
+        "training_records": 1667203,
+        "weighted_profile_regret_sum": [
+          10.025884845184986,
+          10.430443731583457,
+          11.669080985395404,
+          12.39808181802629,
+          14.438234810759212
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1659933,
+        "weighted_profile_regret_sum": [
+          10.006917031465429,
+          10.412078510804736,
+          11.650772766755983,
+          12.372620503233184,
+          14.406887572885802
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 3,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 99219,
+        "weighted_profile_regret_sum": [
+          0.054789144716641314,
+          0.056265465585556534,
+          0.05467918611324762,
+          0.054789144716641314,
+          0.212904986008284
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 94448,
+        "weighted_profile_regret_sum": [
+          0.02888003747565093,
+          0.0290925632513618,
+          0.028594084724882417,
+          0.02888003747565093,
+          0.16498992015114178
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 4771,
+        "weighted_profile_regret_sum": [
+          0.025909107240990263,
+          0.02717290233419463,
+          0.026085101388365096,
+          0.025909107240990263,
+          0.04791506585713942
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1560714,
+        "weighted_profile_regret_sum": [
+          9.952127886748935,
+          10.355813045219222,
+          11.59609358064245,
+          12.31783135851561,
+          14.193982586874775
+        ]
+      },
+      {
+        "feature": 0,
+        "threshold": 0,
+        "left": 7,
+        "right": 10,
+        "profile": -1,
+        "training_records": 7270,
+        "weighted_profile_regret_sum": [
+          0.018967813719549996,
+          0.018365220778612436,
+          0.01830821863924262,
+          0.02546131479243588,
+          0.03134723787292374
+        ]
+      },
+      {
+        "feature": 1,
+        "threshold": 4,
+        "left": 8,
+        "right": 9,
+        "profile": -1,
+        "training_records": 4064,
+        "weighted_profile_regret_sum": [
+          0.00889393950108239,
+          0.009315203564239306,
+          0.00915860798616136,
+          0.014049199665548493,
+          0.018281693416351844
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2061,
+        "weighted_profile_regret_sum": [
+          0.005665059832857461,
+          0.006043708486030009,
+          0.006047855958221835,
+          0.007819189067905016,
+          0.011187947380226389
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2003,
+        "weighted_profile_regret_sum": [
+          0.003228879668224931,
+          0.003271495078209291,
+          0.0031107520279395205,
+          0.006230010597643397,
+          0.007093746036125408
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 3206,
+        "weighted_profile_regret_sum": [
+          0.010073874218467428,
+          0.009050017214372963,
+          0.009149610653081128,
+          0.011412115126887296,
+          0.013065544456571656
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "BQTerrace",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1638863,
+        "weighted_profile_regret_sum": [
+          10.377121567201547,
+          10.785352856968663,
+          12.027704455550994,
+          12.835962434855526,
+          14.60972753496529
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1633669,
+        "weighted_profile_regret_sum": [
+          10.360771496402421,
+          10.76969625398186,
+          12.011932090740448,
+          12.813455045626142,
+          14.583219890213941
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1620392,
+        "weighted_profile_regret_sum": [
+          10.317713831409911,
+          10.725534048829914,
+          11.96925224669435,
+          12.76263073680228,
+          14.532251808959373
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 68138,
+        "weighted_profile_regret_sum": [
+          0.049707024398115064,
+          0.05098835362926973,
+          0.04965567568758455,
+          0.049707024398115064,
+          0.16978417044548696
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1552254,
+        "weighted_profile_regret_sum": [
+          10.268006807011878,
+          10.674545695200473,
+          11.919596571005803,
+          12.71292371240368,
+          14.362467638512124
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 13277,
+        "weighted_profile_regret_sum": [
+          0.04305766499203729,
+          0.044162205151270895,
+          0.04267984404493156,
+          0.05082430882282175,
+          0.05096808125351573
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 10015,
+        "weighted_profile_regret_sum": [
+          0.026317216587517546,
+          0.0266295476619091,
+          0.024496211600791584,
+          0.029655875908541452,
+          0.031424687108927415
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3262,
+        "weighted_profile_regret_sum": [
+          0.016740448404521182,
+          0.017532657489363352,
+          0.018183632444141222,
+          0.021168432914281995,
+          0.019543394144590092
+        ]
+      },
+      {
+        "feature": 0,
+        "threshold": 0,
+        "left": 9,
+        "right": 10,
+        "profile": -1,
+        "training_records": 5194,
+        "weighted_profile_regret_sum": [
+          0.01635007079909485,
+          0.01565660298664456,
+          0.015772364810223854,
+          0.02250738922907344,
+          0.026507644751045688
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2831,
+        "weighted_profile_regret_sum": [
+          0.007402789880717295,
+          0.00777436660031212,
+          0.007679023897048106,
+          0.012325026810869189,
+          0.014913883692066466
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2363,
+        "weighted_profile_regret_sum": [
+          0.008947280918377484,
+          0.007882236386332354,
+          0.008093340913175661,
+          0.010182362418204166,
+          0.011593761058979163
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "Cactus",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 6,
+        "profile": -1,
+        "training_records": 1849561,
+        "weighted_profile_regret_sum": [
+          10.374801075053492,
+          10.768696060620092,
+          11.974897779624458,
+          12.685322034854503,
+          14.928688836813453
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1842799,
+        "weighted_profile_regret_sum": [
+          10.356858440967047,
+          10.751529084778412,
+          11.957502274357807,
+          12.662640323474806,
+          14.898135862630735
+        ]
+      },
+      {
+        "feature": 7,
+        "threshold": 8,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 101946,
+        "weighted_profile_regret_sum": [
+          0.05588677274542748,
+          0.05725951380967195,
+          0.05585693246225529,
+          0.05588677274542748,
+          0.21813742910871323
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 93461,
+        "weighted_profile_regret_sum": [
+          0.026192469627769,
+          0.026107910216834274,
+          0.02591198762632735,
+          0.026192469627769,
+          0.16925961851022425
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 8485,
+        "weighted_profile_regret_sum": [
+          0.0296943031176583,
+          0.0311516035928374,
+          0.02994494483592779,
+          0.0296943031176583,
+          0.04887781059848559
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1740853,
+        "weighted_profile_regret_sum": [
+          10.30097166822161,
+          10.694269570968538,
+          11.901645341894445,
+          12.606753550728572,
+          14.679998433520987
+        ]
+      },
+      {
+        "feature": 11,
+        "threshold": 2,
+        "left": 7,
+        "right": 8,
+        "profile": -1,
+        "training_records": 6762,
+        "weighted_profile_regret_sum": [
+          0.017942634086419013,
+          0.01716697584155554,
+          0.01739550526627864,
+          0.02268171137930594,
+          0.03055297418248471
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2918,
+        "weighted_profile_regret_sum": [
+          0.007066608887605791,
+          0.0073629550443371,
+          0.007307438068509595,
+          0.009522251225448575,
+          0.011567357967688116
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 3844,
+        "weighted_profile_regret_sum": [
+          0.010876025198813135,
+          0.009804020797218345,
+          0.010088067197768969,
+          0.013159460153857267,
+          0.018985616214796386
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "MarketPlace",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1671358,
+        "weighted_profile_regret_sum": [
+          10.158816924734364,
+          10.573899913213282,
+          11.841375982033417,
+          12.593860200873603,
+          14.45485745752314
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1664182,
+        "weighted_profile_regret_sum": [
+          10.139778169756188,
+          10.555636831258717,
+          11.823136706866789,
+          12.568612263991573,
+          14.423632739515769
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1649381,
+        "weighted_profile_regret_sum": [
+          10.097149184060228,
+          10.512092462924302,
+          11.780797743002449,
+          12.518484301212439,
+          14.373547128829843
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 87298,
+        "weighted_profile_regret_sum": [
+          0.049314097201881936,
+          0.050534364843751345,
+          0.04924388016891544,
+          0.049314097201881936,
+          0.18787398707139308
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1562083,
+        "weighted_profile_regret_sum": [
+          10.047835086858635,
+          10.461558098080777,
+          11.73155386283355,
+          12.469170204009924,
+          14.185673141755956
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 14801,
+        "weighted_profile_regret_sum": [
+          0.042628985695886405,
+          0.04354436833430015,
+          0.04233896386399478,
+          0.05012796277757522,
+          0.05008561068473459
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 11835,
+        "weighted_profile_regret_sum": [
+          0.02739251051223361,
+          0.027500608644427098,
+          0.025868279076897992,
+          0.03107544494823011,
+          0.03245048536605606
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2966,
+        "weighted_profile_regret_sum": [
+          0.015236475183653604,
+          0.016043759689873965,
+          0.016470684787097515,
+          0.019052517829346107,
+          0.017635125318679678
+        ]
+      },
+      {
+        "feature": 0,
+        "threshold": 0,
+        "left": 9,
+        "right": 10,
+        "profile": -1,
+        "training_records": 7176,
+        "weighted_profile_regret_sum": [
+          0.01903875497823649,
+          0.018263081954617278,
+          0.018239275166570482,
+          0.025247936881544725,
+          0.031224718006922846
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3845,
+        "weighted_profile_regret_sum": [
+          0.008478092629173479,
+          0.00881202741612605,
+          0.00863514322261265,
+          0.01355772318823742,
+          0.01763802921663228
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 3331,
+        "weighted_profile_regret_sum": [
+          0.01056066234906293,
+          0.00945105453849112,
+          0.00960413194395774,
+          0.011690213693307378,
+          0.01358668879029037
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "RitualDance",
+    "nodes": [
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1654955,
+        "weighted_profile_regret_sum": [
+          10.057471234205414,
+          10.467939111287881,
+          11.72693597600508,
+          12.438663892481697,
+          14.441732508789869
+        ]
+      },
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1641601,
+        "weighted_profile_regret_sum": [
+          10.018661709125224,
+          10.42898320924938,
+          11.688883913999062,
+          12.39320990311687,
+          14.394884345761152
+        ]
+      },
+      {
+        "feature": 8,
+        "threshold": 2904,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1634507,
+        "weighted_profile_regret_sum": [
+          9.999735174775726,
+          10.410631917799181,
+          11.670493255439169,
+          12.36830477343146,
+          14.36394553085436
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1632376,
+        "weighted_profile_regret_sum": [
+          9.990247012442833,
+          10.400947227541701,
+          11.661088667359305,
+          12.35722524585723,
+          14.343132165443743
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2131,
+        "weighted_profile_regret_sum": [
+          0.009488162332932834,
+          0.009684690257466873,
+          0.009404588079809588,
+          0.01107952757400718,
+          0.020813365410310487
+        ]
+      },
+      {
+        "feature": 0,
+        "threshold": 0,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 7094,
+        "weighted_profile_regret_sum": [
+          0.018926534349629768,
+          0.0183512914502394,
+          0.018390658559814362,
+          0.024905129685011355,
+          0.03093881490649233
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3753,
+        "weighted_profile_regret_sum": [
+          0.008485849690396792,
+          0.008919682144689498,
+          0.008782173524457983,
+          0.01320882856278033,
+          0.01750899854633605
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 3341,
+        "weighted_profile_regret_sum": [
+          0.01044068465923284,
+          0.009431609305549753,
+          0.009608485035356242,
+          0.011696301122231032,
+          0.013429816360156084
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 9,
+        "right": 10,
+        "profile": -1,
+        "training_records": 13354,
+        "weighted_profile_regret_sum": [
+          0.03880952508031641,
+          0.0389559020384082,
+          0.038052062005679094,
+          0.04545398936374763,
+          0.046848163028111185
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 10607,
+        "weighted_profile_regret_sum": [
+          0.025009939834455465,
+          0.024551460569827127,
+          0.023217604268337456,
+          0.028249834539072944,
+          0.029931863037533486
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2747,
+        "weighted_profile_regret_sum": [
+          0.013799585245860434,
+          0.014404441468580564,
+          0.014834457737341275,
+          0.017204154824673756,
+          0.016916299990576752
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "BasketballDrill",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 2,
+        "profile": -1,
+        "training_records": 1886887,
+        "weighted_profile_regret_sum": [
+          10.283256196887312,
+          10.69145517400284,
+          11.921069665475029,
+          12.649269755727575,
+          14.816684320202583
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1879269,
+        "weighted_profile_regret_sum": [
+          10.264338441104822,
+          10.673156827024313,
+          11.902746083439318,
+          12.62477551342126,
+          14.785286245087391
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 4,
+        "left": 3,
+        "right": 6,
+        "profile": -1,
+        "training_records": 7618,
+        "weighted_profile_regret_sum": [
+          0.018917755782567477,
+          0.018298346978458828,
+          0.01832358203536624,
+          0.024494242305913162,
+          0.03139807511496753
+        ]
+      },
+      {
+        "feature": 8,
+        "threshold": 0,
+        "left": 4,
+        "right": 5,
+        "profile": -1,
+        "training_records": 5429,
+        "weighted_profile_regret_sum": [
+          0.008333511911833116,
+          0.007888330848430424,
+          0.0074486552541104985,
+          0.010672985881170886,
+          0.014861250454972556
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 4,
+        "training_records": 3202,
+        "weighted_profile_regret_sum": [
+          0.0041793006413448465,
+          0.003851288315942134,
+          0.0037021022539464213,
+          0.005601460406669704,
+          0.003671001265965549
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2227,
+        "weighted_profile_regret_sum": [
+          0.004154211270488261,
+          0.004037042532488291,
+          0.0037465530001640846,
+          0.005071525474501104,
+          0.011190249189006931
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2189,
+        "weighted_profile_regret_sum": [
+          0.010584243870734108,
+          0.010410016130028158,
+          0.010874926781255513,
+          0.01382125642474216,
+          0.01653682465999494
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "BQMall",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1882803,
+        "weighted_profile_regret_sum": [
+          10.105802729204832,
+          10.514157458425144,
+          11.757509199844899,
+          12.49105335956138,
+          14.631496469086796
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1875060,
+        "weighted_profile_regret_sum": [
+          10.086663015369888,
+          10.495713054677884,
+          11.739088602885536,
+          12.465750962081943,
+          14.600378446457434
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1857446,
+        "weighted_profile_regret_sum": [
+          10.035063974400352,
+          10.443026757012948,
+          11.687942205155819,
+          12.406007529797119,
+          14.53976582109484
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 102342,
+        "weighted_profile_regret_sum": [
+          0.05228829619665327,
+          0.0533934860013546,
+          0.052224811085111775,
+          0.05228829619665327,
+          0.21128831027778644
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1755104,
+        "weighted_profile_regret_sum": [
+          9.982775678203936,
+          10.389633271011776,
+          11.635717394070621,
+          12.353719233599737,
+          14.328477510815295
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17614,
+        "weighted_profile_regret_sum": [
+          0.05159904096951897,
+          0.0526862976648683,
+          0.051146397729288785,
+          0.05974343228331926,
+          0.06061262536177508
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13712,
+        "weighted_profile_regret_sum": [
+          0.03215932608948623,
+          0.032284464085839924,
+          0.03003805425330123,
+          0.03554436551570096,
+          0.037774359954503456
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3902,
+        "weighted_profile_regret_sum": [
+          0.019439714880033838,
+          0.02040183357902948,
+          0.02110834347598867,
+          0.02419906676761875,
+          0.022838265407271914
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 4,
+        "left": 9,
+        "right": 12,
+        "profile": -1,
+        "training_records": 7743,
+        "weighted_profile_regret_sum": [
+          0.019139713835012426,
+          0.018444403747298024,
+          0.01842059695925123,
+          0.025302397478988863,
+          0.031118022629062162
+        ]
+      },
+      {
+        "feature": 8,
+        "threshold": 0,
+        "left": 10,
+        "right": 11,
+        "profile": -1,
+        "training_records": 5585,
+        "weighted_profile_regret_sum": [
+          0.008728218684995825,
+          0.008424316866019634,
+          0.007936768684832724,
+          0.011275552615022659,
+          0.015284019422228635
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 4,
+        "training_records": 3292,
+        "weighted_profile_regret_sum": [
+          0.004314767092689828,
+          0.004107020863498183,
+          0.003933313879025368,
+          0.006060375882565928,
+          0.003902212891044497
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2293,
+        "weighted_profile_regret_sum": [
+          0.004413451592305983,
+          0.004317296002521445,
+          0.004003454805807359,
+          0.0052151767324566545,
+          0.011381806531184075
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2158,
+        "weighted_profile_regret_sum": [
+          0.010411495150016358,
+          0.010020086881278149,
+          0.010483828274418282,
+          0.014026844863965986,
+          0.015834003206833314
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "PartyScene",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1845940,
+        "weighted_profile_regret_sum": [
+          10.321405661942405,
+          10.741585548970606,
+          12.011158722039724,
+          12.765123368265382,
+          15.002379493960392
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1838291,
+        "weighted_profile_regret_sum": [
+          10.301865229848687,
+          10.722754479897366,
+          11.99231880935833,
+          12.739662229217508,
+          14.969900643224799
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1820429,
+        "weighted_profile_regret_sum": [
+          10.248909310408173,
+          10.668687952096693,
+          11.93950968925422,
+          12.677891746661256,
+          14.907249396594107
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 97137,
+        "weighted_profile_regret_sum": [
+          0.05141134827630574,
+          0.05262420734275919,
+          0.051331537966821224,
+          0.05141134827630574,
+          0.21101965634578546
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1723292,
+        "weighted_profile_regret_sum": [
+          10.197497962132045,
+          10.616063744753788,
+          11.888178151286684,
+          12.626480398384462,
+          14.696229740247391
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17862,
+        "weighted_profile_regret_sum": [
+          0.05295591944048022,
+          0.05406652780021942,
+          0.05280912010236777,
+          0.06177048255514017,
+          0.06265124663014142
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13943,
+        "weighted_profile_regret_sum": [
+          0.03323598458776893,
+          0.03338447424851249,
+          0.03139720498931173,
+          0.037197789157283806,
+          0.03950940958580137
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3919,
+        "weighted_profile_regret_sum": [
+          0.01971993485271238,
+          0.020682053551708022,
+          0.02141191511305709,
+          0.024572693397856813,
+          0.02314183704434034
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 4,
+        "left": 9,
+        "right": 10,
+        "profile": -1,
+        "training_records": 7649,
+        "weighted_profile_regret_sum": [
+          0.01954043209378199,
+          0.01883106907317388,
+          0.018839912681013142,
+          0.025461139047559075,
+          0.03247885073546395
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 5496,
+        "weighted_profile_regret_sum": [
+          0.008726575433843227,
+          0.008371216084689739,
+          0.007874369172006656,
+          0.011311523632452535,
+          0.015744864928774967
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2153,
+        "weighted_profile_regret_sum": [
+          0.01081385665993857,
+          0.010459852988483948,
+          0.010965543509006302,
+          0.01414961541510633,
+          0.016733985806688726
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "RaceHorsesC",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1815011,
+        "weighted_profile_regret_sum": [
+          10.067242611694255,
+          10.488079056413751,
+          11.75003894444156,
+          12.453876365244804,
+          14.366730731966165
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1807336,
+        "weighted_profile_regret_sum": [
+          10.047651151001807,
+          10.469164436658785,
+          11.731174200466103,
+          12.428134746637348,
+          14.3362173955264
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1789575,
+        "weighted_profile_regret_sum": [
+          9.995089300511669,
+          10.415465908817271,
+          11.678808124907453,
+          12.366865899699528,
+          14.274227617479015
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 99166,
+        "weighted_profile_regret_sum": [
+          0.05116596503558632,
+          0.052444381519425,
+          0.0510894454282517,
+          0.05116596503558632,
+          0.19785979032267845
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1690409,
+        "weighted_profile_regret_sum": [
+          9.943923335476299,
+          10.363021527298008,
+          11.62771867947909,
+          12.315699934663348,
+          14.076367827155416
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17761,
+        "weighted_profile_regret_sum": [
+          0.05256185049014983,
+          0.05369852784147527,
+          0.05236607555820831,
+          0.06126884693631494,
+          0.061989778046842366
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13860,
+        "weighted_profile_regret_sum": [
+          0.03303743307433529,
+          0.03321199172666509,
+          0.03113664338625591,
+          0.036891670975355326,
+          0.03909559642257154
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3901,
+        "weighted_profile_regret_sum": [
+          0.019524417415815627,
+          0.020486536114811268,
+          0.021229432171953454,
+          0.02437717596096006,
+          0.02289418162427112
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 4,
+        "left": 9,
+        "right": 12,
+        "profile": -1,
+        "training_records": 7675,
+        "weighted_profile_regret_sum": [
+          0.019591460692515363,
+          0.018914619754986803,
+          0.01886474397535378,
+          0.025741618607140342,
+          0.030513336439640108
+        ]
+      },
+      {
+        "feature": 8,
+        "threshold": 0,
+        "left": 10,
+        "right": 11,
+        "profile": -1,
+        "training_records": 5529,
+        "weighted_profile_regret_sum": [
+          0.008769996125824638,
+          0.008362370480692164,
+          0.007924242955481367,
+          0.011433536237612195,
+          0.014752235674413403
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 4,
+        "training_records": 3314,
+        "weighted_profile_regret_sum": [
+          0.00442825594725422,
+          0.004186840885075933,
+          0.004013133900603118,
+          0.006254236898896728,
+          0.003955963921036013
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2215,
+        "weighted_profile_regret_sum": [
+          0.004341740178570391,
+          0.004175529595616215,
+          0.003911109054878241,
+          0.005179299338715416,
+          0.010796271753377336
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2146,
+        "weighted_profile_regret_sum": [
+          0.010821464566690546,
+          0.010552249274294446,
+          0.010940501019872229,
+          0.014308082369528036,
+          0.015761100765226625
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "BasketballPass",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1917156,
+        "weighted_profile_regret_sum": [
+          10.154817088810752,
+          10.573733577254076,
+          11.828953154065983,
+          12.549591432870944,
+          14.732655267371467
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1909211,
+        "weighted_profile_regret_sum": [
+          10.13504066858744,
+          10.554660179532124,
+          11.810059526792266,
+          12.52320864737982,
+          14.699818863801672
+        ]
+      },
+      {
+        "feature": 11,
+        "threshold": 32,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1891371,
+        "weighted_profile_regret_sum": [
+          10.082243409167187,
+          10.500752311752077,
+          11.757575015048218,
+          12.461730122786676,
+          14.637463219293974
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1885528,
+        "weighted_profile_regret_sum": [
+          10.070372926423328,
+          10.488588854030748,
+          11.74584227937737,
+          12.448927938465346,
+          14.605922983217699
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 5843,
+        "weighted_profile_regret_sum": [
+          0.011870482743903895,
+          0.012163457721371349,
+          0.011732735670713455,
+          0.012802184321184337,
+          0.03154023607609662
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17840,
+        "weighted_profile_regret_sum": [
+          0.052797259420263955,
+          0.05390786778000316,
+          0.052484511742972105,
+          0.06147852459163055,
+          0.06235564450715023
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13925,
+        "weighted_profile_regret_sum": [
+          0.033155306397786216,
+          0.03330379605852978,
+          0.031150578460149608,
+          0.037022803939124514,
+          0.03925279837792696
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3915,
+        "weighted_profile_regret_sum": [
+          0.019641953022478828,
+          0.02060407172147447,
+          0.021333933282823538,
+          0.02445572065250648,
+          0.023102846129223562
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 4,
+        "left": 9,
+        "right": 12,
+        "profile": -1,
+        "training_records": 7945,
+        "weighted_profile_regret_sum": [
+          0.01977642022339562,
+          0.019073397722018243,
+          0.018893627273504323,
+          0.026382785490779673,
+          0.03283640356964182
+        ]
+      },
+      {
+        "feature": 11,
+        "threshold": 4,
+        "left": 10,
+        "right": 11,
+        "profile": -1,
+        "training_records": 5724,
+        "weighted_profile_regret_sum": [
+          0.008914388729912057,
+          0.008532719504103245,
+          0.008068522987306216,
+          0.01169523930383768,
+          0.016108611242735518
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 3621,
+        "weighted_profile_regret_sum": [
+          0.005128448454986475,
+          0.0050224213201701656,
+          0.004516560275977902,
+          0.00702093117149478,
+          0.008995448434206015
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2103,
+        "weighted_profile_regret_sum": [
+          0.003785940274925553,
+          0.0035102981839330617,
+          0.0035519627113283036,
+          0.004674308132342827,
+          0.007113162808529428
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2221,
+        "weighted_profile_regret_sum": [
+          0.010862031493483325,
+          0.010540678217914755,
+          0.010825104286197892,
+          0.014687546186941845,
+          0.01672779232690609
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "BQSquare",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1950511,
+        "weighted_profile_regret_sum": [
+          10.253488038948815,
+          10.688167916011636,
+          11.964100117253096,
+          12.712779875828309,
+          15.030017822029013
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1942544,
+        "weighted_profile_regret_sum": [
+          10.234080196874745,
+          10.669502087354042,
+          11.945569584318125,
+          12.686877157421282,
+          14.99806296655646
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1924670,
+        "weighted_profile_regret_sum": [
+          10.18101000104827,
+          10.615321283167724,
+          11.892695163422907,
+          12.625008723676968,
+          14.935395394727825
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 103087,
+        "weighted_profile_regret_sum": [
+          0.04908362749457767,
+          0.05049238893634752,
+          0.04902014238303617,
+          0.04908362749457767,
+          0.21058288017496632
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1821583,
+        "weighted_profile_regret_sum": [
+          10.131926373553615,
+          10.564828894231253,
+          11.843675021039251,
+          12.575925096181672,
+          14.724812514551795
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17874,
+        "weighted_profile_regret_sum": [
+          0.05307019582608139,
+          0.054180804185820594,
+          0.05287442089413987,
+          0.061868433742798316,
+          0.06266757182808445
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13955,
+        "weighted_profile_regret_sum": [
+          0.0333502609733701,
+          0.033498750634113665,
+          0.031462505781083824,
+          0.03729574034494195,
+          0.039525734783744396
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3919,
+        "weighted_profile_regret_sum": [
+          0.01971993485271238,
+          0.020682053551708022,
+          0.02141191511305709,
+          0.024572693397856813,
+          0.02314183704434034
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 4,
+        "left": 9,
+        "right": 12,
+        "profile": -1,
+        "training_records": 7967,
+        "weighted_profile_regret_sum": [
+          0.019407842074009196,
+          0.01866582865751504,
+          0.018530532934745002,
+          0.025902718406670026,
+          0.031954855472383116
+        ]
+      },
+      {
+        "feature": 8,
+        "threshold": 0,
+        "left": 10,
+        "right": 11,
+        "profile": -1,
+        "training_records": 5734,
+        "weighted_profile_regret_sum": [
+          0.008819351227070142,
+          0.00851018002086778,
+          0.00804598350407075,
+          0.011711690735718995,
+          0.01548963617076714
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 4,
+        "training_records": 3378,
+        "weighted_profile_regret_sum": [
+          0.004237168596808816,
+          0.0039827190388374125,
+          0.0038090120543645975,
+          0.0060761840442444355,
+          0.0037779110663837255
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2356,
+        "weighted_profile_regret_sum": [
+          0.0045821826302613064,
+          0.0045274609820303595,
+          0.004236971449706153,
+          0.005635506691474484,
+          0.011711725104383359
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 2233,
+        "weighted_profile_regret_sum": [
+          0.010588490846938838,
+          0.010155648636647039,
+          0.01048454943067406,
+          0.0141910276709509,
+          0.01646521930161581
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "BlowingBubbles",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1930179,
+        "weighted_profile_regret_sum": [
+          10.235318348957154,
+          10.660034626759469,
+          11.959632100097437,
+          12.704655172514784,
+          14.967465704156355
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1922279,
+        "weighted_profile_regret_sum": [
+          10.21578156530254,
+          10.640978562068616,
+          11.94070435997557,
+          12.678877835826293,
+          14.935131044619276
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1904405,
+        "weighted_profile_regret_sum": [
+          10.162711369476066,
+          10.586797757882298,
+          11.887829939080351,
+          12.61700940208198,
+          14.87246347279064
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 102593,
+        "weighted_profile_regret_sum": [
+          0.05191277683136929,
+          0.0533737971636829,
+          0.051849291719827786,
+          0.05191277683136929,
+          0.21275021562739993
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1801812,
+        "weighted_profile_regret_sum": [
+          10.110798592644619,
+          10.533423960718494,
+          11.835980647359904,
+          12.565096625249891,
+          14.65971325716218
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17874,
+        "weighted_profile_regret_sum": [
+          0.05307019582608139,
+          0.054180804185820594,
+          0.05287442089413987,
+          0.061868433742798316,
+          0.06266757182808445
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13955,
+        "weighted_profile_regret_sum": [
+          0.0333502609733701,
+          0.033498750634113665,
+          0.031462505781083824,
+          0.03729574034494195,
+          0.039525734783744396
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3919,
+        "weighted_profile_regret_sum": [
+          0.01971993485271238,
+          0.020682053551708022,
+          0.02141191511305709,
+          0.024572693397856813,
+          0.02314183704434034
+        ]
+      },
+      {
+        "feature": 0,
+        "threshold": 0,
+        "left": 9,
+        "right": 12,
+        "profile": -1,
+        "training_records": 7900,
+        "weighted_profile_regret_sum": [
+          0.019536783654545902,
+          0.01905606469077051,
+          0.018927740121636196,
+          0.025777336688123684,
+          0.032334659536909165
+        ]
+      },
+      {
+        "feature": 1,
+        "threshold": 4,
+        "left": 10,
+        "right": 11,
+        "profile": -1,
+        "training_records": 4176,
+        "weighted_profile_regret_sum": [
+          0.008586361858831198,
+          0.009151124453090183,
+          0.008948909054733077,
+          0.01374996843670799,
+          0.018013286826435007
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2080,
+        "weighted_profile_regret_sum": [
+          0.005243764324535017,
+          0.005805745930397226,
+          0.005750995441780698,
+          0.007405386301420223,
+          0.010539406442081223
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2096,
+        "weighted_profile_regret_sum": [
+          0.0033425975342961764,
+          0.0033453785226929375,
+          0.0031979136129523687,
+          0.0063445821352876965,
+          0.0074738803843537125
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 3724,
+        "weighted_profile_regret_sum": [
+          0.010950421795714458,
+          0.00990494023768009,
+          0.009978831066902895,
+          0.012027368251415536,
+          0.014321372710473967
+        ]
+      }
+    ]
+  },
+  {
+    "held_out_sequence": "RaceHorses",
+    "nodes": [
+      {
+        "feature": 9,
+        "threshold": 3,
+        "left": 1,
+        "right": 8,
+        "profile": -1,
+        "training_records": 1910973,
+        "weighted_profile_regret_sum": [
+          10.097192171359252,
+          10.519154725582299,
+          11.77278869762429,
+          12.493135410511405,
+          14.540802731592546
+        ]
+      },
+      {
+        "feature": 2,
+        "threshold": 6,
+        "left": 2,
+        "right": 5,
+        "profile": -1,
+        "training_records": 1903008,
+        "weighted_profile_regret_sum": [
+          10.077149491967434,
+          10.499819263079653,
+          11.753546634964152,
+          12.466695145015747,
+          14.508344425321958
+        ]
+      },
+      {
+        "feature": 6,
+        "threshold": 0,
+        "left": 3,
+        "right": 4,
+        "profile": -1,
+        "training_records": 1885134,
+        "weighted_profile_regret_sum": [
+          10.02407929614096,
+          10.445638458893335,
+          11.700672214068934,
+          12.404826711271433,
+          14.445676853493323
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 102650,
+        "weighted_profile_regret_sum": [
+          0.05076936299862804,
+          0.05196934527655844,
+          0.05074067441439312,
+          0.05076936299862804,
+          0.2024963933995576
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 1782484,
+        "weighted_profile_regret_sum": [
+          9.97330993314222,
+          10.393669113616617,
+          11.649931539653888,
+          12.354057348272052,
+          14.243180460092672
+        ]
+      },
+      {
+        "feature": 3,
+        "threshold": 6,
+        "left": 6,
+        "right": 7,
+        "profile": -1,
+        "training_records": 17874,
+        "weighted_profile_regret_sum": [
+          0.05307019582608139,
+          0.054180804185820594,
+          0.05287442089413987,
+          0.061868433742798316,
+          0.06266757182808445
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 13955,
+        "weighted_profile_regret_sum": [
+          0.0333502609733701,
+          0.033498750634113665,
+          0.031462505781083824,
+          0.03729574034494195,
+          0.039525734783744396
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 3919,
+        "weighted_profile_regret_sum": [
+          0.01971993485271238,
+          0.020682053551708022,
+          0.02141191511305709,
+          0.024572693397856813,
+          0.02314183704434034
+        ]
+      },
+      {
+        "feature": 0,
+        "threshold": 0,
+        "left": 9,
+        "right": 12,
+        "profile": -1,
+        "training_records": 7965,
+        "weighted_profile_regret_sum": [
+          0.02004267939175296,
+          0.019335462502565376,
+          0.019242062659905423,
+          0.026440265495297568,
+          0.03245830627041503
+        ]
+      },
+      {
+        "feature": 1,
+        "threshold": 4,
+        "left": 10,
+        "right": 11,
+        "profile": -1,
+        "training_records": 4218,
+        "weighted_profile_regret_sum": [
+          0.00902215174475398,
+          0.009464934194688277,
+          0.009280181159568348,
+          0.01408149693987883,
+          0.018153754927339144
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 0,
+        "training_records": 2116,
+        "weighted_profile_regret_sum": [
+          0.005662091847220613,
+          0.006067296781451561,
+          0.006099601710685363,
+          0.007841176187342999,
+          0.010644949816511002
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 2,
+        "training_records": 2102,
+        "weighted_profile_regret_sum": [
+          0.0033600598975333552,
+          0.003397637413236691,
+          0.0031805794488829727,
+          0.006240320752535756,
+          0.007508805110828071
+        ]
+      },
+      {
+        "feature": -1,
+        "threshold": 0,
+        "left": -1,
+        "right": -1,
+        "profile": 1,
+        "training_records": 3747,
+        "weighted_profile_regret_sum": [
+          0.011020527646998741,
+          0.009870528307876866,
+          0.00996188150033685,
+          0.012358768555418592,
+          0.014304551343075704
+        ]
+      }
+    ]
+  }
+]

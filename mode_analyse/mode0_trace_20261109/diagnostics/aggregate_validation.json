@@ -1,0 +1,6 @@
+{
+  "oracle_histogram_count": true,
+  "oracle_histogram_gain": true,
+  "subset_and_removal_within_total_ceiling": true,
+  "original_slot_partition": true
+}

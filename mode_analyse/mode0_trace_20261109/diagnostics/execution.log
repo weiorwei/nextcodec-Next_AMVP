@@ -1,0 +1,45 @@
+25/590 files; 4,006 accepted; 1.8s
+50/590 files; 5,006 accepted; 2.2s
+75/590 files; 5,903 accepted; 2.5s
+100/590 files; 6,047 accepted; 2.6s
+125/590 files; 22,554 accepted; 9.1s
+150/590 files; 24,238 accepted; 9.7s
+175/590 files; 28,847 accepted; 11.4s
+200/590 files; 38,446 accepted; 15.7s
+225/590 files; 47,035 accepted; 19.5s
+250/590 files; 50,133 accepted; 20.8s
+275/590 files; 51,516 accepted; 21.3s
+300/590 files; 52,985 accepted; 21.9s
+325/590 files; 58,700 accepted; 24.1s
+350/590 files; 61,118 accepted; 25.0s
+375/590 files; 75,259 accepted; 31.0s
+400/590 files; 78,818 accepted; 32.4s
+425/590 files; 85,635 accepted; 35.0s
+450/590 files; 90,340 accepted; 36.9s
+475/590 files; 94,927 accepted; 38.8s
+500/590 files; 97,366 accepted; 39.9s
+525/590 files; 98,992 accepted; 40.5s
+550/590 files; 107,190 accepted; 44.0s
+575/590 files; 116,339 accepted; 47.9s
+590/590 files; 118,500 accepted; 48.8s
+{
+  "queries": 118500,
+  "mean_baseline_est_bits": 8.267071729957806,
+  "mean_oracle_est_bits": 7.629518987341772,
+  "mean_oracle_gain_est_bits": 0.6375527426160338,
+  "oracle_gain_sum": 75550,
+  "strict_oracle_improvement_queries": 24120,
+  "strict_oracle_improvement_pct": 20.354430379746834,
+  "baseline_already_oracle_pct": 79.64556962025317,
+  "actual_idx0_pct": 68.05991561181435,
+  "actual_idx1_pct": 31.940084388185653,
+  "p0_strictly_better_pct": 53.04303797468354,
+  "two_original_slots_tied_pct": 16.753586497890296,
+  "b1_strictly_better_pct": 30.20337552742616,
+  "b1_equal_p0_pct": 7.440506329113924,
+  "mean_pool_count_b1_and_alternatives": 4.263831223628692,
+  "mean_distinct_count_including_p0": 5.189426160337553,
+  "actual_est_ne_baseline_queries": 129,
+  "actual_est_ne_baseline_pct": 0.10886075949367088,
+  "mean_actual_est_excess_vs_baseline": 0.0028016877637130804
+}

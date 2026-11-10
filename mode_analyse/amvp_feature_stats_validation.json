@@ -1,0 +1,902 @@
+{
+  "status": "PASS",
+  "scope": "Finite observational trace byte regression, not BD-rate or feature importance",
+  "encoder_sha256": "44c19bb19ebad23ec086211bcdf2c6e472fff1a09e7843980127553441526740",
+  "decoder_sha256": "5d41f37975fc359042383030283fcf82d3cb7429690afea9537cbbdb1b8cf21d",
+  "baseline_encoder_sha256": "10d6637a8ee107152702e847e112e22eb66e8963e4ce9170d0319d24f27ca404",
+  "cases": [
+    {
+      "case": "synthetic_ra",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace0.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 30.222
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 30.823
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ra_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "new_rows": 409723,
+        "schema_rows": 1,
+        "candidate_rows": 111578,
+        "queries": 39816,
+        "legacy_mvd_rows": 28,
+        "imv_counts": {
+          "0": 16895,
+          "1": 15123,
+          "3": 2928,
+          "2": 4870
+        },
+        "mv_origin_counts": {
+          "SEARCHED": 12684,
+          "L0_REUSE": 19023,
+          "BCW_CACHE": 8109
+        },
+        "target_list_counts": {
+          "L0": 19023,
+          "L1": 20793
+        }
+      },
+      "md5_ok_frames": 4,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    },
+    {
+      "case": "synthetic_ldb",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace0.yuv",
+            "--BcwFast=0",
+            "--FastMEForGenBLowDelayEnabled=1"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 37.335
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1.yuv",
+            "--BcwFast=0",
+            "--FastMEForGenBLowDelayEnabled=1"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 39.185
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/synthetic_ldb_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "new_rows": 1026531,
+        "schema_rows": 1,
+        "candidate_rows": 258222,
+        "queries": 124402,
+        "legacy_mvd_rows": 4,
+        "imv_counts": {
+          "0": 50906,
+          "1": 45192,
+          "3": 9784,
+          "2": 18520
+        },
+        "mv_origin_counts": {
+          "SEARCHED": 17767,
+          "L0_REUSE": 62201,
+          "BCW_CACHE": 44434
+        },
+        "target_list_counts": {
+          "L0": 62201,
+          "L1": 62201
+        }
+      },
+      "md5_ok_frames": 4,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    },
+    {
+      "case": "real_ra",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/per-sequence/BasketballPass.cfg",
+            "-i",
+            "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+            "-fs",
+            "448",
+            "-ip",
+            "64",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace0.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 57.881
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/per-sequence/BasketballPass.cfg",
+            "-i",
+            "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+            "-fs",
+            "448",
+            "-ip",
+            "64",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 61.324
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/real_ra_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.215
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "new_rows": 1464403,
+        "schema_rows": 1,
+        "candidate_rows": 481145,
+        "queries": 97705,
+        "legacy_mvd_rows": 50,
+        "imv_counts": {
+          "0": 27920,
+          "1": 34824,
+          "2": 21632,
+          "3": 13329
+        },
+        "mv_origin_counts": {
+          "SEARCHED": 42888,
+          "L0_REUSE": 42694,
+          "BCW_CACHE": 12123
+        },
+        "target_list_counts": {
+          "L0": 42694,
+          "L1": 55011
+        }
+      },
+      "md5_ok_frames": 3,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    },
+    {
+      "case": "compat_mode7",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace0.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 20.401
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 20.404
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/compat_mode7_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "legacy_mvd_rows": 3,
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "md5_ok_frames": 3,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    },
+    {
+      "case": "compat_mode3_1",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=3.1",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace0.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 20.348
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=3.1",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 20.452
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=3.1",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/compat_mode3_1_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "legacy_mvd_rows": 2,
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "md5_ok_frames": 3,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    },
+    {
+      "case": "affine_3_2",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=3.2",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace0.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 30.17
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=3.2",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 30.973
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=3.2",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/affine_3_2_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.215
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "new_rows": 413306,
+        "schema_rows": 1,
+        "candidate_rows": 112741,
+        "queries": 40152,
+        "legacy_mvd_rows": 28,
+        "imv_counts": {
+          "0": 17067,
+          "1": 15227,
+          "3": 2962,
+          "2": 4896
+        },
+        "mv_origin_counts": {
+          "SEARCHED": 12781,
+          "L0_REUSE": 19191,
+          "BCW_CACHE": 8180
+        },
+        "target_list_counts": {
+          "L0": 19191,
+          "L1": 20961
+        }
+      },
+      "md5_ok_frames": 4,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    },
+    {
+      "case": "synthetic_ldp",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace0.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace0.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace0_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace0_enc.err",
+          "exit": 0,
+          "seconds": 20.555
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1_enc.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1_enc.err",
+          "exit": 0,
+          "seconds": 20.602
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1.bin",
+            "-o",
+            "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1_dec.log",
+          "stderr": "/tmp/amvp_feature_stats_11z_15vp/p_slice/synthetic_ldp_after_trace1_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        }
+      ],
+      "trace0": {
+        "imv_counts": {},
+        "mv_origin_counts": {},
+        "target_list_counts": {}
+      },
+      "trace1": {
+        "new_rows": 71652,
+        "schema_rows": 1,
+        "candidate_rows": 18079,
+        "queries": 8173,
+        "legacy_mvd_rows": 2,
+        "imv_counts": {
+          "0": 3614,
+          "1": 3252,
+          "3": 375,
+          "2": 932
+        },
+        "mv_origin_counts": {
+          "SEARCHED": 8173
+        },
+        "target_list_counts": {
+          "L0": 8173
+        },
+        "slice_type_counts": {
+          "P": 8173
+        }
+      },
+      "md5_ok_frames": 3,
+      "baseline_trace0_new_trace0_trace1_bytes_equal": true,
+      "decoder_reconstruction_equal": true
+    }
+  ],
+  "observed_imv_counts": {
+    "0": 116402,
+    "1": 113618,
+    "3": 29378,
+    "2": 50850
+  },
+  "observed_mv_origin_counts": {
+    "SEARCHED": 94293,
+    "L0_REUSE": 143109,
+    "BCW_CACHE": 72846
+  },
+  "unobserved_imv": [],
+  "unobserved_mv_origins": [],
+  "report_sources": [
+    "/tmp/amvp_feature_stats_11z_15vp/codec_feature_validation.json",
+    "/tmp/amvp_feature_stats_11z_15vp/p_slice/codec_feature_validation.json"
+  ],
+  "script_sha256": "ccd501c55fea7610a3a7b750290d3f19165d54b4b5f047af216109f1294d92e3",
+  "decoded_md5_ok_frames": 24,
+  "date": "2026-11-06",
+  "feature_math_tests": {
+    "status": "PASS",
+    "randomized_cases": 12000,
+    "checks": 814866,
+    "strict_cpp17_command": "g++ -std=c++17 -O2 -Wall -Wextra -Werror tools/test_amvp_feature_stats.cpp -o /tmp/test_amvp_feature_stats; /tmp/test_amvp_feature_stats",
+    "sanitizers": "ASan + UBSan, detect_leaks=0; identical math logic tested before probeIndex-only diagnostic field was added; final field layout covered by strict O2 and codec tests"
+  },
+  "analysis_tests": {
+    "status": "PASS",
+    "fixture_tests": 8,
+    "command": "python3 decisionTree/feature_analysis/test_analyze.py"
+  },
+  "analysis_datasets": {
+    "validation_example": {
+      "summary": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/validation_example/summary.json",
+      "report": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/validation_example/report.md",
+      "summary_sha256": "d248b056a97611f8513909de7e26317979439fc089ddee0e520a47141e75b6e1",
+      "schema_version": 1,
+      "feature_count": 32,
+      "queries_by_origin": {
+        "ALL": 39816,
+        "SEARCHED": 12684,
+        "L0_REUSE": 19023,
+        "BCW_CACHE": 8109
+      },
+      "candidate_counts_by_origin": {
+        "ALL": 111578,
+        "SEARCHED": 35972,
+        "L0_REUSE": 53718,
+        "BCW_CACHE": 21888
+      },
+      "sequences": [
+        "SyntheticPiecewiseRA"
+      ],
+      "files_processed": 1,
+      "partial_due_to_max_queries": false,
+      "rejected_queries": 0,
+      "audit_events": 0,
+      "label": "fixed-MV Exp-Golomb MVD plus original two-slot index cost; not CABAC/BD-rate",
+      "scope": "ordinary UNI trials, including non-winning reference/AMVR attempts",
+      "primary_scope": "SEARCHED",
+      "sequence_validation": "descriptive tables; no trained model or CV claim"
+    },
+    "validation_basketballpass": {
+      "summary": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/validation_basketballpass/summary.json",
+      "report": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/validation_basketballpass/report.md",
+      "summary_sha256": "de65c36fd616ef58baeba63fe84657a87b33981555bdae5034ebb644b91ab471",
+      "schema_version": 1,
+      "feature_count": 32,
+      "queries_by_origin": {
+        "ALL": 97705,
+        "SEARCHED": 42888,
+        "L0_REUSE": 42694,
+        "BCW_CACHE": 12123
+      },
+      "candidate_counts_by_origin": {
+        "ALL": 481145,
+        "SEARCHED": 212873,
+        "L0_REUSE": 211386,
+        "BCW_CACHE": 56886
+      },
+      "sequences": [
+        "BasketballPass"
+      ],
+      "files_processed": 1,
+      "partial_due_to_max_queries": false,
+      "rejected_queries": 0,
+      "audit_events": 0,
+      "label": "fixed-MV Exp-Golomb MVD plus original two-slot index cost; not CABAC/BD-rate",
+      "scope": "ordinary UNI trials, including non-winning reference/AMVR attempts",
+      "primary_scope": "SEARCHED",
+      "sequence_validation": "descriptive tables; no trained model or CV claim"
+    }
+  },
+  "source_sha256": {
+    "source/Lib/CommonLib/AmvpFeatureStats.h": "3ae80920e45cd326326a6ee51753d2275d477ce8f403ac01b4265c070ebd38af",
+    "source/Lib/EncoderLib/AmvpFeatureTrace.h": "72e635bfa17dc4c23e1242290f823e6dcc151152d041d18efd8e5f4c36b465c2",
+    "source/Lib/EncoderLib/InterSearch.cpp": "c37d006766bf8a60cb4fd634515eae29e622f1d68f713e89f451c3b0e7f104ad",
+    "source/Lib/EncoderLib/InterSearch.h": "974ff625ace536b44ed60ee57b150cd3dad2c734e3c71aed21c8c33810310743",
+    "source/App/EncoderApp/EncAppCfg.cpp": "cb8c15efccc0f8d0f0783945f63c046e353c5adc80402d8746f10223048fc424",
+    "decisionTree/feature_analysis/analyze.py": "5425565988eef69bc075013a1277dc73f8a144fa54e54b3e40927fe11e0df807",
+    "decisionTree/feature_analysis/test_analyze.py": "53fa2c35a74426a4bd290a58dc7b59da1638d9cc3de96625686c8141760a87fc",
+    "tools/test_amvp_feature_stats.cpp": "de9f7dcd395e7c09dcae58eb714665f76d41e1c6aa552d8f5812325d16c9cdad",
+    "tools/test_amvp_feature_trace_codec.py": "ccd501c55fea7610a3a7b750290d3f19165d54b4b5f047af216109f1294d92e3"
+  }
+}

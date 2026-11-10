@@ -1,0 +1,47 @@
+{
+  "source": "/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_0_trace",
+  "inventory_time_utc": "2026-11-09T02:11:34.153897+00:00",
+  "encoder_files": 590,
+  "encoder_bytes": 38711172068,
+  "sequences": 13,
+  "encoder_start_commands_parsed": 590,
+  "flags": {
+    "empty": 0,
+    "changed_during_read": 0,
+    "encoder_total_time": 590,
+    "encoder_finished_marker": 590,
+    "frames_match_command": 590,
+    "schema_observed": 590,
+    "decoder_total_time": 590,
+    "decoder_changed_during_read": 0,
+    "decoder_frames_match_encoder": 590,
+    "decoder_all_rows_hash_ok": 590
+  },
+  "stages_observed": {
+    "FINAL": 590
+  },
+  "trace_scopes_observed": {
+    "final": 590
+  },
+  "trace_sample_observed": {
+    "1/1": 590
+  },
+  "summary_frames_sum_with_segment_overlap": 33525,
+  "decoder_frames_sum_with_segment_overlap": 33525,
+  "decoder_hash_ok_sum_with_segment_overlap": 33525,
+  "decoder_fail_token_files": 0,
+  "last_end_id_sum_observed": 3528046,
+  "scheduler_completion_decoder_commands": 100,
+  "scheduler_completion_decoder_distinct_paths": 1,
+  "scheduler_completion_decoder_path_counts": {
+    "/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_0_trace/RA/BasketballDrive_22_0_dec.log": 100
+  },
+  "limits": [
+    "Encoder completeness/configuration uses bounded head/tail reads, not all log lines.",
+    "Last END ID is a coverage diagnostic, not proof of continuous/valid queries.",
+    "Decoder logs <=1 MiB are read in full; frames and MD5 OK are checked.",
+    "Encoder/decoder MD5 strings are not fully paired because encoder middle is not scanned.",
+    "Segment frame sums contain GOP-boundary overlap and are not unique source frames.",
+    "No proof of source code or executable identity can be derived from compiler banner alone."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "C_Cpp.codeAnalysis.clangTidy.headerFilter": "${workspaceFolder}/NextSoftware2/(include|src)/.+\\.(h|hpp)$",
+    "cmake.useCMakePresets": "auto"
+  }
+}

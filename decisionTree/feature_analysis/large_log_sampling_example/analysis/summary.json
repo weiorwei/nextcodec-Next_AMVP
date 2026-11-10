@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "feature_count": 32,
+  "queries_by_origin": {
+    "ALL": 77,
+    "SEARCHED": 36,
+    "L0_REUSE": 38,
+    "BCW_CACHE": 3
+  },
+  "queries_by_stage": {
+    "UNI": 77
+  },
+  "candidate_counts_by_origin": {
+    "ALL": 210,
+    "SEARCHED": 110,
+    "L0_REUSE": 93,
+    "BCW_CACHE": 7
+  },
+  "sequences": [
+    "BQMall"
+  ],
+  "files_processed": 1,
+  "partial_due_to_max_queries": false,
+  "rejected_queries": 0,
+  "offline_sampling": {
+    "method": "HASH_QUERY_V1",
+    "period": 1,
+    "seed": 0,
+    "stage_filter": "all"
+  },
+  "sampled_out_queries": 0,
+  "excluded_constrained_queries": 0,
+  "stage_filtered_queries": 0,
+  "encoder_skipped_queries": 0,
+  "incomplete_skipped_queries": 0,
+  "input_already_sampled": true,
+  "input_partial_scan": true,
+  "audit_events": 0,
+  "label": "fixed-MV Exp-Golomb MVD plus original two-slot index cost; not CABAC/BD-rate",
+  "scope": "FINAL means finally coded AMVP lists with causal UNI snapshots; UNI means search trials",
+  "mixed_trial_and_final_input": false,
+  "primary_scope": "SEARCHED",
+  "sequence_validation": "descriptive tables; no trained model or CV claim"
+}

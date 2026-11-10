@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "slides": 12,
+  "format": "16:9",
+  "white_background": true,
+  "editable_text_tables_and_bars": true,
+  "speaker_notes": true,
+  "xml_valid": true,
+  "bounds_and_measured_text_fit": true,
+  "data_file": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/mode_analyse/mode0_trace_20261109/presentation/deck_data.json",
+  "data_sha256": "153d962a1111093540a797621405c9e413c69755f26f93ada491704d1a566414",
+  "pptx_sha256": "cbfb1bf0f4176f5a9ce39f88698ea2bfd3af2962986a74710e1e3a005465f043",
+  "preview_method": "PIL layout preview from same scene/font metrics, not native PowerPoint/LibreOffice rendering",
+  "preview_pdf": "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/mode_analyse/mode0_trace_20261109/presentation/AMVP_32features_statistics_preview.pdf",
+  "date": "2026-11-09"
+}

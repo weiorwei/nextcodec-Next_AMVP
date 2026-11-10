@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "slides": 19,
+  "slide_size": "16:9",
+  "editable": true,
+  "embedded_speaker_notes": true,
+  "text_and_shape_bounds": true,
+  "xml_valid": true,
+  "native_arrowheads": 48,
+  "preview_method": "PIL scene-layout preview, not native PPT rendering",
+  "modes": [
+    "3",
+    "4",
+    "3.1",
+    "4.1",
+    "5.1",
+    "6.1"
+  ],
+  "date": "2026-10-10"
+}

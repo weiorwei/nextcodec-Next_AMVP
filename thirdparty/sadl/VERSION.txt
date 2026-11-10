@@ -1,0 +1,2 @@
+git clone https://vcgit.hhi.fraunhofer.de/jvet-ahg-nnvc/sadl.git
+git checkout ffcfb6a6

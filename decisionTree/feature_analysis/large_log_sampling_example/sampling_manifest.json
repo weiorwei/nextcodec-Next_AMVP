@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "method": "HASH_QUERY_V1",
+  "sample_unit": "QUERY",
+  "sample_period": 100,
+  "sample_seed": 7,
+  "files_discovered": 1,
+  "files_scanned": 1,
+  "scanned_bytes": 16777332,
+  "selected_queries": 77,
+  "partial": true,
+  "note": "Legacy UNI sampling does not identify final CUs; bounded prefix scans are not whole-video uniform samples; full scans read all input once",
+  "files": [
+    {
+      "source": "/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_0_trace/RA/BQMall_22_3_enc.log",
+      "destination": "/tmp/amvp_sampling_completed_smoke_20261108/BQMall_22_3_enc.log.gz",
+      "source_bytes_before": 48815034153,
+      "source_bytes_after": 48815034153,
+      "source_changed": false,
+      "output_bytes": 17801,
+      "sample_period": 100,
+      "sample_seed": 7,
+      "method": "HASH_QUERY_V1",
+      "partial": true,
+      "error": "",
+      "audit": {},
+      "started": 8229,
+      "sampled_out": 8152,
+      "selected_started": 77,
+      "selected_complete": 77,
+      "rejected_selected": 0,
+      "encoder_skipped": 0,
+      "scanned_bytes": 16777332,
+      "scanned_lines": 75579
+    }
+  ]
+}

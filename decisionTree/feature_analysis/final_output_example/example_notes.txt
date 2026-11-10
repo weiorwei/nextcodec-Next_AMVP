@@ -1,0 +1,4 @@
+功能验证样例：BasketballPass输入跳过448帧后编码3帧，QP32。
+使用2026-11-08默认final输出，保留全部最终CU，未做CU抽样。
+原始编码命令与字节一致性验证见mode_analyse中的final trace验证记录。
+仅为短片功能验证，不代表完整视频特征重要性或BD-rate。

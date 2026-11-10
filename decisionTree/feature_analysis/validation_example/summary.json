@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "feature_count": 32,
+  "queries_by_origin": {
+    "ALL": 39816,
+    "SEARCHED": 12684,
+    "L0_REUSE": 19023,
+    "BCW_CACHE": 8109
+  },
+  "candidate_counts_by_origin": {
+    "ALL": 111578,
+    "SEARCHED": 35972,
+    "L0_REUSE": 53718,
+    "BCW_CACHE": 21888
+  },
+  "sequences": [
+    "SyntheticPiecewiseRA"
+  ],
+  "files_processed": 1,
+  "partial_due_to_max_queries": false,
+  "rejected_queries": 0,
+  "audit_events": 0,
+  "label": "fixed-MV Exp-Golomb MVD plus original two-slot index cost; not CABAC/BD-rate",
+  "scope": "ordinary UNI trials, including non-winning reference/AMVR attempts",
+  "primary_scope": "SEARCHED",
+  "sequence_validation": "descriptive tables; no trained model or CV claim"
+}

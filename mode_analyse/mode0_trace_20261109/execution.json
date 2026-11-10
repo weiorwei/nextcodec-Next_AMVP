@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-11-09T02:10:09.451718+00:00",
+  "argv": [
+    "nextcodec-Next-1.0_amvp/mode_analyse/mode0_trace_20261109/run_analysis.py"
+  ],
+  "input": "/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_0_trace",
+  "sample_period": 20,
+  "sample_seed": 0,
+  "workers": 4,
+  "sampling_seconds": 42.887708347989246,
+  "sampling_summary": {
+    "version": 1,
+    "method": "HASH_QUERY_V1",
+    "sample_unit": "QUERY",
+    "sample_period": 20,
+    "sample_seed": 0,
+    "files_discovered": 590,
+    "files_scanned": 590,
+    "scanned_bytes": 38711172068,
+    "selected_queries": 176559,
+    "partial": false,
+    "note": "All source enc.log files scanned in full; complete queries retained by deterministic hash. Empty files remain in the manifest. No source log modified."
+  },
+  "analysis_command": [
+    "/home/chijingwei/anaconda3/bin/python3",
+    "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/analyze.py",
+    "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/mode_analyse/mode0_trace_20261109/samples",
+    "--stage",
+    "final",
+    "--output-dir",
+    "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/mode_analyse/mode0_trace_20261109/analysis",
+    "--strict"
+  ],
+  "analysis_return_code": 0,
+  "analysis_seconds": 112.43875121488236,
+  "total_seconds": 155.32689080410637,
+  "finished_utc": "2026-11-09T02:12:44.778616+00:00"
+}

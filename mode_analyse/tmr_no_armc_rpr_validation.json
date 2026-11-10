@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "new_modes": [
+    {
+      "mode": "3.1",
+      "status": "PASS",
+      "decoded_hash_frames": 8,
+      "reconstruction_equal": true,
+      "requested_resolution_schedule": [
+        0,
+        3
+      ],
+      "segment_frames": 1,
+      "observed_reference_ratios": [
+        [
+          "0.50",
+          "0.50"
+        ],
+        [
+          "2.00",
+          "2.00"
+        ]
+      ],
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_mode7.50zuaD/m7_ra.yuv",
+            "--SourceWidth=128",
+            "--SourceHeight=96",
+            "--FrameRate=30",
+            "--InputBitDepth=10",
+            "--InternalBitDepth=10",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "-f",
+            "8",
+            "-q",
+            "37",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=1",
+            "--amvpmode=3.1",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1.yuv",
+            "--RPR=1",
+            "--RPRFunctionalityTesting=1",
+            "--RPRSwitchingSegmentSize=1",
+            "--RPRSwitchingResolutionOrderList=0,3",
+            "--RPRSwitchingQPOffsetOrderList=0,0",
+            "--ScalingRatioHor=2",
+            "--ScalingRatioVer=2"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1.err",
+          "exit": 0
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=3.1",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1_dec.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_3.1_rpr_trace1_dec.err",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "mode": "4.1",
+      "status": "PASS",
+      "decoded_hash_frames": 8,
+      "reconstruction_equal": true,
+      "requested_resolution_schedule": [
+        0,
+        3
+      ],
+      "segment_frames": 1,
+      "observed_reference_ratios": [
+        [
+          "0.50",
+          "0.50"
+        ],
+        [
+          "2.00",
+          "2.00"
+        ]
+      ],
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_mode7.50zuaD/m7_ra.yuv",
+            "--SourceWidth=128",
+            "--SourceHeight=96",
+            "--FrameRate=30",
+            "--InputBitDepth=10",
+            "--InternalBitDepth=10",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "-f",
+            "8",
+            "-q",
+            "37",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=1",
+            "--amvpmode=4.1",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1.yuv",
+            "--RPR=1",
+            "--RPRFunctionalityTesting=1",
+            "--RPRSwitchingSegmentSize=1",
+            "--RPRSwitchingResolutionOrderList=0,3",
+            "--RPRSwitchingQPOffsetOrderList=0,0",
+            "--ScalingRatioHor=2",
+            "--ScalingRatioVer=2"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1.err",
+          "exit": 0
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=4.1",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1_dec.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_4.1_rpr_trace1_dec.err",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "mode": "5.1",
+      "status": "PASS",
+      "decoded_hash_frames": 8,
+      "reconstruction_equal": true,
+      "requested_resolution_schedule": [
+        0,
+        3
+      ],
+      "segment_frames": 1,
+      "observed_reference_ratios": [
+        [
+          "0.50",
+          "0.50"
+        ],
+        [
+          "2.00",
+          "2.00"
+        ]
+      ],
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_mode7.50zuaD/m7_ra.yuv",
+            "--SourceWidth=128",
+            "--SourceHeight=96",
+            "--FrameRate=30",
+            "--InputBitDepth=10",
+            "--InternalBitDepth=10",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "-f",
+            "8",
+            "-q",
+            "37",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=1",
+            "--amvpmode=5.1",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1.yuv",
+            "--RPR=1",
+            "--RPRFunctionalityTesting=1",
+            "--RPRSwitchingSegmentSize=1",
+            "--RPRSwitchingResolutionOrderList=0,3",
+            "--RPRSwitchingQPOffsetOrderList=0,0",
+            "--ScalingRatioHor=2",
+            "--ScalingRatioVer=2"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1.err",
+          "exit": 0
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=5.1",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1_dec.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_5.1_rpr_trace1_dec.err",
+          "exit": 0
+        }
+      ]
+    },
+    {
+      "mode": "6.1",
+      "status": "PASS",
+      "decoded_hash_frames": 8,
+      "reconstruction_equal": true,
+      "requested_resolution_schedule": [
+        0,
+        3
+      ],
+      "segment_frames": 1,
+      "observed_reference_ratios": [
+        [
+          "0.50",
+          "0.50"
+        ],
+        [
+          "2.00",
+          "2.00"
+        ]
+      ],
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_mode7.50zuaD/m7_ra.yuv",
+            "--SourceWidth=128",
+            "--SourceHeight=96",
+            "--FrameRate=30",
+            "--InputBitDepth=10",
+            "--InternalBitDepth=10",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "-f",
+            "8",
+            "-q",
+            "37",
+            "--SEIDecodedPictureHash=1",
+            "--AmvpTrace=1",
+            "--amvpmode=6.1",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1.yuv",
+            "--RPR=1",
+            "--RPRFunctionalityTesting=1",
+            "--RPRSwitchingSegmentSize=1",
+            "--RPRSwitchingResolutionOrderList=0,3",
+            "--RPRSwitchingQPOffsetOrderList=0,0",
+            "--ScalingRatioHor=2",
+            "--ScalingRatioVer=2"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1.err",
+          "exit": 0
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=6.1",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1.bin",
+            "-o",
+            "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1_dec.yuv"
+          ],
+          "log": "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1_dec.log",
+          "stderr": "/tmp/amvp_no_armc_verify.dbX9gG/mode_6.1_rpr_trace1_dec.err",
+          "exit": 0
+        }
+      ]
+    }
+  ],
+  "temporary_artifacts": "/tmp/amvp_no_armc_verify.dbX9gG"
+}

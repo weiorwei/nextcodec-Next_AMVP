@@ -1,0 +1,7 @@
+amvp_mode,sequence_qp_points,unique_frames_across_qps,enc_time_et,enc_time_ratio_vs_mode0_pct,dec_time_dt,dec_time_ratio_vs_mode0_pct,time_unit
+-3,65,33000,4826215.0,-1.7789910021678512,5678.117,13.184778216824311,encoder/decoder log ET/DT units
+-2,65,33000,6357546.0,29.385985263841707,4753.225,-5.251561840014074,encoder/decoder log ET/DT units
+-1,65,33000,4791998.0,-2.4753603650907285,4393.593,-12.420288401948786,encoder/decoder log ET/DT units
+0,65,33000,4913628.0,0.0,5016.679,0.0,encoder/decoder log ET/DT units
+1,65,33000,5230400.0,6.446804682812779,4738.634,-5.542411623306975,encoder/decoder log ET/DT units
+2,65,33000,4632424.0,-5.722940360971562,4869.593,-2.9319396357630256,encoder/decoder log ET/DT units

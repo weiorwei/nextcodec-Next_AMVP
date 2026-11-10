@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-09",
+  "full_scan_counts_reconcile": "PASS",
+  "sample_strict32_audit": "PASS",
+  "base_and_extended_policies_crosscheck": "PASS",
+  "six_core_rules_negative_each_13_sequences": "PASS",
+  "source_sizes_unchanged_at_final_check": "PASS",
+  "report_links_exist": "PASS",
+  "full_scanner_independent_smallfile": {
+    "compile_command": "g++ -std=c++17 -O3 -Wall -Wextra -Werror scan_headers.cpp -o scan_headers",
+    "compile_result": "PASS",
+    "run_return_code": 0,
+    "full_partitions_and_histograms_reconcile": "PASS",
+    "small_file": "BQSquare_42_9_enc.log",
+    "small_file_scanner_queries": 18,
+    "small_file_scanner_ordinary": 17,
+    "small_file_scanner_constrained": 1,
+    "independent_strict_analyzer_accepted": 17,
+    "independent_strict_analyzer_constrained": 1,
+    "independent_strict_analyzer_rejected": 0,
+    "independent_strict_analyzer_audit": 0,
+    "scanner_binary_sha256": "8bdede23d054e15e112eaad78cebef6ef5437f73b2198e258f23070d819ea176",
+    "limits": "Whole-corpus structure and EG labels verified; full 32 features only verified by main sampled analyzer, not by scanner."
+  },
+  "artifact_sha256": {
+    "summarize_results.py": "ce19bd691d73f57f98e4b5360cbe9596b5a7d5ec5a87ee57d46c05f751cb7d5f",
+    "report.md": "e880ffc28ccf05966ad7682653484cd20c31656f28c15b680e4ec9da81923ab6",
+    "summary.json": "9f8a7b25e1c28e412ca0522a9ed99aa31277039ce65b14ab14bcc9d56559fab5",
+    "full_headers/summary.json": "b3011af8b2017629e1e7f848f4a73e79da5f36fdc7fa3a955d971f7eb9a048c4",
+    "analysis/summary.json": "b123fd5f5c14678e5a790f19dba771b3622774f2ffd558615fd6d8be56fc2490",
+    "diagnostics/summary.json": "2718a4b609b3e1b620570443cb98e39824e14ccac05ea1cf6e552d7fd34d35a6"
+  }
+}

@@ -1,0 +1,34 @@
+# Local tool metadata
+/.agents/
+/.codex/
+/.aws/
+
+# Build outputs
+/build/
+/build_*/
+/bin/
+/lib/
+*.o
+*.a
+*.so
+*.so.*
+
+# Python caches
+__pycache__/
+*.py[cod]
+.venv/
+
+# OS metadata
+.DS_Store
+__MACOSX/
+
+# Root-level temporary codec outputs
+/*.log
+/*.yuv
+/*.bin
+/-o
+
+# Generated training records and local CA private keys
+/decisionTree/data/records.bin
+/cfg/keystore/ca_priv/
+/cfg/keystore/private/

@@ -1,0 +1,1262 @@
+{
+  "status": "PASS",
+  "scope": "Finite final-only trace correctness and byte regression, not BD-rate",
+  "encoder_sha256": "5736d4201829c2fbeb1ee25c88139832fd04c8c325332cd3788ebb1cebc106eb",
+  "baseline_encoder_sha256": "44c19bb19ebad23ec086211bcdf2c6e472fff1a09e7843980127553441526740",
+  "decoder_sha256": "5d41f37975fc359042383030283fcf82d3cb7429690afea9537cbbdb1b8cf21d",
+  "cases": [
+    {
+      "case": "synthetic_ra",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_off.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_off.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_off_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_off_enc.err",
+          "exit": 0,
+          "seconds": 30.275
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_enc.err",
+          "exit": 0,
+          "seconds": 30.324
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_dec.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_dec.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        },
+        {
+          "command": [
+            "/home/chijingwei/anaconda3/bin/python3",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/analyze.py",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_enc.log",
+            "--sequence",
+            "synthetic_ra",
+            "--output-dir",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_analysis",
+            "--strict"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_analysis_run.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_final_analysis_run.err",
+          "exit": 0,
+          "seconds": 0.115
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_trials.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_trials.yuv",
+            "--AmvpTraceScope=trials"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_trials_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_trials_enc.err",
+          "exit": 0,
+          "seconds": 31.179
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample.yuv",
+            "--AmvpTraceScope=final",
+            "--AmvpTraceSamplePeriod=4",
+            "--AmvpTraceSampleSeed=17"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_enc.err",
+          "exit": 0,
+          "seconds": 30.074
+        },
+        {
+          "command": [
+            "/home/chijingwei/anaconda3/bin/python3",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/analyze.py",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_enc.log",
+            "--sequence",
+            "synthetic_ra",
+            "--output-dir",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_analysis",
+            "--strict"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_analysis_run.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_analysis_run.err",
+          "exit": 0,
+          "seconds": 0.065
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "4",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_repeat.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_repeat.yuv",
+            "--AmvpTraceScope=final",
+            "--AmvpTraceSamplePeriod=4",
+            "--AmvpTraceSampleSeed=17"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_repeat_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/synthetic_ra_sample_repeat_enc.err",
+          "exit": 0,
+          "seconds": 30.124
+        }
+      ],
+      "variants": {
+        "off": {
+          "counts": {},
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 3603
+        },
+        "final": {
+          "counts": {
+            "legacy_final_rows": 28,
+            "new_rows": 356,
+            "schema_rows": 1,
+            "candidate_rows": 115,
+            "queries": 28
+          },
+          "stage_counts": {
+            "FINAL": 28
+          },
+          "origin_counts": {
+            "FINAL_CODED": 28
+          },
+          "final_direction_counts": {
+            "3": 22,
+            "1": 6
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 9,
+            "CONSTRAINED": 19
+          },
+          "log_bytes": 278916
+        },
+        "trials": {
+          "counts": {
+            "new_rows": 409723,
+            "schema_rows": 1,
+            "candidate_rows": 111578,
+            "queries": 39816,
+            "legacy_final_rows": 28
+          },
+          "stage_counts": {
+            "UNI": 39816
+          },
+          "origin_counts": {
+            "SEARCHED": 12684,
+            "L0_REUSE": 19023,
+            "BCW_CACHE": 8109
+          },
+          "final_direction_counts": {
+            "0": 39816
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 39816
+          },
+          "log_bytes": 99683165
+        },
+        "sample": {
+          "counts": {
+            "legacy_final_rows": 6,
+            "new_rows": 64,
+            "schema_rows": 1,
+            "candidate_rows": 18,
+            "queries": 6
+          },
+          "stage_counts": {
+            "FINAL": 6
+          },
+          "origin_counts": {
+            "FINAL_CODED": 6
+          },
+          "final_direction_counts": {
+            "3": 4,
+            "1": 2
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "CONSTRAINED": 4,
+            "ORDINARY": 2
+          },
+          "log_bytes": 56293
+        },
+        "sample_repeat": {
+          "counts": {
+            "legacy_final_rows": 6,
+            "new_rows": 64,
+            "schema_rows": 1,
+            "candidate_rows": 18,
+            "queries": 6
+          },
+          "stage_counts": {
+            "FINAL": 6
+          },
+          "origin_counts": {
+            "FINAL_CODED": 6
+          },
+          "final_direction_counts": {
+            "3": 4,
+            "1": 2
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "CONSTRAINED": 4,
+            "ORDINARY": 2
+          },
+          "log_bytes": 56293
+        }
+      },
+      "md5_ok_frames": 4,
+      "log_reduction": {
+        "trial_bytes": 99683165,
+        "final_bytes": 278916,
+        "sample_bytes": 56293,
+        "final_vs_trials_reduction_pct": 99.72019748771018,
+        "trial_queries": 39816,
+        "final_queries": 28,
+        "sample_queries": 6
+      },
+      "all_variants_baseline_bytes_equal": true
+    },
+    {
+      "case": "synthetic_ldp",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_off.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_off.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_off_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_off_enc.err",
+          "exit": 0,
+          "seconds": 20.753
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_enc.err",
+          "exit": 0,
+          "seconds": 20.708
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_dec.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_dec.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        },
+        {
+          "command": [
+            "/home/chijingwei/anaconda3/bin/python3",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/analyze.py",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_enc.log",
+            "--sequence",
+            "synthetic_ldp",
+            "--output-dir",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_analysis",
+            "--strict"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_analysis_run.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_final_analysis_run.err",
+          "exit": 0,
+          "seconds": 0.065
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_trials.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_trials.yuv",
+            "--AmvpTraceScope=trials"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_trials_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_trials_enc.err",
+          "exit": 0,
+          "seconds": 20.753
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_sample.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_sample.yuv",
+            "--AmvpTraceScope=final",
+            "--AmvpTraceSamplePeriod=4",
+            "--AmvpTraceSampleSeed=17"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_sample_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/synthetic_ldp_sample_enc.err",
+          "exit": 0,
+          "seconds": 20.457
+        }
+      ],
+      "variants": {
+        "off": {
+          "counts": {},
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 3347
+        },
+        "final": {
+          "counts": {
+            "legacy_final_rows": 2,
+            "new_rows": 25,
+            "schema_rows": 1,
+            "candidate_rows": 8,
+            "queries": 2
+          },
+          "stage_counts": {
+            "FINAL": 2
+          },
+          "origin_counts": {
+            "FINAL_CODED": 2
+          },
+          "final_direction_counts": {
+            "1": 2
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 2
+          },
+          "log_bytes": 22047
+        },
+        "trials": {
+          "counts": {
+            "new_rows": 71652,
+            "schema_rows": 1,
+            "candidate_rows": 18079,
+            "queries": 8173,
+            "legacy_final_rows": 2
+          },
+          "stage_counts": {
+            "UNI": 8173
+          },
+          "origin_counts": {
+            "SEARCHED": 8173
+          },
+          "final_direction_counts": {
+            "0": 8173
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 8173
+          },
+          "log_bytes": 17491298
+        },
+        "sample": {
+          "counts": {},
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 3348
+        }
+      },
+      "md5_ok_frames": 3,
+      "log_reduction": {
+        "trial_bytes": 17491298,
+        "final_bytes": 22047,
+        "sample_bytes": 3348,
+        "final_vs_trials_reduction_pct": 99.87395446581495,
+        "trial_queries": 8173,
+        "final_queries": 2,
+        "sample_queries": 0
+      },
+      "all_variants_baseline_bytes_equal": true
+    },
+    {
+      "case": "real_ra",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/per-sequence/BasketballPass.cfg",
+            "-i",
+            "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+            "-fs",
+            "448",
+            "-ip",
+            "64",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_off.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_off.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_off_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_off_enc.err",
+          "exit": 0,
+          "seconds": 58.297
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/per-sequence/BasketballPass.cfg",
+            "-i",
+            "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+            "-fs",
+            "448",
+            "-ip",
+            "64",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_final.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_enc.err",
+          "exit": 0,
+          "seconds": 58.127
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_dec.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_dec.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_dec.err",
+          "exit": 0,
+          "seconds": 0.265
+        },
+        {
+          "command": [
+            "/home/chijingwei/anaconda3/bin/python3",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/analyze.py",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_enc.log",
+            "--sequence",
+            "real_ra",
+            "--output-dir",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_analysis",
+            "--strict"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_analysis_run.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_final_analysis_run.err",
+          "exit": 0,
+          "seconds": 0.115
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/per-sequence/BasketballPass.cfg",
+            "-i",
+            "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+            "-fs",
+            "448",
+            "-ip",
+            "64",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_trials.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_trials.yuv",
+            "--AmvpTraceScope=trials"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_trials_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_trials_enc.err",
+          "exit": 0,
+          "seconds": 61.588
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_randomaccess_nextRt500.cfg",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/per-sequence/BasketballPass.cfg",
+            "-i",
+            "/ssddata1/testsequence/classD/BasketballPass_416x240_50.yuv",
+            "-fs",
+            "448",
+            "-ip",
+            "64",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=0",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample.yuv",
+            "--AmvpTraceScope=final",
+            "--AmvpTraceSamplePeriod=4",
+            "--AmvpTraceSampleSeed=17"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample_enc.err",
+          "exit": 0,
+          "seconds": 58.082
+        },
+        {
+          "command": [
+            "/home/chijingwei/anaconda3/bin/python3",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/decisionTree/feature_analysis/analyze.py",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample_enc.log",
+            "--sequence",
+            "real_ra",
+            "--output-dir",
+            "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample_analysis",
+            "--strict"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample_analysis_run.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/real_ra_sample_analysis_run.err",
+          "exit": 0,
+          "seconds": 0.115
+        }
+      ],
+      "variants": {
+        "off": {
+          "counts": {},
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 3347
+        },
+        "final": {
+          "counts": {
+            "legacy_final_rows": 50,
+            "new_rows": 745,
+            "schema_rows": 1,
+            "candidate_rows": 243,
+            "queries": 50
+          },
+          "stage_counts": {
+            "FINAL": 50
+          },
+          "origin_counts": {
+            "FINAL_CODED": 50
+          },
+          "final_direction_counts": {
+            "1": 28,
+            "3": 16,
+            "2": 6
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 41,
+            "CONSTRAINED": 9
+          },
+          "log_bytes": 574248
+        },
+        "trials": {
+          "counts": {
+            "new_rows": 1464403,
+            "schema_rows": 1,
+            "candidate_rows": 481145,
+            "queries": 97705,
+            "legacy_final_rows": 50
+          },
+          "stage_counts": {
+            "UNI": 97705
+          },
+          "origin_counts": {
+            "SEARCHED": 42888,
+            "L0_REUSE": 42694,
+            "BCW_CACHE": 12123
+          },
+          "final_direction_counts": {
+            "0": 97705
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 97705
+          },
+          "log_bytes": 357496091
+        },
+        "sample": {
+          "counts": {
+            "legacy_final_rows": 16,
+            "new_rows": 238,
+            "schema_rows": 1,
+            "candidate_rows": 76,
+            "queries": 16
+          },
+          "stage_counts": {
+            "FINAL": 16
+          },
+          "origin_counts": {
+            "FINAL_CODED": 16
+          },
+          "final_direction_counts": {
+            "1": 6,
+            "3": 8,
+            "2": 2
+          },
+          "skip_reason_counts": {},
+          "label_kind_counts": {
+            "ORDINARY": 12,
+            "CONSTRAINED": 4
+          },
+          "log_bytes": 186734
+        }
+      },
+      "md5_ok_frames": 3,
+      "log_reduction": {
+        "trial_bytes": 357496091,
+        "final_bytes": 574248,
+        "sample_bytes": 186734,
+        "final_vs_trials_reduction_pct": 99.83936943243388,
+        "trial_queries": 97705,
+        "final_queries": 50,
+        "sample_queries": 16
+      },
+      "all_variants_baseline_bytes_equal": true
+    },
+    {
+      "case": "compat_mode7",
+      "status": "PASS",
+      "commands": [
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=0",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_off.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_off.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_off_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_off_enc.err",
+          "exit": 0,
+          "seconds": 20.353
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final_enc.err",
+          "exit": 0,
+          "seconds": 20.354
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/DecoderAppStatic",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--UpscaledOutput=2",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final_dec.yuv"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final_dec.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_final_dec.err",
+          "exit": 0,
+          "seconds": 0.165
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_trials.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_trials.yuv",
+            "--AmvpTraceScope=trials"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_trials_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_trials_enc.err",
+          "exit": 0,
+          "seconds": 20.332
+        },
+        {
+          "command": [
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/bin/EncoderAppStatic",
+            "-c",
+            "/ssddata1/V_code/nextcodec-Next/nextcodec-Next-1.0_amvp/cfg/encoder_lowdelay_P_nextRt500.cfg",
+            "-i",
+            "/tmp/amvp_final_stats_amcpr3zr/piecewise_affine_192x128_8f.yuv",
+            "--SourceWidth=192",
+            "--SourceHeight=128",
+            "--FrameRate=30",
+            "--InputBitDepth=8",
+            "-f",
+            "3",
+            "-q",
+            "32",
+            "--TemporalFilter=0",
+            "--GOPBasedRPR=0",
+            "--SEIDecodedPictureHash=1",
+            "--IMV4PelFast=0",
+            "--amvpmode=7",
+            "--AffineAmvpMode=0",
+            "--AmvpTrace=1",
+            "-b",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_sample.bin",
+            "-o",
+            "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_sample.yuv",
+            "--AmvpTraceScope=final",
+            "--AmvpTraceSamplePeriod=4",
+            "--AmvpTraceSampleSeed=17"
+          ],
+          "log": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_sample_enc.log",
+          "stderr": "/tmp/amvp_final_stats_amcpr3zr/compat_mode7_sample_enc.err",
+          "exit": 0,
+          "seconds": 20.403
+        }
+      ],
+      "variants": {
+        "off": {
+          "counts": {},
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 3347
+        },
+        "final": {
+          "counts": {
+            "legacy_final_rows": 3
+          },
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 21526
+        },
+        "trials": {
+          "counts": {
+            "legacy_final_rows": 3
+          },
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 21527
+        },
+        "sample": {
+          "counts": {
+            "legacy_final_rows": 3
+          },
+          "stage_counts": {},
+          "origin_counts": {},
+          "final_direction_counts": {},
+          "skip_reason_counts": {},
+          "label_kind_counts": {},
+          "log_bytes": 21527
+        }
+      },
+      "md5_ok_frames": 3,
+      "all_variants_baseline_bytes_equal": true
+    }
+  ],
+  "decoded_md5_ok_frames": 13,
+  "report_sources": [
+    "/tmp/amvp_final_stats_amcpr3zr/final_trace_validation.json",
+    "/tmp/amvp_final_stats_amcpr3zr/ldp_empty_sample/final_trace_validation.json"
+  ],
+  "harness_note": "Initial LDP sample-period4 fixture legitimately selected zero of two final AMVPs; harness nonempty-sample assumption was fixed and this small case rerun successfully. No codec failure was involved; original report retained.",
+  "invalid_argument_checks": [
+    {
+      "argument": "--AmvpTraceScope=invalid",
+      "exit": -6,
+      "log": "/tmp/amvp_final_stats_amcpr3zr/invalid_scope.log",
+      "rejected": true
+    },
+    {
+      "argument": "--AmvpTraceSamplePeriod=0",
+      "exit": -6,
+      "log": "/tmp/amvp_final_stats_amcpr3zr/invalid_period.log",
+      "rejected": true
+    },
+    {
+      "argument": "--AmvpTraceSampleSeed=-1",
+      "exit": -6,
+      "log": "/tmp/amvp_final_stats_amcpr3zr/invalid_seed.log",
+      "rejected": true
+    }
+  ],
+  "mode7_legacy_sampling_compatibility": "Final/trials/sample legacy final keys independently rechecked identical (3 rows) using final harness.",
+  "script_sha256": "4be7e3a477af066e98e00c046c17ba39e7aef6135c77e280186404936e28f7a7",
+  "date": "2026-11-08",
+  "offline_tool_tests": {
+    "analyzer_fixture_tests": 14,
+    "sampler_fixture_tests": 7,
+    "status": "PASS"
+  },
+  "source_sha256": {
+    "source/Lib/CommonLib/Unit.h": "9208813eac135d941cb8f113919c3ee99b2b9206560ca8393f916a49054f938a",
+    "source/Lib/CommonLib/Unit.cpp": "db5c2c144e0446e015499ad5ef0cba6ac99623d2c62f38435305086b3e293e6c",
+    "source/Lib/EncoderLib/EncCfg.h": "0d81fb22a12fa253d53c526dba063f818983ff4cafa0abb8096858affb7f62a5",
+    "source/App/EncoderApp/EncAppCfg.cpp": "63c3686a2a1d0c2d887b000212ab18f3e107d1fb1e7bbf672365746e1a2e8206",
+    "source/Lib/EncoderLib/AmvpFeatureTrace.h": "cf96306e8da2d841dc38cf9d0878c093377a6f552082f110482871cf8b15bbc5",
+    "source/Lib/EncoderLib/InterSearch.cpp": "26a4362c6c3998d73cd99b43c0e7e9dbecee391af77b8416985887039a9e548c",
+    "source/Lib/EncoderLib/EncCu.cpp": "67bebc3c375b4180b80197a56ec58a4fab9765861fc62448bf7b002eeadc096e",
+    "tools/test_amvp_final_trace_codec.py": "4be7e3a477af066e98e00c046c17ba39e7aef6135c77e280186404936e28f7a7",
+    "decisionTree/feature_analysis/analyze.py": "3462eb404283fcf982ec6d36e015be836c25abf2705578a71552b9c65a99285c",
+    "decisionTree/feature_analysis/sample_trace.py": "3ef9dd778d150acb73c9f8ea3dca1e9a689f2d2a06a85b0ada148b595107f0f7",
+    "decisionTree/feature_analysis/test_analyze.py": "54d05d5454307295bc707179264b1457431898e9f3305f6a4d060b9b55ae7ab2",
+    "decisionTree/feature_analysis/test_sample_trace.py": "57c2f06b09429c4cfbe5f8b8e14bd5f76d5fa5e2c39e742f33be76358c2f8822"
+  },
+  "final_example_summary": {
+    "schema_version": 1,
+    "feature_count": 32,
+    "queries_by_origin": {
+      "ALL": 41,
+      "FINAL_CODED": 41
+    },
+    "queries_by_stage": {
+      "FINAL": 41
+    },
+    "candidate_counts_by_origin": {
+      "ALL": 198,
+      "FINAL_CODED": 198
+    },
+    "sequences": [
+      "BasketballPass"
+    ],
+    "files_processed": 1,
+    "partial_due_to_max_queries": false,
+    "rejected_queries": 0,
+    "offline_sampling": {
+      "method": "HASH_QUERY_V1",
+      "period": 1,
+      "seed": 0,
+      "stage_filter": "all"
+    },
+    "sampled_out_queries": 0,
+    "excluded_constrained_queries": 9,
+    "stage_filtered_queries": 0,
+    "encoder_skipped_queries": 0,
+    "incomplete_skipped_queries": 0,
+    "input_already_sampled": false,
+    "input_partial_scan": false,
+    "audit_events": 0,
+    "label": "fixed-MV Exp-Golomb MVD plus original two-slot index cost; not CABAC/BD-rate",
+    "scope": "FINAL means finally coded AMVP lists with causal UNI snapshots; UNI means search trials",
+    "mixed_trial_and_final_input": false,
+    "primary_scope": "FINAL_CODED",
+    "sequence_validation": "descriptive tables; no trained model or CV claim"
+  },
+  "legacy_sampling_example": {
+    "version": 1,
+    "method": "HASH_QUERY_V1",
+    "sample_unit": "QUERY",
+    "sample_period": 100,
+    "sample_seed": 7,
+    "files_discovered": 1,
+    "files_scanned": 1,
+    "scanned_bytes": 16777332,
+    "selected_queries": 77,
+    "partial": true,
+    "note": "Legacy UNI sampling does not identify final CUs; bounded prefix scans are not whole-video uniform samples; full scans read all input once",
+    "files": [
+      {
+        "source": "/ssddata1/V_code/test_results/HHI_500_NNdimd_AMVP_mode_0_trace/RA/BQMall_22_3_enc.log",
+        "destination": "/tmp/amvp_sampling_completed_smoke_20261108/BQMall_22_3_enc.log.gz",
+        "source_bytes_before": 48815034153,
+        "source_bytes_after": 48815034153,
+        "source_changed": false,
+        "output_bytes": 17801,
+        "sample_period": 100,
+        "sample_seed": 7,
+        "method": "HASH_QUERY_V1",
+        "partial": true,
+        "error": "",
+        "audit": {},
+        "started": 8229,
+        "sampled_out": 8152,
+        "selected_started": 77,
+        "selected_complete": 77,
+        "rejected_selected": 0,
+        "encoder_skipped": 0,
+        "scanned_bytes": 16777332,
+        "scanned_lines": 75579
+      }
+    ]
+  },
+  "note": "Final examples are finite functional validation, not sequence-wide feature importance or BD-rate. The legacy 16MiB example is a partial prefix scan.",
+  "legacy_sampling_analysis_summary": {
+    "schema_version": 1,
+    "feature_count": 32,
+    "queries_by_origin": {
+      "ALL": 77,
+      "SEARCHED": 36,
+      "L0_REUSE": 38,
+      "BCW_CACHE": 3
+    },
+    "queries_by_stage": {
+      "UNI": 77
+    },
+    "candidate_counts_by_origin": {
+      "ALL": 210,
+      "SEARCHED": 110,
+      "L0_REUSE": 93,
+      "BCW_CACHE": 7
+    },
+    "sequences": [
+      "BQMall"
+    ],
+    "files_processed": 1,
+    "partial_due_to_max_queries": false,
+    "rejected_queries": 0,
+    "offline_sampling": {
+      "method": "HASH_QUERY_V1",
+      "period": 1,
+      "seed": 0,
+      "stage_filter": "all"
+    },
+    "sampled_out_queries": 0,
+    "excluded_constrained_queries": 0,
+    "stage_filtered_queries": 0,
+    "encoder_skipped_queries": 0,
+    "incomplete_skipped_queries": 0,
+    "input_already_sampled": true,
+    "input_partial_scan": true,
+    "audit_events": 0,
+    "label": "fixed-MV Exp-Golomb MVD plus original two-slot index cost; not CABAC/BD-rate",
+    "scope": "FINAL means finally coded AMVP lists with causal UNI snapshots; UNI means search trials",
+    "mixed_trial_and_final_input": false,
+    "primary_scope": "SEARCHED",
+    "sequence_validation": "descriptive tables; no trained model or CV claim"
+  }
+}

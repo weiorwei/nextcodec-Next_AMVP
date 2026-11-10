@@ -1,0 +1,16 @@
+{
+  "compile_command": "g++ -std=c++17 -O3 -Wall -Wextra -Werror scan_headers.cpp -o scan_headers",
+  "compile_result": "PASS",
+  "run_return_code": 0,
+  "full_partitions_and_histograms_reconcile": "PASS",
+  "small_file": "BQSquare_42_9_enc.log",
+  "small_file_scanner_queries": 18,
+  "small_file_scanner_ordinary": 17,
+  "small_file_scanner_constrained": 1,
+  "independent_strict_analyzer_accepted": 17,
+  "independent_strict_analyzer_constrained": 1,
+  "independent_strict_analyzer_rejected": 0,
+  "independent_strict_analyzer_audit": 0,
+  "scanner_binary_sha256": "8bdede23d054e15e112eaad78cebef6ef5437f73b2198e258f23070d819ea176",
+  "limits": "Whole-corpus structure and EG labels verified; full 32 features only verified by main sampled analyzer, not by scanner."
+}
